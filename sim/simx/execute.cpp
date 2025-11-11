@@ -17,6 +17,7 @@
 #include <math.h>
 #include <bitset>
 #include <climits>
+#include <cstdint>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <assert.h>
@@ -298,6 +299,31 @@ instr_trace_t* Emulator::execute(const Instr &instr, uint32_t wid) {
             continue;
           bool cond = (rs2_data[t].i == 0) ^ aluArgs.imm;
           rd_data[t].i = cond ? 0 : rs1_data[t].i;
+        }
+      } break;
+      case AluType::DOT8: {
+        for (uint32_t t = thread_start; t < num_threads; ++t) {
+          if (!warp.tmask.test(t))
+            continue;
+          uint32_t packedA = rs1_data[t].u;
+          uint32_t packedB = rs2_data[t].u;
+          
+          // Extract four int8 values from each packed register
+          int8_t a1 = (int8_t)((packedA >> 0) & 0xFF);
+          int8_t a2 = (int8_t)((packedA >> 8) & 0xFF);
+          int8_t a3 = (int8_t)((packedA >> 16) & 0xFF);
+          int8_t a4 = (int8_t)((packedA >> 24) & 0xFF);
+          
+          int8_t b1 = (int8_t)((packedB >> 0) & 0xFF);
+          int8_t b2 = (int8_t)((packedB >> 8) & 0xFF);
+          int8_t b3 = (int8_t)((packedB >> 16) & 0xFF);
+          int8_t b4 = (int8_t)((packedB >> 24) & 0xFF);
+          
+          // Compute dot product
+          int32_t sum = (int32_t)a1 * b1 + (int32_t)a2 * b2 + (int32_t)a3 * b3 + (int32_t)a4 * b4;
+          
+          DP(3, "*** DOT8[" << t << "]: a=0x" << std::hex << packedA << ", b=0x" << packedB << ", c=0x" << sum << std::dec);
+          rd_data[t].i = sum;
         }
       } break;
       default:

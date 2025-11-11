@@ -1,0 +1,93 @@
+Frontend:
+  impl: GEM5
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 6904
+  total_num_read_requests: 2108
+  memory_system_cycles: 22237
+  DRAM:
+    impl: HBM2
+  AddrMapper:
+    impl: RoBaRaCoCh
+
+
+  Controller:
+    impl: Generic
+    id: Channel 0
+    avg_read_latency_0: 153.54483
+    read_queue_len_avg_0: 10.9378061
+    write_queue_len_0: 385530
+    queue_len_0: 628754
+    num_other_reqs_0: 0
+    num_write_reqs_0: 8051
+    read_latency_0: 291121
+    priority_queue_len_avg_0: 0
+    row_hits_0: 2685
+    priority_queue_len_0: 0
+    row_misses_0: 812
+    row_conflicts_0: 1007
+    read_row_misses_0: 350
+    queue_len_avg_0: 28.2751274
+    read_row_conflicts_core_0: 420
+    read_row_hits_0: 282
+    write_queue_len_avg_0: 17.3373203
+    read_row_conflicts_0: 420
+    write_row_misses_0: 462
+    write_row_conflicts_0: 587
+    read_queue_len_0: 243224
+    write_row_hits_0: 2403
+    read_row_hits_core_0: 282
+    read_row_misses_core_0: 350
+    num_read_reqs_0: 1896
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+    ControllerPlugin:
+      impl: TraceRecorder
+
+
+
+  Controller:
+    impl: Generic
+    id: Channel 1
+    read_queue_len_avg_1: 1.78050101
+    priority_queue_len_1: 0
+    write_queue_len_1: 235997
+    num_write_reqs_1: 3756
+    row_hits_1: 2623
+    row_misses_1: 54
+    avg_read_latency_1: 60.0341568
+    queue_len_avg_1: 12.3933086
+    read_queue_len_1: 39593
+    read_row_misses_1: 8
+    priority_queue_len_avg_1: 0
+    read_row_hits_1: 221
+    queue_len_1: 275590
+    read_row_conflicts_1: 824
+    num_read_reqs_1: 1054
+    num_other_reqs_1: 0
+    row_conflicts_1: 1828
+    write_row_hits_1: 2402
+    write_queue_len_avg_1: 10.6128073
+    write_row_misses_1: 46
+    write_row_conflicts_1: 1004
+    read_row_hits_core_0: 221
+    read_row_misses_core_0: 8
+    read_latency_1: 63276
+    read_row_conflicts_core_0: 824
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+    ControllerPlugin:
+      impl: TraceRecorder
+
+
+

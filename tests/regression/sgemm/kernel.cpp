@@ -2,17 +2,17 @@
 #include "common.h"
 
 void kernel_body(kernel_arg_t* __UNIFORM__ arg) {
-	auto A = reinterpret_cast<TYPE*>(arg->A_addr);
-	auto B = reinterpret_cast<TYPE*>(arg->B_addr);
-	auto C = reinterpret_cast<TYPE*>(arg->C_addr);
+	auto A = reinterpret_cast<INPUT_TYPE*>(arg->A_addr);
+	auto B = reinterpret_cast<INPUT_TYPE*>(arg->B_addr);
+	auto C = reinterpret_cast<OUTPUT_TYPE*>(arg->C_addr);
     auto size = arg->size;
 
     int col = blockIdx.x;
     int row = blockIdx.y;
 
-    TYPE sum(0);
+    OUTPUT_TYPE sum = 0;  // Use int32_t accumulator to prevent overflow
     for (int e = 0; e < size; ++e) {
-        sum += A[row * size + e] * B[e * size + col];
+        sum += (OUTPUT_TYPE)A[row * size + e] * (OUTPUT_TYPE)B[e * size + col];
     }
 
     C[row * size + col] = sum;

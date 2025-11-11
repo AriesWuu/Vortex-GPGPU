@@ -1,0 +1,3 @@
+Vrtlsim_shim_VX_dcr_bus_if__DepSet_h5515fba4__0.o: \
+ Vrtlsim_shim_VX_dcr_bus_if__DepSet_h5515fba4__0.cpp Vrtlsim_shim__pch.h \
+ Vrtlsim_shim_VX_dcr_bus_if.h

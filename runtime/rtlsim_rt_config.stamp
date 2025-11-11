@@ -1,0 +1,1 @@
+-std=c++17 -Wall -Wextra -pedantic -Wfatal-errors -I/home/kejunwu/vortex/runtime/include -I/home/kejunwu/vortex/hw -I/home/kejunwu/vortex/sim/rtlsim -I/home/kejunwu/vortex/sim/common -I/home/kejunwu/vortex/runtime/common -DXLEN_32 -fPIC -DNUM_CORES=4 -DNUM_WARPS=8 -DNUM_THREADS=8 -DEXT_TCU_ENABLE -DTCU_BHF -O2 -DNDEBUG

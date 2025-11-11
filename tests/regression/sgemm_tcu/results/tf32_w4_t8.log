@@ -1,0 +1,34 @@
+CONFIGS=-DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=8 -DEXT_TCU_ENABLE
+Running: CONFIGS="-DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=8 -DEXT_TCU_ENABLE" make -C ../../../ci/../runtime/simx > /dev/null
+Running: OPTS="-m 256 -n 256 -k 256" make -C "../../../ci/../tests/regression/sgemm_tcu" run-simx
+make: Entering directory '/home/kejunwu/vortex/tests/regression/sgemm_tcu'
+LD_LIBRARY_PATH=/home/kejunwu/vortex/runtime: VORTEX_DRIVER=simx ./sgemm_tcu -m 256 -n 256 -k 256
+open device connection
+input data type: tf32 (id=3)
+output data type: fp32 (id=0)
+WMMA Core Dimension: M=4, N=2, K=2
+WMMA Tile Dimension: M=8, N=8, K=8
+matrix A: 256x256
+matrix B: 256x256
+matrix C: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x50000
+C_addr=0x90000
+upload matrix A buffer
+upload matrix B buffer
+upload program
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 20070 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=5100974, cycles=3785095, IPC=1.347648
+PERF: core1: instrs=5100974, cycles=3785026, IPC=1.347672
+PERF: core2: instrs=5100974, cycles=3785027, IPC=1.347672
+PERF: core3: instrs=5100974, cycles=3785034, IPC=1.347669
+PERF: instrs=20403896, cycles=3785095, IPC=5.390590
+PASSED!
+make: Leaving directory '/home/kejunwu/vortex/tests/regression/sgemm_tcu'

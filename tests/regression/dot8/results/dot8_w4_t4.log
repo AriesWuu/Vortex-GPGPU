@@ -1,0 +1,135 @@
+/home/kejunwu/tools/llvm-vortex/bin/clang++ --sysroot=/home/kejunwu/tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/home/kejunwu/tools/riscv32-gnu-toolchain -Xclang -target-feature -Xclang +vortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all  -march=rv32imaf -mabi=ilp32f -O3 -mcmodel=medany -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/home/kejunwu/vortex/kernel/include -I/home/kejunwu/vortex/build/hw -I/home/kejunwu/vortex/sim/common -DXLEN_32 -DNDEBUG  /home/kejunwu/vortex/tests/regression/dot8/kernel.cpp -Wl,-Bstatic,--gc-sections,-T,/home/kejunwu/vortex/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /home/kejunwu/vortex/build/kernel/libvortex.a -L/home/kejunwu/tools/libc32/lib -lm -lc /home/kejunwu/tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a -o kernel.elf
+OBJCOPY=/home/kejunwu/tools/llvm-vortex/bin/llvm-objcopy /home/kejunwu/vortex/kernel/scripts/vxbin.py kernel.elf kernel.vxbin
+LD_LIBRARY_PATH=/home/kejunwu/vortex/build/runtime: VORTEX_DRIVER=simx ./dot8 -n64
+open device connection
+input data type: int8
+output data type: int32
+matrix size: 64x64
+allocate device memory
+A_addr=0x10000
+B_addr=0x11000
+C_addr=0x12000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 1560 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=372316, cycles=400798, IPC=0.928937
+PERF: core1: instrs=372316, cycles=400736, IPC=0.929080
+PERF: core2: instrs=372316, cycles=400735, IPC=0.929083
+PERF: core3: instrs=372316, cycles=401009, IPC=0.928448
+PERF: instrs=1489264, cycles=401009, IPC=3.713792
+PASSED!
+/home/kejunwu/tools/llvm-vortex/bin/clang++ --sysroot=/home/kejunwu/tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/home/kejunwu/tools/riscv32-gnu-toolchain -Xclang -target-feature -Xclang +vortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all  -march=rv32imaf -mabi=ilp32f -O3 -mcmodel=medany -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/home/kejunwu/vortex/kernel/include -I/home/kejunwu/vortex/build/hw -I/home/kejunwu/vortex/sim/common -DXLEN_32 -DNDEBUG  /home/kejunwu/vortex/tests/regression/dot8/kernel.cpp -Wl,-Bstatic,--gc-sections,-T,/home/kejunwu/vortex/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /home/kejunwu/vortex/build/kernel/libvortex.a -L/home/kejunwu/tools/libc32/lib -lm -lc /home/kejunwu/tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a -o kernel.elf
+OBJCOPY=/home/kejunwu/tools/llvm-vortex/bin/llvm-objcopy /home/kejunwu/vortex/kernel/scripts/vxbin.py kernel.elf kernel.vxbin
+LD_LIBRARY_PATH=/home/kejunwu/vortex/build/runtime: VORTEX_DRIVER=simx ./dot8 -n256
+open device connection
+input data type: int8
+output data type: int32
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 112140 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=21630556, cycles=23451642, IPC=0.922347
+PERF: core1: instrs=21630556, cycles=22492467, IPC=0.961680
+PERF: core2: instrs=21630556, cycles=22489459, IPC=0.961809
+PERF: core3: instrs=21630556, cycles=22489457, IPC=0.961809
+PERF: instrs=86522224, cycles=23451642, IPC=3.689389
+PASSED!
+/home/kejunwu/tools/llvm-vortex/bin/clang++ --sysroot=/home/kejunwu/tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/home/kejunwu/tools/riscv32-gnu-toolchain -Xclang -target-feature -Xclang +vortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all  -march=rv32imaf -mabi=ilp32f -O3 -mcmodel=medany -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/home/kejunwu/vortex/kernel/include -I/home/kejunwu/vortex/build/hw -I/home/kejunwu/vortex/sim/common -DXLEN_32 -DNDEBUG  /home/kejunwu/vortex/tests/regression/dot8/kernel.cpp -Wl,-Bstatic,--gc-sections,-T,/home/kejunwu/vortex/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /home/kejunwu/vortex/build/kernel/libvortex.a -L/home/kejunwu/tools/libc32/lib -lm -lc /home/kejunwu/tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a -o kernel.elf
+OBJCOPY=/home/kejunwu/tools/llvm-vortex/bin/llvm-objcopy /home/kejunwu/vortex/kernel/scripts/vxbin.py kernel.elf kernel.vxbin
+LD_LIBRARY_PATH=/home/kejunwu/vortex/build/runtime: VORTEX_DRIVER=simx ./dot8 -n256
+open device connection
+input data type: int8
+output data type: int32
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 92330 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=21630556, cycles=23451642, IPC=0.922347
+PERF: core1: instrs=21630556, cycles=22492467, IPC=0.961680
+PERF: core2: instrs=21630556, cycles=22489459, IPC=0.961809
+PERF: core3: instrs=21630556, cycles=22489457, IPC=0.961809
+PERF: instrs=86522224, cycles=23451642, IPC=3.689389
+PASSED!
+/home/kejunwu/tools/llvm-vortex/bin/clang++ --sysroot=/home/kejunwu/tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/home/kejunwu/tools/riscv32-gnu-toolchain -Xclang -target-feature -Xclang +vortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all  -march=rv32imaf -mabi=ilp32f -O3 -mcmodel=medany -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/home/kejunwu/vortex/kernel/include -I/home/kejunwu/vortex/build/hw -I/home/kejunwu/vortex/sim/common -DXLEN_32 -DNDEBUG  /home/kejunwu/vortex/tests/regression/dot8/kernel.cpp -Wl,-Bstatic,--gc-sections,-T,/home/kejunwu/vortex/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /home/kejunwu/vortex/build/kernel/libvortex.a -L/home/kejunwu/tools/libc32/lib -lm -lc /home/kejunwu/tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a -o kernel.elf
+OBJCOPY=/home/kejunwu/tools/llvm-vortex/bin/llvm-objcopy /home/kejunwu/vortex/kernel/scripts/vxbin.py kernel.elf kernel.vxbin
+LD_LIBRARY_PATH=/home/kejunwu/vortex/build/runtime: VORTEX_DRIVER=simx ./dot8 -n256
+open device connection
+input data type: int8
+output data type: int32
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 93030 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=21630556, cycles=23451642, IPC=0.922347
+PERF: core1: instrs=21630556, cycles=22492467, IPC=0.961680
+PERF: core2: instrs=21630556, cycles=22489459, IPC=0.961809
+PERF: core3: instrs=21630556, cycles=22489457, IPC=0.961809
+PERF: instrs=86522224, cycles=23451642, IPC=3.689389
+PASSED!
+/home/kejunwu/tools/llvm-vortex/bin/clang++ --sysroot=/home/kejunwu/tools/riscv32-gnu-toolchain/riscv32-unknown-elf --gcc-toolchain=/home/kejunwu/tools/riscv32-gnu-toolchain -Xclang -target-feature -Xclang +vortex -Xclang -target-feature -Xclang +zicond -mllvm -disable-loop-idiom-all  -march=rv32imaf -mabi=ilp32f -O3 -mcmodel=medany -fno-rtti -fno-exceptions -nostartfiles -nostdlib -fdata-sections -ffunction-sections -I/home/kejunwu/vortex/kernel/include -I/home/kejunwu/vortex/build/hw -I/home/kejunwu/vortex/sim/common -DXLEN_32 -DNDEBUG  /home/kejunwu/vortex/tests/regression/dot8/kernel.cpp -Wl,-Bstatic,--gc-sections,-T,/home/kejunwu/vortex/kernel/scripts/link32.ld,--defsym=STARTUP_ADDR=0x80000000 /home/kejunwu/vortex/build/kernel/libvortex.a -L/home/kejunwu/tools/libc32/lib -lm -lc /home/kejunwu/tools/libcrt32/lib/baremetal/libclang_rt.builtins-riscv32.a -o kernel.elf
+OBJCOPY=/home/kejunwu/tools/llvm-vortex/bin/llvm-objcopy /home/kejunwu/vortex/kernel/scripts/vxbin.py kernel.elf kernel.vxbin
+LD_LIBRARY_PATH=/home/kejunwu/vortex/build/runtime: VORTEX_DRIVER=simx ./dot8 -n256
+open device connection
+input data type: int8
+output data type: int32
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 98118 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=21630556, cycles=23451642, IPC=0.922347
+PERF: core1: instrs=21630556, cycles=22492467, IPC=0.961680
+PERF: core2: instrs=21630556, cycles=22489459, IPC=0.961809
+PERF: core3: instrs=21630556, cycles=22489457, IPC=0.961809
+PERF: instrs=86522224, cycles=23451642, IPC=3.689389
+PASSED!

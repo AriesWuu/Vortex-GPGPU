@@ -1,0 +1,24 @@
+CONFIGS=-DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=4 -DEXT_TCU_ENABLE
+Running: CONFIGS="-DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=4 -DEXT_TCU_ENABLE" make -C ../../../ci/../runtime/simx > /dev/null
+Running: OPTS="-m 256 -n 256 -k 256" make -C "../../../ci/../tests/regression/sgemm_tcu" run-simx
+make: Entering directory '/home/kejunwu/vortex/tests/regression/sgemm_tcu'
+LD_LIBRARY_PATH=/home/kejunwu/vortex/runtime: VORTEX_DRIVER=simx ./sgemm_tcu -m 256 -n 256 -k 256
+open device connection
+input data type: fp16 (id=1)
+output data type: fp32 (id=0)
+WMMA Core Dimension: M=2, N=2, K=2
+WMMA Tile Dimension: M=8, N=4, K=8
+matrix A: 256x256
+matrix B: 256x256
+matrix C: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x30000
+C_addr=0x50000
+upload matrix A buffer
+upload matrix B buffer
+upload program
+upload kernel argument
+start device
+wait for completion
+make: *** [../common.mk:102: run-simx] Interrupt

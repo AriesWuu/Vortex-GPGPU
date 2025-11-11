@@ -1,0 +1,93 @@
+Frontend:
+  impl: GEM5
+
+MemorySystem:
+  impl: GenericDRAM
+  total_num_other_requests: 0
+  total_num_write_requests: 488480
+  total_num_read_requests: 1724464
+  memory_system_cycles: 4325166
+  DRAM:
+    impl: HBM2
+  AddrMapper:
+    impl: RoBaRaCoCh
+
+
+  Controller:
+    impl: Generic
+    id: Channel 0
+    avg_read_latency_0: 165.717743
+    read_queue_len_avg_0: 9.32544136
+    write_queue_len_0: 23935620
+    queue_len_0: 64269700
+    num_other_reqs_0: 0
+    num_write_reqs_0: 286264
+    read_latency_0: 146229009
+    priority_queue_len_avg_0: 0
+    row_hits_0: 907458
+    priority_queue_len_0: 0
+    row_misses_0: 30126
+    row_conflicts_0: 168851
+    read_row_misses_0: 19656
+    queue_len_avg_0: 14.8594761
+    read_row_conflicts_core_0: 123516
+    read_row_hits_0: 719023
+    write_queue_len_avg_0: 5.53403521
+    read_row_conflicts_0: 123516
+    write_row_misses_0: 10470
+    write_row_conflicts_0: 45335
+    read_queue_len_0: 40334080
+    write_row_hits_0: 188435
+    read_row_hits_core_0: 719023
+    read_row_misses_core_0: 19656
+    num_read_reqs_0: 882398
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+    ControllerPlugin:
+      impl: TraceRecorder
+
+
+
+  Controller:
+    impl: Generic
+    id: Channel 1
+    read_queue_len_avg_1: 8.21856785
+    priority_queue_len_1: 0
+    write_queue_len_1: 19620465
+    num_write_reqs_1: 252829
+    row_hits_1: 901015
+    row_misses_1: 16514
+    avg_read_latency_1: 97.1722031
+    queue_len_avg_1: 12.7549181
+    read_queue_len_1: 35546674
+    read_row_misses_1: 15032
+    priority_queue_len_avg_1: 0
+    read_row_hits_1: 715070
+    queue_len_1: 55167139
+    read_row_conflicts_1: 132111
+    num_read_reqs_1: 863617
+    num_other_reqs_1: 0
+    row_conflicts_1: 188924
+    write_row_hits_1: 185945
+    write_queue_len_avg_1: 4.5363493
+    write_row_misses_1: 1482
+    write_row_conflicts_1: 56813
+    read_row_hits_core_0: 715070
+    read_row_misses_core_0: 15032
+    read_latency_1: 83919569
+    read_row_conflicts_core_0: 132111
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    RowPolicy:
+      impl: OpenRowPolicy
+    ControllerPlugin:
+      impl: TraceRecorder
+
+
+

@@ -1,0 +1,4 @@
+main.o: /home/kejunwu/vortex/tests/regression/vecadd/main.cpp \
+ /home/kejunwu/vortex/runtime/include/vortex.h \
+ /home/kejunwu/vortex/hw/VX_config.h \
+ /home/kejunwu/vortex/tests/regression/vecadd/common.h

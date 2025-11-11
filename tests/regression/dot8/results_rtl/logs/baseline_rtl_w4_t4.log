@@ -1,0 +1,21 @@
+CONFIGS=-DNUM_CLUSTERS=1 -DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=4
+Running: CONFIGS="-DNUM_CLUSTERS=1 -DNUM_CORES=4 -DNUM_WARPS=4 -DNUM_THREADS=4" make -C /home/kejunwu/vortex/ci/../runtime/rtlsim > /dev/null
+Running: OPTS="-n256" make -C "/home/kejunwu/vortex/ci/../tests/regression/sgemm" run-rtlsim
+make: Entering directory '/home/kejunwu/vortex/tests/regression/sgemm'
+LD_LIBRARY_PATH=/home/kejunwu/vortex/runtime: VORTEX_DRIVER=rtlsim ./sgemm -n256
+open device connection
+CONFIGS: num_threads=4, num_warps=4, num_cores=4, num_clusters=1, socket_size=4, local_mem_base=0xffff0000, num_barriers=2
+input type: int8_t
+output type: int32_t
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+make: *** [../common.mk:105: run-rtlsim] Interrupt

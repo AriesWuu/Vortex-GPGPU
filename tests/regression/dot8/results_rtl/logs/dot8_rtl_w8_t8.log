@@ -1,0 +1,31 @@
+CONFIGS=-DNUM_CLUSTERS=1 -DNUM_CORES=4 -DNUM_WARPS=8 -DNUM_THREADS=8
+Running: CONFIGS="-DNUM_CLUSTERS=1 -DNUM_CORES=4 -DNUM_WARPS=8 -DNUM_THREADS=8" make -C /home/kejunwu/vortex/ci/../runtime/rtlsim > /dev/null
+Running: OPTS="-n256" make -C "/home/kejunwu/vortex/ci/../tests/regression/dot8" run-rtlsim
+make: Entering directory '/home/kejunwu/vortex/tests/regression/dot8'
+LD_LIBRARY_PATH=/home/kejunwu/vortex/runtime: VORTEX_DRIVER=rtlsim ./dot8 -n256
+open device connection
+CONFIGS: num_threads=8, num_warps=8, num_cores=4, num_clusters=1, socket_size=4, local_mem_base=0xffff0000, num_barriers=4
+input data type: int8
+output data type: int32
+matrix size: 256x256
+allocate device memory
+A_addr=0x10000
+B_addr=0x20000
+C_addr=0x30000
+upload matrix A buffer
+upload matrix B buffer
+Upload kernel binary
+upload kernel argument
+start device
+wait for completion
+Elapsed time: 1.44514e+06 ms
+download destination buffer
+verify result
+cleanup
+PERF: core0: instrs=21640733, cycles=13007630, IPC=1.663695
+PERF: core1: instrs=21640733, cycles=13007631, IPC=1.663695
+PERF: core2: instrs=21640733, cycles=13007632, IPC=1.663695
+PERF: core3: instrs=21640733, cycles=13007633, IPC=1.663695
+PERF: instrs=86562932, cycles=13007633, IPC=6.654780
+PASSED!
+make: Leaving directory '/home/kejunwu/vortex/tests/regression/dot8'

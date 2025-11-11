@@ -1,0 +1,3 @@
+Vrtlsim_shim_VX_scoreboard_if__DepSet_hb42751bf__0.o: \
+ Vrtlsim_shim_VX_scoreboard_if__DepSet_hb42751bf__0.cpp \
+ Vrtlsim_shim__pch.h Vrtlsim_shim_VX_scoreboard_if.h

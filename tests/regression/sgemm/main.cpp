@@ -25,6 +25,27 @@ template <typename Type>
 class Comparator {};
 
 template <>
+class Comparator<int8_t> {
+public:
+  static const char* type_str() {
+    return "int8_t";
+  }
+  static int8_t generate() {
+    return static_cast<int8_t>(rand() % 256 - 128);  // Range: -128 to 127
+  }
+  static bool compare(int8_t a, int8_t b, int index, int errors) {
+    if (a != b) {
+      if (errors < 100) {
+        printf("*** error: [%d] expected=%d, actual=%d\n", index, (int)b, (int)a);
+      }
+      return false;
+    }
+    return true;
+  }
+};
+
+#ifndef INPUT_TYPE  // Only define if not using INPUT_TYPE/OUTPUT_TYPE
+template <>
 class Comparator<int> {
 public:
   static const char* type_str() {
@@ -43,6 +64,28 @@ public:
     return true;
   }
 };
+#else
+// int32_t for OUTPUT_TYPE
+template <>
+class Comparator<int32_t> {
+public:
+  static const char* type_str() {
+    return "int32_t";
+  }
+  static int32_t generate() {
+    return static_cast<int32_t>(rand());
+  }
+  static bool compare(int32_t a, int32_t b, int index, int errors) {
+    if (a != b) {
+      if (errors < 100) {
+        printf("*** error: [%d] expected=%d, actual=%d\n", index, b, a);
+      }
+      return false;
+    }
+    return true;
+  }
+};
+#endif
 
 template <>
 class Comparator<float> {
@@ -69,12 +112,12 @@ public:
   }
 };
 
-static void matmul_cpu(TYPE* out, const TYPE* A, const TYPE* B, uint32_t width, uint32_t height) {
+static void matmul_cpu(OUTPUT_TYPE* out, const INPUT_TYPE* A, const INPUT_TYPE* B, uint32_t width, uint32_t height) {
   for (uint32_t row = 0; row < height; ++row) {
     for (uint32_t col = 0; col < width; ++col) {
-      TYPE sum(0);
+      OUTPUT_TYPE sum = 0;
       for (uint32_t e = 0; e < width; ++e) {
-          sum += A[row * width + e] * B[e * width + col];
+          sum += (OUTPUT_TYPE)A[row * width + e] * (OUTPUT_TYPE)B[e * width + col];
       }
       out[row * width + col] = sum;
     }
@@ -140,9 +183,11 @@ int main(int argc, char *argv[]) {
   RT_CHECK(vx_dev_open(&device));
 
   uint32_t size_sq = size * size;
-  uint32_t buf_size = size_sq * sizeof(TYPE);
+  uint32_t input_buf_size = size_sq * sizeof(INPUT_TYPE);
+  uint32_t output_buf_size = size_sq * sizeof(OUTPUT_TYPE);
 
-  std::cout << "data type: " << Comparator<TYPE>::type_str() << std::endl;
+  std::cout << "input type: " << Comparator<INPUT_TYPE>::type_str() << std::endl;
+  std::cout << "output type: " << Comparator<OUTPUT_TYPE>::type_str() << std::endl;
   std::cout << "matrix size: " << size << "x" << size << std::endl;
 
   kernel_arg.grid_dim[0] = size;
@@ -151,11 +196,11 @@ int main(int argc, char *argv[]) {
 
   // allocate device memory
   std::cout << "allocate device memory" << std::endl;
-  RT_CHECK(vx_mem_alloc(device, buf_size, VX_MEM_READ, &A_buffer));
+  RT_CHECK(vx_mem_alloc(device, input_buf_size, VX_MEM_READ, &A_buffer));
   RT_CHECK(vx_mem_address(A_buffer, &kernel_arg.A_addr));
-  RT_CHECK(vx_mem_alloc(device, buf_size, VX_MEM_READ, &B_buffer));
+  RT_CHECK(vx_mem_alloc(device, input_buf_size, VX_MEM_READ, &B_buffer));
   RT_CHECK(vx_mem_address(B_buffer, &kernel_arg.B_addr));
-  RT_CHECK(vx_mem_alloc(device, buf_size, VX_MEM_WRITE, &C_buffer));
+  RT_CHECK(vx_mem_alloc(device, output_buf_size, VX_MEM_WRITE, &C_buffer));
   RT_CHECK(vx_mem_address(C_buffer, &kernel_arg.C_addr));
 
   std::cout << "A_addr=0x" << std::hex << kernel_arg.A_addr << std::endl;
@@ -163,24 +208,24 @@ int main(int argc, char *argv[]) {
   std::cout << "C_addr=0x" << std::hex << kernel_arg.C_addr << std::endl;
 
   // generate source data
-  std::vector<TYPE> h_A(size_sq);
-  std::vector<TYPE> h_B(size_sq);
-  std::vector<TYPE> h_C(size_sq);
+  std::vector<INPUT_TYPE> h_A(size_sq);
+  std::vector<INPUT_TYPE> h_B(size_sq);
+  std::vector<OUTPUT_TYPE> h_C(size_sq);
   for (uint32_t i = 0; i < size_sq; ++i) {
-    h_A[i] = Comparator<TYPE>::generate();
-    h_B[i] = Comparator<TYPE>::generate();
+    h_A[i] = Comparator<INPUT_TYPE>::generate();
+    h_B[i] = Comparator<INPUT_TYPE>::generate();
   }
 
   // upload matrix A buffer
   {
     std::cout << "upload matrix A buffer" << std::endl;
-    RT_CHECK(vx_copy_to_dev(A_buffer, h_A.data(), 0, buf_size));
+    RT_CHECK(vx_copy_to_dev(A_buffer, h_A.data(), 0, input_buf_size));
   }
 
   // upload matrix B buffer
   {
     std::cout << "upload matrix B buffer" << std::endl;
-    RT_CHECK(vx_copy_to_dev(B_buffer, h_B.data(), 0, buf_size));
+    RT_CHECK(vx_copy_to_dev(B_buffer, h_B.data(), 0, input_buf_size));
   }
 
   // Upload kernel binary
@@ -207,17 +252,17 @@ int main(int argc, char *argv[]) {
 
   // download destination buffer
   std::cout << "download destination buffer" << std::endl;
-  RT_CHECK(vx_copy_from_dev(h_C.data(), C_buffer, 0, buf_size));
+  RT_CHECK(vx_copy_from_dev(h_C.data(), C_buffer, 0, output_buf_size));
 
   // verify result
   std::cout << "verify result" << std::endl;
   int errors = 0;
   {
-    std::vector<TYPE> h_ref(size_sq);
+    std::vector<OUTPUT_TYPE> h_ref(size_sq);
     matmul_cpu(h_ref.data(), h_A.data(), h_B.data(), size, size);
 
     for (uint32_t i = 0; i < h_ref.size(); ++i) {
-      if (!Comparator<TYPE>::compare(h_C[i], h_ref[i], i, errors)) {
+      if (!Comparator<OUTPUT_TYPE>::compare(h_C[i], h_ref[i], i, errors)) {
         ++errors;
       }
     }

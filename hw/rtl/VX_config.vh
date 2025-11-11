@@ -475,6 +475,11 @@
 `endif
 `endif
 
+// DOT8 instruction
+`ifndef LATENCY_DOT8
+`define LATENCY_DOT8 2
+`endif
+
 // FSQRT Latency
 `ifndef LATENCY_FSQRT
 `ifdef FPU_DPI
