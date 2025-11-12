@@ -3,3 +3,8 @@
 *.cache
 *.code-workspace
 miscs/apptainer/vortex.sif
+
+# Large trace logs (exceed GitHub size limit) - keep out of history
+tests/regression/dot8/trace/ramulator.log.ch0
+tests/regression/dot8/trace/ramulator.log.ch1
+tests/regression/dot8/trace/
