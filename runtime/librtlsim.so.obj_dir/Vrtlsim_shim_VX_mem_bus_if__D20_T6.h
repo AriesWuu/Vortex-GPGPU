@@ -14,6 +14,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_mem_bus_if__D20_T6 final : pu
   public:
 
     // DESIGN SPECIFIC STATE
+    CData/*0:0*/ req_valid;
     VlWide<11>/*324:0*/ req_data;
 
     // INTERNAL VARIABLES

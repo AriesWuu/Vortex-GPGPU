@@ -77,30 +77,30 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
     IData/*31:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
-    IData/*24:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
-    IData/*26:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
-    IData/*24:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
-    CData/*0:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
-    IData/*31:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
+    IData/*24:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
+    IData/*26:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
+    IData/*24:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
+    CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
+    IData/*31:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
     IData/*22:0*/ __VdfgRegularize_h87c494dc_8_5;
     __VdfgRegularize_h87c494dc_8_5 = 0;
     SData/*8:0*/ __Vdly__pipe_fmt_s__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
@@ -111,8 +111,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VL_ZERO_W(90, __Vdly__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     VL_ZERO_W(80, __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
-    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    VL_ZERO_W(80, __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
+    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    VL_ZERO_W(80, __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<17>/*543:0*/ __Vtemp_1;
     VlWide<17>/*543:0*/ __Vtemp_3;
     VlWide<17>/*543:0*/ __Vtemp_5;
@@ -189,12 +189,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VlWide<17>/*543:0*/ __Vtemp_147;
     VlWide<17>/*543:0*/ __Vtemp_149;
     // Body
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -232,32 +232,32 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __Vdly__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU] 
         = vlSelfRef.__PVT__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU];
     if (vlSymsp->TOP.rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__execute__DOT__tcu_unit__DOT__g_blocks__BRA__0__KET____DOT__tcu_fp__DOT__fedp_enable) {
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-            = (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffffff00U & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
-               | (IData)((vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+            = (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffffff00U & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+               | (IData)((vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
                           >> 0x20U)));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffU & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffU & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
                | ((IData)((0xffffffffffULL & (((QData)((IData)(
-                                                               vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                               vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                << 0x20U) 
                                               | (QData)((IData)(
-                                                                vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                   << 8U));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
             = (0xffffU & (((IData)((0xffffffffffULL 
                                     & (((QData)((IData)(
-                                                        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                         << 0x20U) | (QData)((IData)(
-                                                                    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                            >> 0x18U) | ((IData)(((0xffffffffffULL 
                                                   & (((QData)((IData)(
-                                                                      vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                                      vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                       << 0x20U) 
                                                      | (QData)((IData)(
-                                                                       vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
+                                                                       vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
                                                  >> 0x20U)) 
                                         << 8U)));
         __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
@@ -717,11 +717,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -731,11 +731,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -744,10 +744,10 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                  >> 6U)))) {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & 0ULL);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & 0ULL);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & 0ULL);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -755,65 +755,65 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         } else {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__3);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__1);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__0);
         }
-        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                       & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                       & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                           >> 0xbU))))) 
                 << 0x25U) | (((QData)((IData)((((((~ 
-                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                        ? 0x80U
                                                        : 0U) 
-                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                          ? 0x40U
                                                          : 0U)) 
                                                     | (((1U 
-                                                         & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                         & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 0xcU) 
                                                             | VL_GTS_III(32, 0x6bU, 
-                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
+                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
                                                          ? 0x1c0U
                                                          : 0U) 
-                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                            ? 0x194U
                                                            : 0U)))) 
-                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
-                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
+                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                       ? 0x6bU
                                                       : 0U) 
-                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                          ? 0x17fU
                                                          : 0U) 
-                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                             ? 0x180U
                                                             : 0U) 
-                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                               ? 0x1c0U
                                                               : 0U))))) 
                                                 << 0x17U) 
                                                | (0x7fffffU 
-                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                        ? 0x400000U
                                                        : 0U) 
-                                                     | (((IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
+                                                     | (((IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
                                                           ? 
                                                          (0x400000U 
-                                                          & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                          & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                           : 0U) 
-                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                                             & (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
+                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                                             & (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
                                                              ? 
                                                             (0x3fffffU 
-                                                             & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                             & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                              : 0U) 
-                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
-                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
+                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
+                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
         vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
             = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
                                        & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
@@ -1143,8 +1143,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                                                 & __Vtemp_49[4U]) 
                                                                                 >> 2U))))))))))))))))))))))))));
     vlSelfRef.__PVT__mult_result[3U] = vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[1U] = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[0U] = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     __PVT__final_add__DOT__rounding__DOT__commonCase 
         = ((~ (IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)) 
@@ -1156,12 +1156,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = (__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                     >> 0xaU)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -1199,147 +1199,147 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                              << 2U)), 1U)) 
            & (3U | (final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_1 
                     << 2U)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
-        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
-        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
+        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
+        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                   >> 8U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
-        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                    & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
+        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                    & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                        >> 0xbU))) | (IData)(((0x300U 
                                               == (0x700U 
-                                                  & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                  & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                              & (~ (
-                                                   vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                   vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    >> 0xbU)))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_51, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_53, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_55, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_57, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_59, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_61, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_63, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_65, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_67, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_69, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_71, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_73, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_75, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_77, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_79, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_81, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_83, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_85, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_87, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_89, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_91, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_93, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_95, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_97, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_99, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
         = ((0x1000000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
                            & __Vtemp_51[3U]) << 0xeU)) 
            | ((0x800000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
@@ -1676,18 +1676,18 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                      | (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                         >> 0x10U)) 
                                                     & __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
-        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
-        = ((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
-        = (__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
+        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
+        = ((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+        = (__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (VL_SHIFTL_III(27,27,32, (0x3fffffU 
-                                             & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                             & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                  << 0x15U) 
-                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                    >> 0xbU))), 5U) 
                     >> 0x1aU)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
@@ -1707,22 +1707,22 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
                                 >> 3U) & (VL_SHIFTR_III(27,27,32, 
                                                         (3U 
-                                                         | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                         | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                             << 2U)), 1U) 
                                           >> 3U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
-        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
+        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                              << 2U)), 1U)) 
-           & (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+           & (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                     << 2U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -1773,14 +1773,14 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                            & (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound)))
                    ? VL_SHIFTR_III(32,32,32, __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
-                                & __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
+                                & __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
                                >> 3U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -1806,9 +1806,9 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
                                                     & final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_5), 0x18U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
@@ -1826,41 +1826,41 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
                                                 VL_EXTENDS_II(32,11, (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
-        = ((((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-             & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
-            | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-               & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                          & (~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
-                         & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+        = ((((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+             & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
+            | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+               & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                          & (~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
+                         & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
                  ? (~ VL_SHIFTR_III(32,32,32, (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U)), 1U))
                  : 0xffffffffU) & ((IData)(1U) + VL_SHIFTR_III(32,32,32, 
                                                                (3U 
                                                                 | ((0x7ffffffU 
                                                                     & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U)) 
-                                                                   | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                                   | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                       << 2U))), 2U)))
             : (VL_SHIFTR_III(32,32,32, (0x7ffffffU 
                                         & ((~ (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U))) 
                                            & VL_SHIFTL_III(27,27,32, 
                                                            (0x3fffffU 
-                                                            & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                            & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                 << 0x15U) 
-                                                               | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                               | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                   >> 0xbU))), 5U))), 2U) 
-               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
+               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
         = ((((IData)(g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
@@ -1972,26 +1972,26 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__final_add__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__final_add__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
-                                                     & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                     & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                          << 0x15U) 
-                                                        | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                        | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                            >> 0xbU))), 5U))
                          ? VL_SHIFTR_III(26,26,32, 
                                          (0x3ffffffU 
-                                          & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
-                         : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
+                                          & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
+                         : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
         = (0x7ffU & (VL_EXTENDS_II(11,10, (0x3ffU & 
                                            VL_EXTENDS_II(10,10, 
                                                          (0x3ffU 
-                                                          & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                          & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 1U))))) 
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
-                                                    & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
+                                                    & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
@@ -2050,19 +2050,19 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                               | ((IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)
                                                   ? 0x1c0U
                                                   : 0U))))));
-    vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
-        = ((~ (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
-           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-              & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
+        = ((~ (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+              & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                  >> 8U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
-                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
+                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
     vlSelfRef.g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
         = ((~ (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
@@ -2079,115 +2079,115 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     vlSelfRef.__VdfgRegularize_h87c494dc_8_3 = (((IData)(vlSelfRef.__PVT__final_add__DOT__g_out_ieee__DOT__to_ieee__DOT__recFNToRawFN__DOT__exp) 
                                                  << 0x17U) 
                                                 | __VdfgRegularize_h87c494dc_8_5);
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
-        = ((~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
-           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
-        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                              & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
-        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
+        = ((~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
+           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
+        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                              & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
+        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                & (VL_GTS_III(32, 0x6bU, 
-                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                  | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
+                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                  | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
                                                      & (VL_GTES_III(32, 0U, 
                                                                     VL_SHIFTRS_III(32,32,32, 
                                                                                 VL_EXTENDS_II(32,10, 
                                                                                 (0x3ffU 
                                                                                 & VL_EXTENDS_II(10,10, 
                                                                                 (0x3ffU 
-                                                                                & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 >> 1U))))), 8U)) 
                                                         & ((~ 
                                                             ((~ 
                                                               ((0x4000000U 
                                                                 & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                 ? 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 2U)
                                                                 : 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 1U))) 
                                                              & (((0x4000000U 
                                                                   & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                   ? 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x19U)
                                                                   : 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x18U)) 
-                                                                & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-                                                                   & (((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+                                                                & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+                                                                   & (((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
                                                                        & ((0x4000000U 
                                                                            & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                            ? 
                                                                           (0x1ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 2U))
                                                                            : 
                                                                           (0x3ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 1U)))) 
-                                                                      | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                                                                      | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
                                                                          & ((VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                              >> 0x1aU) 
                                                                             & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                                >> 2U)))))))) 
                                                            & ((0x4000000U 
                                                                & VL_SHIFTL_III(27,27,32, 
                                                                                (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                ? 
-                                                              (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                              (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                >> 1U)
-                                                               : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
+                                                               : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
                                               << 1U) 
-                                             | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                                | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+                                             | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                                | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                    & (VL_GTS_III(32, 0x6bU, 
-                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                      | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
+                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                      | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
@@ -2377,30 +2377,30 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
     IData/*31:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
-    IData/*24:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
-    IData/*26:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
-    IData/*24:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
-    CData/*0:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
-    IData/*31:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
+    IData/*24:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
+    IData/*26:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
+    IData/*24:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
+    CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
+    IData/*31:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
     IData/*22:0*/ __VdfgRegularize_h87c494dc_8_5;
     __VdfgRegularize_h87c494dc_8_5 = 0;
     SData/*8:0*/ __Vdly__pipe_fmt_s__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
@@ -2411,8 +2411,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VL_ZERO_W(90, __Vdly__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     VL_ZERO_W(80, __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
-    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    VL_ZERO_W(80, __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
+    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    VL_ZERO_W(80, __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<17>/*543:0*/ __Vtemp_1;
     VlWide<17>/*543:0*/ __Vtemp_3;
     VlWide<17>/*543:0*/ __Vtemp_5;
@@ -2489,12 +2489,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VlWide<17>/*543:0*/ __Vtemp_147;
     VlWide<17>/*543:0*/ __Vtemp_149;
     // Body
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -2532,32 +2532,32 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __Vdly__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU] 
         = vlSelfRef.__PVT__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU];
     if (vlSymsp->TOP.rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__execute__DOT__tcu_unit__DOT__g_blocks__BRA__0__KET____DOT__tcu_fp__DOT__fedp_enable) {
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-            = (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffffff00U & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
-               | (IData)((vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+            = (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffffff00U & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+               | (IData)((vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
                           >> 0x20U)));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffU & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffU & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
                | ((IData)((0xffffffffffULL & (((QData)((IData)(
-                                                               vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                               vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                << 0x20U) 
                                               | (QData)((IData)(
-                                                                vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                   << 8U));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
             = (0xffffU & (((IData)((0xffffffffffULL 
                                     & (((QData)((IData)(
-                                                        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                         << 0x20U) | (QData)((IData)(
-                                                                    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                            >> 0x18U) | ((IData)(((0xffffffffffULL 
                                                   & (((QData)((IData)(
-                                                                      vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                                      vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                       << 0x20U) 
                                                      | (QData)((IData)(
-                                                                       vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
+                                                                       vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
                                                  >> 0x20U)) 
                                         << 8U)));
         __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
@@ -3017,11 +3017,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -3031,11 +3031,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -3044,10 +3044,10 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                  >> 6U)))) {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & 0ULL);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & 0ULL);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & 0ULL);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -3055,65 +3055,65 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         } else {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__3);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__1);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__0);
         }
-        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                       & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                       & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                           >> 0xbU))))) 
                 << 0x25U) | (((QData)((IData)((((((~ 
-                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                        ? 0x80U
                                                        : 0U) 
-                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                          ? 0x40U
                                                          : 0U)) 
                                                     | (((1U 
-                                                         & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                         & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 0xcU) 
                                                             | VL_GTS_III(32, 0x6bU, 
-                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
+                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
                                                          ? 0x1c0U
                                                          : 0U) 
-                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                            ? 0x194U
                                                            : 0U)))) 
-                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
-                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
+                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                       ? 0x6bU
                                                       : 0U) 
-                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                          ? 0x17fU
                                                          : 0U) 
-                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                             ? 0x180U
                                                             : 0U) 
-                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                               ? 0x1c0U
                                                               : 0U))))) 
                                                 << 0x17U) 
                                                | (0x7fffffU 
-                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                        ? 0x400000U
                                                        : 0U) 
-                                                     | (((IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
+                                                     | (((IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
                                                           ? 
                                                          (0x400000U 
-                                                          & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                          & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                           : 0U) 
-                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                                             & (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
+                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                                             & (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
                                                              ? 
                                                             (0x3fffffU 
-                                                             & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                             & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                              : 0U) 
-                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
-                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
+                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
+                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
         vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
             = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
                                        & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
@@ -3443,8 +3443,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                                                 & __Vtemp_49[4U]) 
                                                                                 >> 2U))))))))))))))))))))))))));
     vlSelfRef.__PVT__mult_result[3U] = vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[1U] = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[0U] = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     __PVT__final_add__DOT__rounding__DOT__commonCase 
         = ((~ (IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)) 
@@ -3456,12 +3456,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = (__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                     >> 0xaU)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -3499,147 +3499,147 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                              << 2U)), 1U)) 
            & (3U | (final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_1 
                     << 2U)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
-        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
-        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
+        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
+        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                   >> 8U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
-        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                    & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
+        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                    & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                        >> 0xbU))) | (IData)(((0x300U 
                                               == (0x700U 
-                                                  & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                  & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                              & (~ (
-                                                   vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                   vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    >> 0xbU)))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_51, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_53, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_55, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_57, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_59, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_61, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_63, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_65, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_67, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_69, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_71, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_73, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_75, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_77, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_79, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_81, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_83, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_85, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_87, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_89, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_91, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_93, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_95, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_97, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_99, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
         = ((0x1000000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
                            & __Vtemp_51[3U]) << 0xeU)) 
            | ((0x800000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
@@ -3976,18 +3976,18 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                      | (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                         >> 0x10U)) 
                                                     & __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
-        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
-        = ((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
-        = (__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
+        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
+        = ((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+        = (__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (VL_SHIFTL_III(27,27,32, (0x3fffffU 
-                                             & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                             & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                  << 0x15U) 
-                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                    >> 0xbU))), 5U) 
                     >> 0x1aU)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
@@ -4007,22 +4007,22 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
                                 >> 3U) & (VL_SHIFTR_III(27,27,32, 
                                                         (3U 
-                                                         | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                         | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                             << 2U)), 1U) 
                                           >> 3U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
-        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
+        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                              << 2U)), 1U)) 
-           & (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+           & (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                     << 2U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -4073,14 +4073,14 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                            & (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound)))
                    ? VL_SHIFTR_III(32,32,32, __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
-                                & __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
+                                & __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
                                >> 3U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -4106,9 +4106,9 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
                                                     & final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_5), 0x18U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
@@ -4126,41 +4126,41 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
                                                 VL_EXTENDS_II(32,11, (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
-        = ((((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-             & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
-            | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-               & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                          & (~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
-                         & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+        = ((((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+             & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
+            | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+               & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                          & (~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
+                         & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
                  ? (~ VL_SHIFTR_III(32,32,32, (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U)), 1U))
                  : 0xffffffffU) & ((IData)(1U) + VL_SHIFTR_III(32,32,32, 
                                                                (3U 
                                                                 | ((0x7ffffffU 
                                                                     & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U)) 
-                                                                   | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                                   | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                       << 2U))), 2U)))
             : (VL_SHIFTR_III(32,32,32, (0x7ffffffU 
                                         & ((~ (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U))) 
                                            & VL_SHIFTL_III(27,27,32, 
                                                            (0x3fffffU 
-                                                            & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                            & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                 << 0x15U) 
-                                                               | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                               | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                   >> 0xbU))), 5U))), 2U) 
-               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
+               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
         = ((((IData)(g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
@@ -4272,26 +4272,26 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__final_add__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__final_add__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
-                                                     & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                     & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                          << 0x15U) 
-                                                        | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                        | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                            >> 0xbU))), 5U))
                          ? VL_SHIFTR_III(26,26,32, 
                                          (0x3ffffffU 
-                                          & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
-                         : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
+                                          & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
+                         : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
         = (0x7ffU & (VL_EXTENDS_II(11,10, (0x3ffU & 
                                            VL_EXTENDS_II(10,10, 
                                                          (0x3ffU 
-                                                          & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                          & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 1U))))) 
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
-                                                    & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
+                                                    & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
@@ -4350,19 +4350,19 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                               | ((IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)
                                                   ? 0x1c0U
                                                   : 0U))))));
-    vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
-        = ((~ (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
-           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-              & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
+        = ((~ (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+              & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                  >> 8U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
-                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
+                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
     vlSelfRef.g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
         = ((~ (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
@@ -4379,115 +4379,115 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     vlSelfRef.__VdfgRegularize_h87c494dc_8_3 = (((IData)(vlSelfRef.__PVT__final_add__DOT__g_out_ieee__DOT__to_ieee__DOT__recFNToRawFN__DOT__exp) 
                                                  << 0x17U) 
                                                 | __VdfgRegularize_h87c494dc_8_5);
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
-        = ((~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
-           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
-        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                              & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
-        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
+        = ((~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
+           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
+        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                              & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
+        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                & (VL_GTS_III(32, 0x6bU, 
-                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                  | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
+                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                  | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
                                                      & (VL_GTES_III(32, 0U, 
                                                                     VL_SHIFTRS_III(32,32,32, 
                                                                                 VL_EXTENDS_II(32,10, 
                                                                                 (0x3ffU 
                                                                                 & VL_EXTENDS_II(10,10, 
                                                                                 (0x3ffU 
-                                                                                & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 >> 1U))))), 8U)) 
                                                         & ((~ 
                                                             ((~ 
                                                               ((0x4000000U 
                                                                 & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                 ? 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 2U)
                                                                 : 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 1U))) 
                                                              & (((0x4000000U 
                                                                   & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                   ? 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x19U)
                                                                   : 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x18U)) 
-                                                                & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-                                                                   & (((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+                                                                & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+                                                                   & (((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
                                                                        & ((0x4000000U 
                                                                            & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                            ? 
                                                                           (0x1ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 2U))
                                                                            : 
                                                                           (0x3ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 1U)))) 
-                                                                      | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                                                                      | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
                                                                          & ((VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                              >> 0x1aU) 
                                                                             & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                                >> 2U)))))))) 
                                                            & ((0x4000000U 
                                                                & VL_SHIFTL_III(27,27,32, 
                                                                                (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                ? 
-                                                              (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                              (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                >> 1U)
-                                                               : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
+                                                               : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
                                               << 1U) 
-                                             | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                                | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+                                             | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                                | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                    & (VL_GTS_III(32, 0x6bU, 
-                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                      | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
+                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                      | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
@@ -4677,30 +4677,30 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
     IData/*31:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
-    IData/*24:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
-    IData/*26:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
-    IData/*24:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
-    CData/*0:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
-    IData/*31:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
+    IData/*24:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
+    IData/*26:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
+    IData/*24:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
+    CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
+    IData/*31:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
     IData/*22:0*/ __VdfgRegularize_h87c494dc_8_5;
     __VdfgRegularize_h87c494dc_8_5 = 0;
     SData/*8:0*/ __Vdly__pipe_fmt_s__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
@@ -4711,8 +4711,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VL_ZERO_W(90, __Vdly__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     VL_ZERO_W(80, __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
-    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    VL_ZERO_W(80, __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
+    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    VL_ZERO_W(80, __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<17>/*543:0*/ __Vtemp_1;
     VlWide<17>/*543:0*/ __Vtemp_3;
     VlWide<17>/*543:0*/ __Vtemp_5;
@@ -4789,12 +4789,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VlWide<17>/*543:0*/ __Vtemp_147;
     VlWide<17>/*543:0*/ __Vtemp_149;
     // Body
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -4832,32 +4832,32 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __Vdly__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU] 
         = vlSelfRef.__PVT__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU];
     if (vlSymsp->TOP.rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__execute__DOT__tcu_unit__DOT__g_blocks__BRA__0__KET____DOT__tcu_fp__DOT__fedp_enable) {
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-            = (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffffff00U & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
-               | (IData)((vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+            = (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffffff00U & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+               | (IData)((vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
                           >> 0x20U)));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffU & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffU & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
                | ((IData)((0xffffffffffULL & (((QData)((IData)(
-                                                               vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                               vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                << 0x20U) 
                                               | (QData)((IData)(
-                                                                vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                   << 8U));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
             = (0xffffU & (((IData)((0xffffffffffULL 
                                     & (((QData)((IData)(
-                                                        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                         << 0x20U) | (QData)((IData)(
-                                                                    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                            >> 0x18U) | ((IData)(((0xffffffffffULL 
                                                   & (((QData)((IData)(
-                                                                      vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                                      vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                       << 0x20U) 
                                                      | (QData)((IData)(
-                                                                       vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
+                                                                       vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
                                                  >> 0x20U)) 
                                         << 8U)));
         __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
@@ -5317,11 +5317,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -5331,11 +5331,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -5344,10 +5344,10 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                  >> 6U)))) {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & 0ULL);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & 0ULL);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & 0ULL);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -5355,65 +5355,65 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         } else {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__3);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__1);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__0);
         }
-        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                       & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                       & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                           >> 0xbU))))) 
                 << 0x25U) | (((QData)((IData)((((((~ 
-                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                        ? 0x80U
                                                        : 0U) 
-                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                          ? 0x40U
                                                          : 0U)) 
                                                     | (((1U 
-                                                         & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                         & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 0xcU) 
                                                             | VL_GTS_III(32, 0x6bU, 
-                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
+                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
                                                          ? 0x1c0U
                                                          : 0U) 
-                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                            ? 0x194U
                                                            : 0U)))) 
-                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
-                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
+                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                       ? 0x6bU
                                                       : 0U) 
-                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                          ? 0x17fU
                                                          : 0U) 
-                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                             ? 0x180U
                                                             : 0U) 
-                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                               ? 0x1c0U
                                                               : 0U))))) 
                                                 << 0x17U) 
                                                | (0x7fffffU 
-                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                        ? 0x400000U
                                                        : 0U) 
-                                                     | (((IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
+                                                     | (((IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
                                                           ? 
                                                          (0x400000U 
-                                                          & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                          & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                           : 0U) 
-                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                                             & (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
+                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                                             & (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
                                                              ? 
                                                             (0x3fffffU 
-                                                             & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                             & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                              : 0U) 
-                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
-                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
+                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
+                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
         vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
             = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
                                        & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
@@ -5743,8 +5743,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                                                 & __Vtemp_49[4U]) 
                                                                                 >> 2U))))))))))))))))))))))))));
     vlSelfRef.__PVT__mult_result[3U] = vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[1U] = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[0U] = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     __PVT__final_add__DOT__rounding__DOT__commonCase 
         = ((~ (IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)) 
@@ -5756,12 +5756,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = (__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                     >> 0xaU)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -5799,147 +5799,147 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                              << 2U)), 1U)) 
            & (3U | (final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_1 
                     << 2U)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
-        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
-        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
+        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
+        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                   >> 8U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
-        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                    & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
+        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                    & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                        >> 0xbU))) | (IData)(((0x300U 
                                               == (0x700U 
-                                                  & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                  & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                              & (~ (
-                                                   vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                   vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    >> 0xbU)))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_51, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_53, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_55, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_57, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_59, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_61, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_63, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_65, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_67, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_69, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_71, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_73, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_75, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_77, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_79, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_81, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_83, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_85, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_87, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_89, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_91, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_93, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_95, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_97, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_99, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
         = ((0x1000000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
                            & __Vtemp_51[3U]) << 0xeU)) 
            | ((0x800000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
@@ -6276,18 +6276,18 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                      | (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                         >> 0x10U)) 
                                                     & __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
-        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
-        = ((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
-        = (__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
+        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
+        = ((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+        = (__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (VL_SHIFTL_III(27,27,32, (0x3fffffU 
-                                             & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                             & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                  << 0x15U) 
-                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                    >> 0xbU))), 5U) 
                     >> 0x1aU)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
@@ -6307,22 +6307,22 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
                                 >> 3U) & (VL_SHIFTR_III(27,27,32, 
                                                         (3U 
-                                                         | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                         | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                             << 2U)), 1U) 
                                           >> 3U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
-        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
+        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                              << 2U)), 1U)) 
-           & (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+           & (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                     << 2U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -6373,14 +6373,14 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                            & (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound)))
                    ? VL_SHIFTR_III(32,32,32, __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
-                                & __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
+                                & __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
                                >> 3U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -6406,9 +6406,9 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
                                                     & final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_5), 0x18U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
@@ -6426,41 +6426,41 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
                                                 VL_EXTENDS_II(32,11, (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
-        = ((((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-             & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
-            | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-               & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                          & (~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
-                         & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+        = ((((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+             & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
+            | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+               & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                          & (~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
+                         & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
                  ? (~ VL_SHIFTR_III(32,32,32, (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U)), 1U))
                  : 0xffffffffU) & ((IData)(1U) + VL_SHIFTR_III(32,32,32, 
                                                                (3U 
                                                                 | ((0x7ffffffU 
                                                                     & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U)) 
-                                                                   | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                                   | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                       << 2U))), 2U)))
             : (VL_SHIFTR_III(32,32,32, (0x7ffffffU 
                                         & ((~ (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U))) 
                                            & VL_SHIFTL_III(27,27,32, 
                                                            (0x3fffffU 
-                                                            & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                            & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                 << 0x15U) 
-                                                               | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                               | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                   >> 0xbU))), 5U))), 2U) 
-               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
+               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
         = ((((IData)(g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
@@ -6572,26 +6572,26 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__final_add__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__final_add__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
-                                                     & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                     & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                          << 0x15U) 
-                                                        | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                        | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                            >> 0xbU))), 5U))
                          ? VL_SHIFTR_III(26,26,32, 
                                          (0x3ffffffU 
-                                          & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
-                         : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
+                                          & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
+                         : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
         = (0x7ffU & (VL_EXTENDS_II(11,10, (0x3ffU & 
                                            VL_EXTENDS_II(10,10, 
                                                          (0x3ffU 
-                                                          & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                          & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 1U))))) 
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
-                                                    & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
+                                                    & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
@@ -6650,19 +6650,19 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                               | ((IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)
                                                   ? 0x1c0U
                                                   : 0U))))));
-    vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
-        = ((~ (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
-           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-              & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
+        = ((~ (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+              & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                  >> 8U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
-                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
+                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
     vlSelfRef.g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
         = ((~ (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
@@ -6679,115 +6679,115 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     vlSelfRef.__VdfgRegularize_h87c494dc_8_3 = (((IData)(vlSelfRef.__PVT__final_add__DOT__g_out_ieee__DOT__to_ieee__DOT__recFNToRawFN__DOT__exp) 
                                                  << 0x17U) 
                                                 | __VdfgRegularize_h87c494dc_8_5);
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
-        = ((~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
-           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
-        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                              & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
-        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
+        = ((~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
+           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
+        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                              & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
+        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                & (VL_GTS_III(32, 0x6bU, 
-                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                  | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
+                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                  | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
                                                      & (VL_GTES_III(32, 0U, 
                                                                     VL_SHIFTRS_III(32,32,32, 
                                                                                 VL_EXTENDS_II(32,10, 
                                                                                 (0x3ffU 
                                                                                 & VL_EXTENDS_II(10,10, 
                                                                                 (0x3ffU 
-                                                                                & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 >> 1U))))), 8U)) 
                                                         & ((~ 
                                                             ((~ 
                                                               ((0x4000000U 
                                                                 & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                 ? 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 2U)
                                                                 : 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 1U))) 
                                                              & (((0x4000000U 
                                                                   & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                   ? 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x19U)
                                                                   : 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x18U)) 
-                                                                & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-                                                                   & (((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+                                                                & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+                                                                   & (((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
                                                                        & ((0x4000000U 
                                                                            & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                            ? 
                                                                           (0x1ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 2U))
                                                                            : 
                                                                           (0x3ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 1U)))) 
-                                                                      | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                                                                      | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
                                                                          & ((VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                              >> 0x1aU) 
                                                                             & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                                >> 2U)))))))) 
                                                            & ((0x4000000U 
                                                                & VL_SHIFTL_III(27,27,32, 
                                                                                (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                ? 
-                                                              (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                              (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                >> 1U)
-                                                               : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
+                                                               : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
                                               << 1U) 
-                                             | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                                | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+                                             | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                                | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                    & (VL_GTS_III(32, 0x6bU, 
-                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                      | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
+                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                      | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
@@ -6977,30 +6977,30 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
     IData/*31:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
-    IData/*24:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
-    IData/*26:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
-    CData/*0:0*/ __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
-    IData/*24:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
-    CData/*0:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
-    IData/*31:0*/ g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp = 0;
+    IData/*24:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main = 0;
+    IData/*26:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra = 0;
+    CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound;
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound = 0;
+    IData/*24:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 = 0;
+    CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 = 0;
+    IData/*31:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4;
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 = 0;
     IData/*22:0*/ __VdfgRegularize_h87c494dc_8_5;
     __VdfgRegularize_h87c494dc_8_5 = 0;
     SData/*8:0*/ __Vdly__pipe_fmt_s__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
@@ -7011,8 +7011,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VL_ZERO_W(90, __Vdly__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     VL_ZERO_W(80, __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
-    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    VL_ZERO_W(80, __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
+    VlWide<3>/*79:0*/ __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    VL_ZERO_W(80, __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe);
     VlWide<17>/*543:0*/ __Vtemp_1;
     VlWide<17>/*543:0*/ __Vtemp_3;
     VlWide<17>/*543:0*/ __Vtemp_5;
@@ -7089,12 +7089,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     VlWide<17>/*543:0*/ __Vtemp_147;
     VlWide<17>/*543:0*/ __Vtemp_149;
     // Body
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -7132,32 +7132,32 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __Vdly__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU] 
         = vlSelfRef.__PVT__pipe_c__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0xaU];
     if (vlSymsp->TOP.rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__execute__DOT__tcu_unit__DOT__g_blocks__BRA__0__KET____DOT__tcu_fp__DOT__fedp_enable) {
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-            = (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffffff00U & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
-               | (IData)((vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+            = (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in);
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffffff00U & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+               | (IData)((vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT____Vcellinp__pipe_add__data_in 
                           >> 0x20U)));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-            = ((0xffU & __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+            = ((0xffU & __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U]) 
                | ((IData)((0xffffffffffULL & (((QData)((IData)(
-                                                               vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                               vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                << 0x20U) 
                                               | (QData)((IData)(
-                                                                vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                   << 8U));
-        __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
             = (0xffffU & (((IData)((0xffffffffffULL 
                                     & (((QData)((IData)(
-                                                        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                         << 0x20U) | (QData)((IData)(
-                                                                    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
+                                                                    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U]))))) 
                            >> 0x18U) | ((IData)(((0xffffffffffULL 
                                                   & (((QData)((IData)(
-                                                                      vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                                      vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                                       << 0x20U) 
                                                      | (QData)((IData)(
-                                                                       vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
+                                                                       vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U])))) 
                                                  >> 0x20U)) 
                                         << 8U)));
         __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
@@ -7617,11 +7617,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__fp16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -7631,11 +7631,11 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__3__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                                     >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__1__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                                     >> 5U));
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__2__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelf->__PVT__g_prod__BRA__0__KET____DOT__bf16_mul->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -7644,10 +7644,10 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                  >> 6U)))) {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & 0ULL);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & 0ULL);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & 0ULL);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                                      >> 5U));
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
@@ -7655,65 +7655,65 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         } else {
             vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__3);
-            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__1);
+            vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+                = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__2);
             vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
                 = (0x1ffffffffULL & vlSelfRef.__Vxrand_h7c437464__0);
         }
-        vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
-            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                       & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
+            = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                       & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                           >> 0xbU))))) 
                 << 0x25U) | (((QData)((IData)((((((~ 
-                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                   ((((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                        ? 0x80U
                                                        : 0U) 
-                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                     | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                          ? 0x40U
                                                          : 0U)) 
                                                     | (((1U 
-                                                         & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                         & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 0xcU) 
                                                             | VL_GTS_III(32, 0x6bU, 
-                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
+                                                                         VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)))))
                                                          ? 0x1c0U
                                                          : 0U) 
-                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                       | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                            ? 0x194U
                                                            : 0U)))) 
-                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
-                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
+                                                  & (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)) 
+                                                 | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut)
                                                       ? 0x6bU
                                                       : 0U) 
-                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
+                                                    | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)
                                                          ? 0x17fU
                                                          : 0U) 
-                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
+                                                       | (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut)
                                                             ? 0x180U
                                                             : 0U) 
-                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                          | ((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                               ? 0x1c0U
                                                               : 0U))))) 
                                                 << 0x17U) 
                                                | (0x7fffffU 
-                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
+                                                  & (((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)
                                                        ? 0x400000U
                                                        : 0U) 
-                                                     | (((IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
+                                                     | (((IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9)
                                                           ? 
                                                          (0x400000U 
-                                                          & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                          & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                           : 0U) 
-                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-                                                             & (IData)(vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
+                                                        | ((((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+                                                             & (IData)(vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9))
                                                              ? 
                                                             (0x3fffffU 
-                                                             & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
+                                                             & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut)
                                                              : 0U) 
-                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
-                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
+                                                           | (- (IData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut)))))))))) 
+                              << 5U) | (QData)((IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags))));
         vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe 
             = (((QData)((IData)((1U & ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
                                        & (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
@@ -8043,8 +8043,8 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                                                 & __Vtemp_49[4U]) 
                                                                                 >> 2U))))))))))))))))))))))))));
     vlSelfRef.__PVT__mult_result[3U] = vlSelfRef.__PVT__g_prod__BRA__3__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
-    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[1U] = vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
+    vlSelfRef.__PVT__mult_result[2U] = vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     vlSelfRef.__PVT__mult_result[0U] = vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__pipe_mult__DOT__g_shift_register__DOT__g_shift__DOT__pipe;
     __PVT__final_add__DOT__rounding__DOT__commonCase 
         = ((~ (IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)) 
@@ -8056,12 +8056,12 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = (__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                     >> 0xaU)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-        = __Vdly__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U];
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+        = __Vdly__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U] 
         = __Vdly__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[0U];
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
@@ -8099,147 +8099,147 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                              << 2U)), 1U)) 
            & (3U | (final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_1 
                     << 2U)));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
-        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
-        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
-                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut 
+        = (IData)((0U != (0xc000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3 
+        = ((0U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                         >> 8U))) | (4U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                   >> 8U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
-        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                    & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp 
+        = ((IData)(((0x200U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                    & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                        >> 0xbU))) | (IData)(((0x300U 
                                               == (0x700U 
-                                                  & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                                                  & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
                                              & (~ (
-                                                   vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                   vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    >> 0xbU)))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_51, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_53, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_55, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_57, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_59, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_61, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_63, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_65, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_67, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_69, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_71, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_73, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_75, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_77, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_79, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_81, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_83, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_85, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_87, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_89, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_91, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_93, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_95, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_97, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
     VL_SHIFTRS_WWI(513,513,9, __Vtemp_99, Vrtlsim_shim__ConstPool__CONST_h3dcda147_0, 
                    (0x1ffU & (~ VL_EXTENDS_II(9,10, 
                                               (0x3ffU 
-                                               & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                   >> 1U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
         = ((0x1000000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
                            & __Vtemp_51[3U]) << 0xeU)) 
            | ((0x800000U & ((Vrtlsim_shim__ConstPool__CONST_h00a543f7_0[3U] 
@@ -8576,18 +8576,18 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                                      | (vlSelfRef.__PVT__final_add__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                         >> 0x10U)) 
                                                     & __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
-        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
-           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
-        = ((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
-        = (__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
+        = ((~ (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__isNaNOut)) 
+           & (0U == (0x3000U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U])));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp 
+        = ((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp));
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+        = (__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__genblk1__DOT__roundMask_main 
            | (1U & (VL_SHIFTL_III(27,27,32, (0x3fffffU 
-                                             & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                             & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                  << 0x15U) 
-                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                    >> 0xbU))), 5U) 
                     >> 0x1aU)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase 
@@ -8607,22 +8607,22 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
                                 >> 3U) & (VL_SHIFTR_III(27,27,32, 
                                                         (3U 
-                                                         | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                         | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                             << 2U)), 1U) 
                                           >> 3U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
-        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask 
+        = ((~ VL_SHIFTR_III(27,27,32, (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                              << 2U)), 1U)) 
-           & (3U | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+           & (3U | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                     << 2U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -8673,14 +8673,14 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                            & (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__anyRound)))
                    ? VL_SHIFTR_III(32,32,32, __PVT__final_add__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
                                               (0x3fffffU 
-                                               & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                               & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                    << 0x15U) 
-                                                  | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                  | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                      >> 0xbU))), 5U) 
-                                & __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
+                                & __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask) 
                                >> 3U)));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit 
         = (0U != (0xffffffU & ((VL_SHIFTL_III(27,27,32, 
@@ -8706,9 +8706,9 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
                                                     & final_add__DOT__rounding__DOT____VdfgRegularize_ha91d3051_0_5), 0x18U))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-           | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+           | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
     __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound 
         = ((IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
            | (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra));
@@ -8726,41 +8726,41 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
         = ((IData)(__PVT__final_add__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
                                                 VL_EXTENDS_II(32,11, (IData)(__PVT__final_add__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
-    g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
-        = ((((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
-             & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
-            | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-               & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                          & (~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
-                         & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
+    g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+        = ((((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+             & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)) 
+            | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+               & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+            ? (((IData)((((0U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                          & (~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRoundExtra))) 
+                         & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit)))
                  ? (~ VL_SHIFTR_III(32,32,32, (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U)), 1U))
                  : 0xffffffffU) & ((IData)(1U) + VL_SHIFTR_III(32,32,32, 
                                                                (3U 
                                                                 | ((0x7ffffffU 
                                                                     & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U)) 
-                                                                   | (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                                   | (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                       << 2U))), 2U)))
             : (VL_SHIFTR_III(32,32,32, (0x7ffffffU 
                                         & ((~ (3U | 
-                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                 << 2U))) 
                                            & VL_SHIFTL_III(27,27,32, 
                                                            (0x3fffffU 
-                                                            & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                            & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                 << 0x15U) 
-                                                               | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                               | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                   >> 0xbU))), 5U))), 2U) 
-               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
-                           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
-                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
+               | ((IData)(((0x600U == (0x700U & vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U])) 
+                           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))
+                   ? VL_SHIFTR_III(32,32,32, __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosMask, 1U)
                    : 0U)));
     g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
         = ((((IData)(g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
@@ -8872,26 +8872,26 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     __PVT__final_add__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__final_add__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__final_add__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
-                                                     & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                     & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                          << 0x15U) 
-                                                        | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                        | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                            >> 0xbU))), 5U))
                          ? VL_SHIFTR_III(26,26,32, 
                                          (0x3ffffffU 
-                                          & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
-                         : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
+                                          & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 1U)
+                         : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp 
         = (0x7ffU & (VL_EXTENDS_II(11,10, (0x3ffU & 
                                            VL_EXTENDS_II(10,10, 
                                                          (0x3ffU 
-                                                          & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                          & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                              >> 1U))))) 
                      + (0x3ffffffU & VL_SHIFTR_III(26,26,32, 
                                                    (0x3ffffffU 
-                                                    & g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
+                                                    & g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4), 0x18U))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__common_fractOut 
         = (0x7fffffU & ((0x4000000U & VL_SHIFTL_III(27,27,32, 
                                                     (0x3fffffU 
@@ -8950,19 +8950,19 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
                                               | ((IData)(vlSelfRef.__PVT__final_add__DOT__rounding__DOT__isNaNOut)
                                                   ? 0x1c0U
                                                   : 0U))))));
-    vlSelfRef.g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
-        = ((~ (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
-           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-              & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
-                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+    vlSelfRef.g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
+        = ((~ (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+               >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+           & (VL_GTS_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+              & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                 | (6U == (7U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                  >> 8U))))));
-    __PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
-        = ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow 
+        = ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
            & VL_LTES_III(32, 3U, VL_SHIFTRS_III(32,32,32, 
-                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
+                                                VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp)), 7U)));
     vlSelfRef.g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 
         = ((~ (vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                >> 0xcU)) & VL_LTES_III(32, 0x6bU, VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))));
@@ -8979,115 +8979,115 @@ VL_INLINE_OPT void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___nba_sequent__TOP__rtlsi
     vlSelfRef.__VdfgRegularize_h87c494dc_8_3 = (((IData)(vlSelfRef.__PVT__final_add__DOT__g_out_ieee__DOT__to_ieee__DOT__recFNToRawFN__DOT__exp) 
                                                  << 0x17U) 
                                                 | __VdfgRegularize_h87c494dc_8_5);
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
-        = ((~ (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
-           & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
-        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                              & (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
-    vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
-        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
-                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
+        = ((~ (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
+           & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut 
+        = (1U & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                  >> 0xdU) | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                              & (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp))));
+    vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags 
+        = ((0x10U & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                     >> 0xbU)) | (((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                   << 2U) | ((((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                & (VL_GTS_III(32, 0x6bU, 
-                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                  | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
+                                                             VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                  | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound) 
                                                      & (VL_GTES_III(32, 0U, 
                                                                     VL_SHIFTRS_III(32,32,32, 
                                                                                 VL_EXTENDS_II(32,10, 
                                                                                 (0x3ffU 
                                                                                 & VL_EXTENDS_II(10,10, 
                                                                                 (0x3ffU 
-                                                                                & (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 >> 1U))))), 8U)) 
                                                         & ((~ 
                                                             ((~ 
                                                               ((0x4000000U 
                                                                 & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                 ? 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 2U)
                                                                 : 
-                                                               (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                               (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                 >> 1U))) 
                                                              & (((0x4000000U 
                                                                   & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                   ? 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x19U)
                                                                   : 
-                                                                 (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
+                                                                 (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_4 
                                                                   >> 0x18U)) 
-                                                                & ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
-                                                                   & (((IData)(g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
+                                                                & ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__roundPosBit) 
+                                                                   & (((IData)(g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_3) 
                                                                        & ((0x4000000U 
                                                                            & VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                            ? 
                                                                           (0x1ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 2U))
                                                                            : 
                                                                           (0x3ffffffU 
                                                                            & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                               >> 1U)))) 
-                                                                      | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
+                                                                      | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__roundMagUp) 
                                                                          & ((VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                              >> 0x1aU) 
                                                                             & (VL_SHIFTL_III(27,27,32, 
                                                                                 (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U) 
                                                                                >> 2U)))))))) 
                                                            & ((0x4000000U 
                                                                & VL_SHIFTL_III(27,27,32, 
                                                                                (0x3fffffU 
-                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
+                                                                                & ((vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[2U] 
                                                                                 << 0x15U) 
-                                                                                | (vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
+                                                                                | (vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_add__DOT__g_shift_register__DOT__g_shift__DOT__pipe[1U] 
                                                                                 >> 0xbU))), 5U))
                                                                ? 
-                                                              (g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
+                                                              (g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1 
                                                                >> 1U)
-                                                               : g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
+                                                               : g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_1)))))) 
                                               << 1U) 
-                                             | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
-                                                | ((IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
+                                             | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow) 
+                                                | ((IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__commonCase) 
                                                    & (VL_GTS_III(32, 0x6bU, 
-                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
-                                                      | (IData)(__PVT__g_prod__BRA__1__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
+                                                                 VL_EXTENDS_II(32,11, (IData)(vlSelfRef.__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp))) 
+                                                      | (IData)(__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__anyRound)))))));
     vlSelfRef.__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut 
         = ((~ (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow_roundMagUp)) 
            & (IData)(__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__overflow));

@@ -14,21 +14,21 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3 fi
   public:
 
     // DESIGN SPECIFIC STATE
-    VL_IN8(__PVT__clk,0,0);
-    VL_IN8(__PVT__reset,0,0);
-    VL_IN8(__PVT__valid_in,7,0);
-    VL_OUT8(__PVT__ready_in,7,0);
-    VL_OUT8(__PVT__valid_out,0,0);
-    VL_IN8(__PVT__ready_out,0,0);
-    VL_OUT8(__PVT__sel_out,2,0);
+    VL_IN8(clk,0,0);
+    VL_IN8(reset,0,0);
+    VL_IN8(valid_in,7,0);
+    VL_OUT8(ready_in,7,0);
+    VL_OUT8(valid_out,0,0);
+    VL_IN8(ready_out,0,0);
+    VL_OUT8(sel_out,2,0);
     CData/*7:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__arb_onehot;
     CData/*7:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__arbiter__DOT__g_priority__DOT__priority_arbiter__DOT__g_encoder__DOT__grant_sel__DOT__g_lsb__DOT__g_model1__DOT__higher_pri_regs;
     CData/*0:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__DOT__g_eb2__DOT__stream_buffer__DOT__g_buffer__DOT__valid_out_r;
     CData/*0:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__DOT__g_eb2__DOT__stream_buffer__DOT__g_buffer__DOT__valid_in_r;
     CData/*0:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__DOT__g_eb2__DOT__stream_buffer__DOT__g_buffer__DOT__flow_out;
     QData/*47:0*/ __Vxrand_h7cbe8e1b__0;
-    VL_INW(__PVT__data_in,383,0,12);
-    VL_OUT64(__PVT__data_out,47,0);
+    VL_INW(data_in,383,0,12);
+    VL_OUT64(data_out,47,0);
     QData/*50:0*/ __Vcellinp__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__data_in;
     QData/*50:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__DOT__g_eb2__DOT__stream_buffer__DOT__g_buffer__DOT__data_out_r;
     QData/*50:0*/ __PVT__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__DOT__g_eb2__DOT__stream_buffer__DOT__g_buffer__DOT__buffer_r;

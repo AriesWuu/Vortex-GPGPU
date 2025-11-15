@@ -703,7 +703,7 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___ctor_var_reset(Vrtlsim_s
     vlSelf->__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp = VL_RAND_RESET_I(11);
-    vlSelf->g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h79c64222_0_9 = VL_RAND_RESET_I(1);
+    vlSelf->g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe = VL_RAND_RESET_Q(38);
     for (int __Vi0 = 0; __Vi0 < 31; ++__Vi0) {
         vlSelf->__PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__g_in_ieee__DOT__from_ieee_a__DOT__clz__DOT__lzc__DOT__g_lzc__DOT__find_first__DOT__s_n[__Vi0] = VL_RAND_RESET_I(1);
@@ -732,7 +732,7 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2___ctor_var_reset(Vrtlsim_s
     vlSelf->__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__genblk2__DOT__sRoundedExp = VL_RAND_RESET_I(11);
-    vlSelf->g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h79c64222_0_9 = VL_RAND_RESET_I(1);
+    vlSelf->g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9 = VL_RAND_RESET_I(1);
     vlSelf->__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe = VL_RAND_RESET_Q(38);
     for (int __Vi0 = 0; __Vi0 < 31; ++__Vi0) {
         vlSelf->__PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__g_in_ieee__DOT__from_ieee_a__DOT__clz__DOT__lzc__DOT__g_lzc__DOT__find_first__DOT__s_n[__Vi0] = VL_RAND_RESET_I(1);

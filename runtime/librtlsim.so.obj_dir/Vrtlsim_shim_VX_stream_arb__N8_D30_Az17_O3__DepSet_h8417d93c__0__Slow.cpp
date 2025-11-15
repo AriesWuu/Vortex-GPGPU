@@ -5,10 +5,10 @@
 #include "Vrtlsim_shim__pch.h"
 #include "Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3.h"
 
-VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___eval_initial__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb(Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3* vlSelf) {
+VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___eval_initial__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__DOT__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb(Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vrtlsim_shim__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+                          Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___eval_initial__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+                          Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___eval_initial__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__DOT__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb\n"); );
     auto &vlSelfRef = std::ref(*vlSelf).get();
     // Body
     vlSelfRef.__Vxrand_h7cbe8e1b__0 = (0xffffffffffffULL 
@@ -23,10 +23,10 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___eval_initial__TOP
     vlSelfRef.__PVT__g_input_select__DOT__g_arbiter__DOT__arbiter__DOT__g_priority__DOT__priority_arbiter__DOT__g_encoder__DOT__grant_sel__DOT__g_lsb__DOT__g_model1__DOT__lzc__DOT__g_lzc__DOT__find_first__DOT__d_n[0xeU] = 7U;
 }
 
-VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___stl_sequent__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb__1(Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3* vlSelf) {
+VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___stl_sequent__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__DOT__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb__1(Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vrtlsim_shim__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+                          Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___stl_sequent__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb__1\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+                          Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___stl_sequent__TOP__rtlsim_shim__DOT__vortex__DOT__g_clusters__BRA__0__KET____DOT__cluster__DOT__g_sockets__BRA__0__KET____DOT__socket__DOT__g_cores__BRA__0__KET____DOT__core__DOT__mem_unit__DOT__local_mem__DOT__req_xbar__DOT__g_multi_inputs__DOT__g_multiple_outputs__DOT__g_xbar_arbs__BRA__0__KET____DOT__xbar_arb__1\n"); );
     auto &vlSelfRef = std::ref(*vlSelf).get();
     // Body
     vlSelfRef.__PVT__g_input_select__DOT__g_arbiter__DOT__arbiter__DOT__g_priority__DOT__priority_arbiter__DOT__g_encoder__DOT__grant_sel__DOT__g_lsb__DOT__g_model1__DOT__lzc__DOT__g_lzc__DOT__find_first__DOT__d_n[0U] 
@@ -73,15 +73,15 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3___ctor_var_reset(Vr
     auto &vlSelfRef = std::ref(*vlSelf).get();
     // Body
     vlSelf->__Vxrand_h7cbe8e1b__0 = VL_RAND_RESET_Q(48);
-    vlSelf->__PVT__clk = VL_RAND_RESET_I(1);
-    vlSelf->__PVT__reset = VL_RAND_RESET_I(1);
-    vlSelf->__PVT__valid_in = VL_RAND_RESET_I(8);
-    VL_RAND_RESET_W(384, vlSelf->__PVT__data_in);
-    vlSelf->__PVT__ready_in = VL_RAND_RESET_I(8);
-    vlSelf->__PVT__valid_out = VL_RAND_RESET_I(1);
-    vlSelf->__PVT__data_out = VL_RAND_RESET_Q(48);
-    vlSelf->__PVT__ready_out = VL_RAND_RESET_I(1);
-    vlSelf->__PVT__sel_out = VL_RAND_RESET_I(3);
+    vlSelf->clk = VL_RAND_RESET_I(1);
+    vlSelf->reset = VL_RAND_RESET_I(1);
+    vlSelf->valid_in = VL_RAND_RESET_I(8);
+    VL_RAND_RESET_W(384, vlSelf->data_in);
+    vlSelf->ready_in = VL_RAND_RESET_I(8);
+    vlSelf->valid_out = VL_RAND_RESET_I(1);
+    vlSelf->data_out = VL_RAND_RESET_Q(48);
+    vlSelf->ready_out = VL_RAND_RESET_I(1);
+    vlSelf->sel_out = VL_RAND_RESET_I(3);
     vlSelf->__PVT__g_input_select__DOT__g_arbiter__DOT__arb_onehot = VL_RAND_RESET_I(8);
     vlSelf->__Vcellinp__g_input_select__DOT__g_arbiter__DOT__g_out_buf__BRA__0__KET____DOT__out_buf__data_in = VL_RAND_RESET_Q(51);
     vlSelf->__PVT__g_input_select__DOT__g_arbiter__DOT__arbiter__DOT__g_priority__DOT__priority_arbiter__DOT__g_encoder__DOT__grant_sel__DOT__g_lsb__DOT__g_model1__DOT__higher_pri_regs = VL_RAND_RESET_I(8);

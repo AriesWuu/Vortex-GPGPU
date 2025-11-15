@@ -1,0 +1,2 @@
+Format,Warps,Threads,Instructions,Cycles,IPC,Status
+tf32,4,4,595416,189539,3.14139,PASSED

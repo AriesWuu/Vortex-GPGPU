@@ -28,6 +28,6 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2___ctor_var_reset(Vrtl
     vlSelf->__PVT__rounding__DOT__pegMaxFiniteMagOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__rounding__DOT__notNaN_isInfOut = VL_RAND_RESET_I(1);
     vlSelf->__PVT__rounding__DOT__genblk2__DOT__sRoundedExp = VL_RAND_RESET_I(11);
-    vlSelf->rounding__DOT____VdfgRegularize_h4299fe10_0_10 = VL_RAND_RESET_I(1);
+    vlSelf->rounding__DOT____VdfgRegularize_ha91d3051_0_10 = VL_RAND_RESET_I(1);
     vlSelf->__PVT__pipe_rnd__DOT__g_shift_register__DOT__g_shift__DOT__pipe = VL_RAND_RESET_Q(38);
 }

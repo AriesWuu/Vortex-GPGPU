@@ -14,7 +14,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_schedule_if final : public Ve
   public:
 
     // DESIGN SPECIFIC STATE
-    QData/*41:0*/ data;
+    QData/*40:0*/ data;
 
     // INTERNAL VARIABLES
     Vrtlsim_shim__Syms* const vlSymsp;

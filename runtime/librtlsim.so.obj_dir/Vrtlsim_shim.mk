@@ -37,7 +37,7 @@ VM_PREFIX = Vrtlsim_shim
 VM_MODPREFIX = Vrtlsim_shim
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-	-std=c++17 -Wall -Wextra -Wfatal-errors -Wno-array-bounds -fPIC -Wno-maybe-uninitialized -I/home/kejunwu/vortex/hw -I/home/kejunwu/vortex/sim/common -I/home/kejunwu/vortex/third_party/softfloat/source/include -I/home/kejunwu/vortex/third_party/ramulator/ext/spdlog/include -I/home/kejunwu/vortex/third_party/ramulator/ext/yaml-cpp/include -I/home/kejunwu/vortex/third_party/ramulator/src -DXLEN_32 -DNUM_CORES=4 -DNUM_WARPS=8 -DNUM_THREADS=8 -DEXT_TCU_ENABLE -DTCU_BHF -O2 -DNDEBUG \
+	-std=c++17 -Wall -Wextra -Wfatal-errors -Wno-array-bounds -fPIC -Wno-maybe-uninitialized -I/home/kejunwu/vortex/hw -I/home/kejunwu/vortex/sim/common -I/home/kejunwu/vortex/third_party/softfloat/source/include -I/home/kejunwu/vortex/third_party/ramulator/ext/spdlog/include -I/home/kejunwu/vortex/third_party/ramulator/ext/yaml-cpp/include -I/home/kejunwu/vortex/third_party/ramulator/src -DXLEN_32 -DNUM_THREADS=8 -DEXT_TCU_ENABLE -DTCU_BHF -O2 -DNDEBUG \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \

@@ -16,7 +16,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_ibuffer_if final : public Ver
     // DESIGN SPECIFIC STATE
     CData/*0:0*/ valid;
     CData/*0:0*/ ready;
-    VlWide<4>/*110:0*/ data;
 
     // INTERNAL VARIABLES
     Vrtlsim_shim__Syms* const vlSymsp;

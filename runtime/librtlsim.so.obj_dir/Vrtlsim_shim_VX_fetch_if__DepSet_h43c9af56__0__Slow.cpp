@@ -11,5 +11,5 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_fetch_if___ctor_var_reset(Vrtlsim_shim_VX_fetc
     VL_DEBUG_IF(VL_DBG_MSGF("+                  Vrtlsim_shim_VX_fetch_if___ctor_var_reset\n"); );
     auto &vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    VL_RAND_RESET_W(74, vlSelf->data);
+    VL_RAND_RESET_W(73, vlSelf->data);
 }

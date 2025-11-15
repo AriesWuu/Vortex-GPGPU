@@ -7,8 +7,8 @@
 
 #include "verilated.h"
 class Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2;
-class Vrtlsim_shim_VX_tcu_bhf_fmul__pi83;
-class Vrtlsim_shim_VX_tcu_bhf_fmul__pi84;
+class Vrtlsim_shim_VX_tcu_bhf_fmul__pi50;
+class Vrtlsim_shim_VX_tcu_bhf_fmul__pi51;
 
 
 class Vrtlsim_shim__Syms;
@@ -16,14 +16,14 @@ class Vrtlsim_shim__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2 final : public VerilatedModule {
   public:
     // CELLS
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi83* __PVT__g_prod__BRA__0__KET____DOT__fp16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi84* __PVT__g_prod__BRA__0__KET____DOT__bf16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi83* __PVT__g_prod__BRA__1__KET____DOT__fp16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi84* __PVT__g_prod__BRA__1__KET____DOT__bf16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi83* __PVT__g_prod__BRA__2__KET____DOT__fp16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi84* __PVT__g_prod__BRA__2__KET____DOT__bf16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi83* __PVT__g_prod__BRA__3__KET____DOT__fp16_mul;
-    Vrtlsim_shim_VX_tcu_bhf_fmul__pi84* __PVT__g_prod__BRA__3__KET____DOT__bf16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi50* __PVT__g_prod__BRA__0__KET____DOT__fp16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi51* __PVT__g_prod__BRA__0__KET____DOT__bf16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi50* __PVT__g_prod__BRA__1__KET____DOT__fp16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi51* __PVT__g_prod__BRA__1__KET____DOT__bf16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi50* __PVT__g_prod__BRA__2__KET____DOT__fp16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi51* __PVT__g_prod__BRA__2__KET____DOT__bf16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi50* __PVT__g_prod__BRA__3__KET____DOT__fp16_mul;
+    Vrtlsim_shim_VX_tcu_bhf_fmul__pi51* __PVT__g_prod__BRA__3__KET____DOT__bf16_mul;
     Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2* __PVT__g_red_tree__BRA__0__KET____DOT__g_add__BRA__0__KET____DOT__reduce_add;
     Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2* __PVT__g_red_tree__BRA__0__KET____DOT__g_add__BRA__1__KET____DOT__reduce_add;
     Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2* __PVT__g_red_tree__BRA__1__KET____DOT__g_add__BRA__0__KET____DOT__reduce_add;
@@ -49,7 +49,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2 final : p
         CData/*0:0*/ __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut;
         CData/*0:0*/ __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut;
         CData/*0:0*/ __PVT__g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut;
-        CData/*0:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h79c64222_0_9;
+        CData/*0:0*/ g_prod__BRA__0__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9;
         CData/*4:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__s2_fflags;
         CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__multiplier__DOT__isInfA;
         CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__multiplier__DOT__isInfB;
@@ -57,7 +57,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_tcu_fedp_bhf__Ld_N2 final : p
         CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMinNonzeroMagOut;
         CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__pegMaxFiniteMagOut;
         CData/*0:0*/ __PVT__g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT__notNaN_isInfOut;
-        CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h79c64222_0_9;
+        CData/*0:0*/ g_prod__BRA__2__KET____DOT__g_tf32_mul__DOT__tf32_mul__DOT__rounding__DOT____VdfgRegularize_h11a72608_0_9;
         CData/*2:0*/ __VdfgRegularize_h87c494dc_0_0;
         CData/*2:0*/ __VdfgRegularize_h87c494dc_0_3;
         CData/*2:0*/ __VdfgRegularize_h87c494dc_0_6;

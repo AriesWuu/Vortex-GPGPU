@@ -24,7 +24,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_tcu_bhf_fadd__IC1_OC1_A2 fina
     CData/*0:0*/ __PVT__rounding__DOT__pegMinNonzeroMagOut;
     CData/*0:0*/ __PVT__rounding__DOT__pegMaxFiniteMagOut;
     CData/*0:0*/ __PVT__rounding__DOT__notNaN_isInfOut;
-    CData/*0:0*/ rounding__DOT____VdfgRegularize_h4299fe10_0_10;
+    CData/*0:0*/ rounding__DOT____VdfgRegularize_ha91d3051_0_10;
     SData/*10:0*/ __PVT__rounding__DOT__genblk2__DOT__sRoundedExp;
     IData/*22:0*/ __PVT__rounding__DOT__common_fractOut;
     VL_IN64(__PVT__a,32,0);

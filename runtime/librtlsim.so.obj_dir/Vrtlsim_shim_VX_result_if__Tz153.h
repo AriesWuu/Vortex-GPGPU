@@ -14,7 +14,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vrtlsim_shim_VX_result_if__Tz153 final : publ
   public:
 
     // DESIGN SPECIFIC STATE
-    VlWide<10>/*307:0*/ data;
+    VlWide<10>/*306:0*/ data;
 
     // INTERNAL VARIABLES
     Vrtlsim_shim__Syms* const vlSymsp;

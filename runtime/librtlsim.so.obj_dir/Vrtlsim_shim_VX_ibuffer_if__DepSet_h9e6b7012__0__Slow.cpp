@@ -12,6 +12,5 @@ VL_ATTR_COLD void Vrtlsim_shim_VX_ibuffer_if___ctor_var_reset(Vrtlsim_shim_VX_ib
     auto &vlSelfRef = std::ref(*vlSelf).get();
     // Body
     vlSelf->valid = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(111, vlSelf->data);
     vlSelf->ready = VL_RAND_RESET_I(1);
 }
