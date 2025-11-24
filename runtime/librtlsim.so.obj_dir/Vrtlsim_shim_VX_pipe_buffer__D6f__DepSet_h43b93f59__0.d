@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_pipe_buffer__D6f__DepSet_h43b93f59__0.o: \
- Vrtlsim_shim_VX_pipe_buffer__D6f__DepSet_h43b93f59__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_pipe_buffer__D6f.h

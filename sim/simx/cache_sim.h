@@ -84,6 +84,8 @@ public:
 
 	PerfStats perf_stats() const;
 
+	void set_active_bytes(uint32_t bytes);
+
 private:
 	class Impl;
 	Impl* impl_;

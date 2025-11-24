@@ -1,4 +1,10 @@
 #include <vx_spawn.h>
+#ifdef ENABLE_UNIFIED_CACHE
+#include <vx_intrinsics.h>
+#ifndef UNIFIED_CACHE_PERCENT
+#define UNIFIED_CACHE_PERCENT 50
+#endif
+#endif
 #include "common.h"
 
 void kernel_body(kernel_arg_t* __UNIFORM__ arg) {
@@ -35,6 +41,9 @@ void kernel_body(kernel_arg_t* __UNIFORM__ arg) {
 
 int main() {
     kernel_arg_t* arg = (kernel_arg_t*)csr_read(VX_CSR_MSCRATCH);
+#ifdef ENABLE_UNIFIED_CACHE
+    vx_cache_partition(UNIFIED_CACHE_PERCENT);
+#endif
     if (arg->use_lmem) {
         // populate local memory
         auto W = reinterpret_cast<TYPE*>(arg->W_addr);

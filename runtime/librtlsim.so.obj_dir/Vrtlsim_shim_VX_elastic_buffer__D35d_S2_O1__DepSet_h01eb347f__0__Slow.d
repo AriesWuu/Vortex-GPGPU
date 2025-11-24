@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_elastic_buffer__D35d_S2_O1__DepSet_h01eb347f__0__Slow.o: \
- Vrtlsim_shim_VX_elastic_buffer__D35d_S2_O1__DepSet_h01eb347f__0__Slow.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_elastic_buffer__D35d_S2_O1.h

@@ -71,6 +71,8 @@ public:
 
   PerfStats perf_stats() const;
 
+  void set_cache_partition(uint32_t cache_bytes);
+
 private:
   uint32_t                socket_id_;
   Cluster*                cluster_;

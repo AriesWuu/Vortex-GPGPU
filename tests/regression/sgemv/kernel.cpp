@@ -1,4 +1,10 @@
 #include <vx_spawn.h>
+#ifdef ENABLE_UNIFIED_CACHE
+#include <vx_intrinsics.h>
+#ifndef UNIFIED_CACHE_PERCENT
+#define UNIFIED_CACHE_PERCENT 50
+#endif
+#endif
 #include "common.h"
 #include "float4.h"
 
@@ -23,6 +29,9 @@ void kernel_body(kernel_arg_t *__UNIFORM__ arg) {
 
 int main() {
   kernel_arg_t *arg = (kernel_arg_t *)csr_read(VX_CSR_MSCRATCH);
+#ifdef ENABLE_UNIFIED_CACHE
+  vx_cache_partition(UNIFIED_CACHE_PERCENT);
+#endif
   uint32_t blockDim(1); // 1 thread per row (adjust for vector width)
   return vx_spawn_threads(1, arg->grid_dim, &blockDim, (vx_kernel_func_cb)kernel_body, arg);
 }

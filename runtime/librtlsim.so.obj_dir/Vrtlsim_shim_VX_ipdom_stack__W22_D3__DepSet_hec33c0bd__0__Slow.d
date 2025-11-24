@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_ipdom_stack__W22_D3__DepSet_hec33c0bd__0__Slow.o: \
- Vrtlsim_shim_VX_ipdom_stack__W22_D3__DepSet_hec33c0bd__0__Slow.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_ipdom_stack__W22_D3.h

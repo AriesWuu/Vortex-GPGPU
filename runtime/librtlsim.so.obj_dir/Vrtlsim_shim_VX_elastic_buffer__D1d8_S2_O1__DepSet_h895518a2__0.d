@@ -1,4 +1,0 @@
-Vrtlsim_shim_VX_elastic_buffer__D1d8_S2_O1__DepSet_h895518a2__0.o: \
- Vrtlsim_shim_VX_elastic_buffer__D1d8_S2_O1__DepSet_h895518a2__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_elastic_buffer__D1d8_S2_O1.h \
- Vrtlsim_shim__Syms.h

@@ -5,11 +5,11 @@
 
 // For int8_t input and int32_t output comparison with dot8
 #ifndef INPUT_TYPE
-#define INPUT_TYPE int8_t
+#define INPUT_TYPE float
 #endif
 
 #ifndef OUTPUT_TYPE
-#define OUTPUT_TYPE int32_t  // Prevent overflow, match dot8 behavior
+#define OUTPUT_TYPE float  // Prevent overflow, match dot8 behavior
 #endif
 
 // For backward compatibility with TYPE macro

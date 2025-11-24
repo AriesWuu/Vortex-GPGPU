@@ -13,6 +13,7 @@
 
 #include "socket.h"
 #include "cluster.h"
+#include "unified_mem.h"
 
 using namespace vortex;
 
@@ -34,11 +35,11 @@ Socket::Socket(const SimContext& ctx,
   snprintf(sname, 100, "%s-icaches", this->name().c_str());
   icaches_ = CacheCluster::Create(sname, cores_per_socket, NUM_ICACHES, CacheSim::Config{
     !ICACHE_ENABLED,
-    log2ceil(ICACHE_SIZE),  // C
-    log2ceil(L1_LINE_SIZE), // L
-    log2ceil(sizeof(uint32_t)), // W
-    log2ceil(ICACHE_NUM_WAYS),// A
-    log2ceil(1),            // B
+    (uint8_t)log2ceil(ICACHE_SIZE),      // C
+    (uint8_t)log2ceil(L1_LINE_SIZE),     // L
+    (uint8_t)log2ceil(sizeof(uint32_t)), // W
+    (uint8_t)log2ceil(ICACHE_NUM_WAYS),  // A
+    (uint8_t)log2ceil(1),                // B
     XLEN,                   // address bits
     1,                      // number of inputs
     ICACHE_MEM_PORTS,       // memory ports
@@ -48,14 +49,23 @@ Socket::Socket(const SimContext& ctx,
     2,                      // pipeline latency
   });
 
+  uint32_t unified_total = unified_mem_total_bytes();
+  if (0 == unified_total)
+    unified_total = DCACHE_SIZE ? DCACHE_SIZE : 1;
+  // debug print
+  printf("[original-mem] total=%u cache=%u shared=%u (DCACHE_SIZE=%u)\n",
+         unified_total,
+         unified_mem_cache_bytes(),
+         unified_mem_shared_bytes(),
+         DCACHE_SIZE);
   snprintf(sname, 100, "%s-dcaches", this->name().c_str());
   dcaches_ = CacheCluster::Create(sname, cores_per_socket, NUM_DCACHES, CacheSim::Config{
     !DCACHE_ENABLED,
-    log2ceil(DCACHE_SIZE),  // C
-    log2ceil(L1_LINE_SIZE), // L
-    log2ceil(DCACHE_WORD_SIZE), // W
-    log2ceil(DCACHE_NUM_WAYS),// A
-    log2ceil(DCACHE_NUM_BANKS), // B
+    (uint8_t)log2ceil(unified_total),    // C
+    (uint8_t)log2ceil(L1_LINE_SIZE),     // L
+    (uint8_t)log2ceil(DCACHE_WORD_SIZE), // W
+    (uint8_t)log2ceil(DCACHE_NUM_WAYS),  // A
+    (uint8_t)log2ceil(DCACHE_NUM_BANKS), // B
     XLEN,                   // address bits
     DCACHE_NUM_REQS,        // number of inputs
     L1_MEM_PORTS,           // memory ports
@@ -64,6 +74,7 @@ Socket::Socket(const SimContext& ctx,
     DCACHE_MSHR_SIZE,       // mshr size
     2,                      // pipeline latency
   });
+  dcaches_->set_capacity_bytes(unified_mem_cache_bytes());
 
   // find overlap
   uint32_t overlap = MIN(ICACHE_MEM_PORTS, L1_MEM_PORTS);
@@ -168,4 +179,9 @@ Socket::PerfStats Socket::perf_stats() const {
   perf_stats.icache = icaches_->perf_stats();
   perf_stats.dcache = dcaches_->perf_stats();
   return perf_stats;
+}
+
+void Socket::set_cache_partition(uint32_t cache_bytes) {
+  if (dcaches_)
+    dcaches_->set_capacity_bytes(cache_bytes);
 }

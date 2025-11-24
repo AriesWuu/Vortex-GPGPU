@@ -1,4 +1,0 @@
-Vrtlsim_shim_VX_pipe_buffer__D6b__DepSet_h71c5c5cc__0.o: \
- Vrtlsim_shim_VX_pipe_buffer__D6b__DepSet_h71c5c5cc__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_pipe_buffer__D6b.h \
- Vrtlsim_shim__Syms.h

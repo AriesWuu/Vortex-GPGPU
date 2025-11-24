@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_result_if__Tz161__DepSet_h943ff7b6__0.o: \
- Vrtlsim_shim_VX_result_if__Tz161__DepSet_h943ff7b6__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_result_if__Tz161.h

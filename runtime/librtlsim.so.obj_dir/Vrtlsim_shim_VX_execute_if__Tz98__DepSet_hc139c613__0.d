@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_execute_if__Tz98__DepSet_hc139c613__0.o: \
- Vrtlsim_shim_VX_execute_if__Tz98__DepSet_hc139c613__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_execute_if__Tz98.h

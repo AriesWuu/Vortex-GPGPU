@@ -13,6 +13,7 @@
 
 #include "processor.h"
 #include "processor_impl.h"
+#include "unified_mem.h"
 
 using namespace vortex;
 
@@ -21,6 +22,8 @@ ProcessorImpl::ProcessorImpl(const Arch& arch)
   , clusters_(arch.num_clusters())
 {
   SimPlatform::instance().initialize();
+
+  UnifiedMemCtrl::instance().reset();
 
 	assert(PLATFORM_MEMORY_DATA_SIZE == MEM_BLOCK_SIZE);
 
@@ -147,6 +150,14 @@ void ProcessorImpl::reset() {
 
 void ProcessorImpl::dcr_write(uint32_t addr, uint32_t value) {
   dcrs_.write(addr, value);
+}
+
+void ProcessorImpl::set_cache_partition(uint32_t cache_bytes) {
+  UnifiedMemCtrl::instance().set_cache_bytes(cache_bytes);
+  auto effective_bytes = UnifiedMemCtrl::instance().cache_bytes();
+  for (auto& cluster : clusters_) {
+    cluster->set_cache_partition(effective_bytes);
+  }
 }
 
 ProcessorImpl::PerfStats ProcessorImpl::perf_stats() const {

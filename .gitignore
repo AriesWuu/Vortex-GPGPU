@@ -8,3 +8,34 @@ miscs/apptainer/vortex.sif
 tests/regression/dot8/trace/ramulator.log.ch0
 tests/regression/dot8/trace/ramulator.log.ch1
 tests/regression/dot8/trace/
+
+# Build artifacts
+*.o
+*.d
+*.obj
+*.a
+*.so
+*.elf
+*.vxbin
+*.dump
+*.log
+.depend
+*.stamp
+
+# Executables
+sim/simx/simx
+tests/regression/*/sgemm
+tests/regression/*/sgemm2
+tests/regression/*/conv3
+tests/regression/*/sort
+tests/regression/*/stencil3d
+tests/regression/*/sgemm_tcu
+tests/regression/*/dotproduct
+tests/regression/*/mstress
+
+# Directories
+runtime/obj/
+sim/simx/obj/
+runtime/librtlsim.so.obj_dir/
+tests/regression/*/trace/
+tests/regression/*/results_rtl_quick/

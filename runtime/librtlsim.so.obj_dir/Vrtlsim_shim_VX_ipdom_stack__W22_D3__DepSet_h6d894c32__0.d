@@ -1,4 +1,0 @@
-Vrtlsim_shim_VX_ipdom_stack__W22_D3__DepSet_h6d894c32__0.o: \
- Vrtlsim_shim_VX_ipdom_stack__W22_D3__DepSet_h6d894c32__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_ipdom_stack__W22_D3.h \
- Vrtlsim_shim__Syms.h

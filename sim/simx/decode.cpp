@@ -1033,6 +1033,10 @@ void Emulator::decode(uint32_t code, uint32_t wid, uint64_t uuid) {
         instr->setSrcReg(1, rs2, RegType::Integer);
         wctlArgs.is_neg = (rd != 0);
         break;
+      case 6: // PART
+        instr->setOpType(WctlType::PART);
+        instr->setSrcReg(0, rs1, RegType::Integer);
+        break;
       default:
         std::abort();
       }

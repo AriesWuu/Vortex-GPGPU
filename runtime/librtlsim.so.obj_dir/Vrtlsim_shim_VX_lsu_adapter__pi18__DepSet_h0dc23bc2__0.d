@@ -1,4 +1,0 @@
-Vrtlsim_shim_VX_lsu_adapter__pi18__DepSet_h0dc23bc2__0.o: \
- Vrtlsim_shim_VX_lsu_adapter__pi18__DepSet_h0dc23bc2__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_lsu_adapter__pi18.h \
- Vrtlsim_shim__Syms.h

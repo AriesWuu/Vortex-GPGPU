@@ -21,15 +21,16 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <assert.h>
+#include <algorithm>
 #include <util.h>
 #include <rvfloats.h>
 #include "emulator.h"
 #include "instr.h"
 #include "core.h"
+#include "cluster.h"
 #include "types.h"
-#ifdef EXT_V_ENABLE
 #include "processor_impl.h"
-#endif
+#include "unified_mem.h"
 #include "VX_types.h"
 
 using namespace vortex;
@@ -1420,6 +1421,27 @@ instr_trace_t* Emulator::execute(const Instr &instr, uint32_t wid) {
         } else {
           next_tmask = ThreadMask(num_threads, rs2_data.at(thread_last).u);
         }
+      } break;
+      case WctlType::PART: {
+        trace->fetch_stall = true;
+        uint32_t raw_value = rs1_data.at(thread_last).u;
+        uint32_t percent = std::min(raw_value, 100u);
+        uint64_t total_bytes = unified_mem_total_bytes();
+        uint32_t cache_bytes = (total_bytes == 0) ? 0 : static_cast<uint32_t>((total_bytes * percent) / 100ull);
+        if (auto* socket = core_->socket()) {
+          if (auto* cluster = socket->cluster()) {
+            if (auto* processor = cluster->processor()) {
+              processor->set_cache_partition(cache_bytes);
+            }
+          }
+        }
+        // debug print
+        printf("[unified-mem-PART] total=%u cache=%u shared=%u (percent=%u, raw=%u)\n",
+          unified_mem_total_bytes(),
+          unified_mem_cache_bytes(),
+          unified_mem_shared_bytes(),
+          unified_mem_cache_percent(),
+          raw_value);
       } break;
       default:
         std::abort();

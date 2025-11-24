@@ -150,3 +150,9 @@ Cluster::PerfStats Cluster::perf_stats() const {
   perf_stats.l2cache = l2cache_->perf_stats();
   return perf_stats;
 }
+
+void Cluster::set_cache_partition(uint32_t cache_bytes) {
+  for (auto& socket : sockets_) {
+    socket->set_cache_partition(cache_bytes);
+  }
+}

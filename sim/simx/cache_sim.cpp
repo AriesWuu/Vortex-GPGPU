@@ -19,6 +19,7 @@
 #include <vector>
 #include <list>
 #include <queue>
+#include <algorithm>
 
 using namespace vortex;
 
@@ -554,6 +555,7 @@ public:
 		, params_(config)
 		, banks_(1 << config.B)
 		, nc_mem_arbs_(config.mem_ports)
+	, active_sets_per_bank_(params_.sets_per_bank)
 	{
 		char sname[100];
 
@@ -658,19 +660,25 @@ public:
 			bank_rsp_port.pop();
 		}
 
-		// schedule core requests
-		for (uint32_t req_id = 0, n = config_.num_inputs; req_id < n; ++req_id) {
-			auto& core_req_port = simobject_->CoreReqPorts.at(req_id);
-			if (core_req_port.empty())
-				continue;
-			auto& core_req = core_req_port.front();
-			if (core_req.type == AddrType::IO) {
-				this->processBypassRequest(core_req, req_id);
-			} else {
-				bank_core_xbar_->ReqIn.at(req_id).push(core_req, 0);
+		  // schedule core requests
+			for (uint32_t req_id = 0, n = config_.num_inputs; req_id < n; ++req_id) {
+				auto& core_req_port = simobject_->CoreReqPorts.at(req_id);
+				if (core_req_port.empty())
+					continue;
+				auto& core_req = core_req_port.front();
+				bool bypass_request = (core_req.type == AddrType::IO);
+				if (!bypass_request && active_sets_per_bank_ < params_.sets_per_bank) {
+					uint32_t set_id = params_.addr_set_id(core_req.addr);
+					if (active_sets_per_bank_ == 0 || set_id >= active_sets_per_bank_)
+						bypass_request = true;
+				}
+				if (bypass_request) {
+					this->processBypassRequest(core_req, req_id);
+				} else {
+					bank_core_xbar_->ReqIn.at(req_id).push(core_req, 0);
+				}
+				core_req_port.pop();
 			}
-			core_req_port.pop();
-		}
 	}
 
 	PerfStats perf_stats() const {
@@ -682,6 +690,32 @@ public:
 			perf_stats.bank_stalls = bank_core_xbar_->collisions();
 		}
 		return perf_stats;
+	}
+
+	void set_active_bytes(uint32_t bytes) {
+		if (config_.bypass)
+			return;
+
+        // printf("DEBUG: CacheSim::set_active_bytes(%u) name=%s\n", bytes, simobject_->name().c_str());
+
+		uint32_t num_banks = (1u << config_.B);
+		uint64_t bytes_per_set = uint64_t(1u << config_.L) * params_.lines_per_set;
+		uint64_t max_sets_total = uint64_t(params_.sets_per_bank) * num_banks;
+		uint64_t max_cache_bytes = bytes_per_set * max_sets_total;
+		uint64_t clamped_bytes = std::min<uint64_t>(bytes, max_cache_bytes);
+
+		uint32_t new_sets = params_.sets_per_bank;
+		if (clamped_bytes == 0) {
+			new_sets = 0;
+		} else if (bytes_per_set != 0 && num_banks != 0) {
+			uint64_t total_sets = clamped_bytes / bytes_per_set;
+			if (total_sets == 0)
+				total_sets = 1;
+			new_sets = (uint32_t)std::min<uint64_t>(params_.sets_per_bank, total_sets / num_banks);
+			if (new_sets == 0)
+				new_sets = 1;
+		}
+		active_sets_per_bank_ = new_sets;
 	}
 
 private:
@@ -719,6 +753,7 @@ private:
 	std::vector<MemArbiter::Ptr> nc_mem_arbs_;
 	MemCrossBar::Ptr bank_core_xbar_;
 	uint32_t init_cycles_;
+	uint32_t active_sets_per_bank_;
 };
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -746,4 +781,8 @@ void CacheSim::tick() {
 
 CacheSim::PerfStats CacheSim::perf_stats() const {
   return impl_->perf_stats();
+}
+
+void CacheSim::set_active_bytes(uint32_t bytes) {
+	impl_->set_active_bytes(bytes);
 }

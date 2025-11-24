@@ -22,6 +22,7 @@
 #include "core.h"
 #include "debug.h"
 #include "constants.h"
+#include "unified_mem.h"
 
 using namespace vortex;
 
@@ -69,10 +70,13 @@ Core::Core(const SimContext& ctx,
     mem_coalescers_.at(b) = MemCoalescer::Create(sname, LSU_CHANNELS, DCACHE_CHANNELS, DCACHE_WORD_SIZE, LSUQ_OUT_SIZE, 1);
   }
 
-  // create local memory
+  // create local memory sized to the maximum unified memory capacity
+  uint32_t lmem_capacity = unified_mem_total_bytes();
+  if (0 == lmem_capacity)
+    lmem_capacity = (1u << LMEM_LOG_SIZE);
   snprintf(sname, 100, "%s-lmem", this->name().c_str());
   local_mem_ = LocalMem::Create(sname, LocalMem::Config{
-    (1 << LMEM_LOG_SIZE),
+    lmem_capacity,
     LSU_WORD_SIZE,
     LSU_CHANNELS,
     log2ceil(LMEM_NUM_BANKS),

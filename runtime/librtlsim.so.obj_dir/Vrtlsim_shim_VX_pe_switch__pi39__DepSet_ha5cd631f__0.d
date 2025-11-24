@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_pe_switch__pi39__DepSet_ha5cd631f__0.o: \
- Vrtlsim_shim_VX_pe_switch__pi39__DepSet_ha5cd631f__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_pe_switch__pi39.h

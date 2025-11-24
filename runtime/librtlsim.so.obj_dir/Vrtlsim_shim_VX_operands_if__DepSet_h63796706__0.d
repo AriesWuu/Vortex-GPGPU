@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_operands_if__DepSet_h63796706__0.o: \
- Vrtlsim_shim_VX_operands_if__DepSet_h63796706__0.cpp Vrtlsim_shim__pch.h \
- Vrtlsim_shim_VX_operands_if.h

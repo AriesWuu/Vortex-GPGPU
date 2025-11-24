@@ -95,6 +95,12 @@ public:
 		return perf;
 	}
 
+	void set_capacity_bytes(uint32_t bytes) {
+		for (auto& cache : caches_) {
+			cache->set_active_bytes(bytes);
+		}
+	}
+
 private:
   std::vector<CacheSim::Ptr> caches_;
 };

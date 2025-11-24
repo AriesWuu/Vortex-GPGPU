@@ -1,0 +1,4 @@
+Percent,Cycles,IPC,HitRatio,BankStalls,Status
+Baseline,1204562,0.638718,47,0,Success
+0,1272977,0.604394,0,0,Success
+10,1251069,0.614981,47,0,Success

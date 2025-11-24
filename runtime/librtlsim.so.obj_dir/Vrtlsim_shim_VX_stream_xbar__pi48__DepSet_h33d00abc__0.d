@@ -1,4 +1,0 @@
-Vrtlsim_shim_VX_stream_xbar__pi48__DepSet_h33d00abc__0.o: \
- Vrtlsim_shim_VX_stream_xbar__pi48__DepSet_h33d00abc__0.cpp \
- Vrtlsim_shim__pch.h Vrtlsim_shim_VX_stream_arb__N8_D30_Az17_O3.h \
- Vrtlsim_shim_VX_stream_xbar__pi48.h

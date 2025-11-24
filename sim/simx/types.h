@@ -28,6 +28,7 @@
 #include <iostream>
 #include "debug.h"
 #include "constants.h"
+#include "unified_mem.h"
 
 namespace vortex {
 
@@ -431,7 +432,8 @@ enum class WctlType {
   SPLIT,
   JOIN,
   BAR,
-  PRED
+  PRED,
+  PART
 };
 
 struct IntrWctlArgs {
@@ -446,6 +448,7 @@ inline std::ostream &operator<<(std::ostream &os, const WctlType& type) {
   case WctlType::JOIN:   os << "JOIN"; break;
   case WctlType::BAR:    os << "BAR"; break;
   case WctlType::PRED:   os << "PRED"; break;
+  case WctlType::PART:   os << "PART"; break;
   default:
     assert(false);
   }
@@ -716,7 +719,8 @@ inline AddrType get_addr_type(uint64_t addr) {
      return AddrType::IO;
   }
   if (LMEM_ENABLED) {
-    if (addr >= LMEM_BASE_ADDR && (addr-LMEM_BASE_ADDR) < (1 << LMEM_LOG_SIZE)) {
+    auto shared_bytes = unified_mem_shared_bytes();
+    if (shared_bytes && addr >= LMEM_BASE_ADDR && (addr-LMEM_BASE_ADDR) < shared_bytes) {
         return AddrType::Shared;
     }
   }

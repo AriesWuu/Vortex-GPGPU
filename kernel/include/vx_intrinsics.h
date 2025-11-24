@@ -161,6 +161,11 @@ inline void vx_barrier(int barried_id, int num_warps) {
     __asm__ volatile (".insn r %0, 4, 0, x0, %1, %2" :: "i"(RISCV_CUSTOM0), "r"(barried_id), "r"(num_warps));
 }
 
+// Configure unified cache/shared partition percentage (0-100% allocated to cache)
+inline void vx_cache_partition(int cache_percent) {
+    __asm__ volatile (".insn r %0, 6, 0, x0, %1, x0" :: "i"(RISCV_CUSTOM0), "r"(cache_percent));
+}
+
 // Return current thread identifier
 inline __attribute__((const)) int vx_thread_id() {
     int ret;

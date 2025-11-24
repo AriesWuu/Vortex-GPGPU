@@ -1,1 +1,0 @@
--std=c++17 -Wall -Wextra -Wfatal-errors -fPIC -Wno-maybe-uninitialized -I/home/kejunwu/vortex/runtime/include -I../common -I/home/kejunwu/vortex/hw -I/home/kejunwu/vortex/sim/simx -I/home/kejunwu/vortex/sim/common -I/home/kejunwu/vortex/runtime/common -DXLEN_32 -DNUM_THREADS=8 -DEXT_TCU_ENABLE -O2 -DNDEBUG

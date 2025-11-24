@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_ipdom_stack__W26_D7__Slow.o: \
- Vrtlsim_shim_VX_ipdom_stack__W26_D7__Slow.cpp Vrtlsim_shim__pch.h \
- Vrtlsim_shim_VX_ipdom_stack__W26_D7.h Vrtlsim_shim__Syms.h

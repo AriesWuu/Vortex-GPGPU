@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_mem_bus_if__D20_T4__Slow.o: \
- Vrtlsim_shim_VX_mem_bus_if__D20_T4__Slow.cpp Vrtlsim_shim__pch.h \
- Vrtlsim_shim_VX_mem_bus_if__D20_T4.h Vrtlsim_shim__Syms.h

@@ -1,3 +1,0 @@
-Vrtlsim_shim_VX_fetch_if__DepSet_h43c9af56__0.o: \
- Vrtlsim_shim_VX_fetch_if__DepSet_h43c9af56__0.cpp Vrtlsim_shim__pch.h \
- Vrtlsim_shim_VX_fetch_if.h

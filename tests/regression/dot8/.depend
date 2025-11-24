@@ -1,4 +1,0 @@
-main.o: /home/kejunwu/vortex/tests/regression/dot8/main.cpp \
- /home/kejunwu/vortex/runtime/include/vortex.h \
- /home/kejunwu/vortex/hw/VX_config.h \
- /home/kejunwu/vortex/tests/regression/dot8/common.h
