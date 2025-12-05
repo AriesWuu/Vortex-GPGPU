@@ -1,9 +1,12 @@
 #include <iostream>
 #include <unistd.h>
 #include <string.h>
+#include <algorithm>
 #include <vector>
 #include <chrono>
 #include <vortex.h>
+#include <VX_types.h>
+#include <VX_config.h>
 #include <cmath>
 #include "common.h"
 
@@ -126,6 +129,7 @@ static void matmul_cpu(OUTPUT_TYPE* out, const INPUT_TYPE* A, const INPUT_TYPE* 
 
 const char* kernel_file = "kernel.vxbin";
 uint32_t size = 32;
+uint32_t l1_sets = 0;
 
 vx_device_h device = nullptr;
 vx_buffer_h A_buffer = nullptr;
@@ -137,18 +141,21 @@ kernel_arg_t kernel_arg = {};
 
 static void show_usage() {
    std::cout << "Vortex Test." << std::endl;
-   std::cout << "Usage: [-k: kernel] [-n size] [-h: help]" << std::endl;
+   std::cout << "Usage: [-k: kernel] [-n size] [-s l1_sets] [-h: help]" << std::endl;
 }
 
 static void parse_args(int argc, char **argv) {
   int c;
-  while ((c = getopt(argc, argv, "n:k:h")) != -1) {
+  while ((c = getopt(argc, argv, "n:k:s:h")) != -1) {
     switch (c) {
     case 'n':
       size = atoi(optarg);
       break;
     case 'k':
       kernel_file = optarg;
+      break;
+    case 's':
+      l1_sets = atoi(optarg);
       break;
     case 'h':
       show_usage();
@@ -172,6 +179,37 @@ void cleanup() {
   }
 }
 
+static uint32_t max_l1_sets() {
+  const uint64_t bytes_per_set = static_cast<uint64_t>(L1_LINE_SIZE) * DCACHE_NUM_WAYS;
+  if (0 == bytes_per_set)
+    return 0;
+
+  uint64_t total_bytes = DCACHE_SIZE;
+#if LMEM_ENABLED
+  total_bytes += (1ull << LMEM_LOG_SIZE);
+#endif
+  return static_cast<uint32_t>(total_bytes / bytes_per_set);
+}
+
+static uint32_t select_l1_sets(uint32_t requested_sets) {
+  const uint32_t max_sets = max_l1_sets();
+  if (0 == max_sets)
+    return 0;
+  if (0 == requested_sets)
+    return max_sets;
+  return std::min(requested_sets, max_sets);
+}
+
+static void program_unified_cache_sets() {
+  const uint32_t sets = select_l1_sets(l1_sets);
+  if (0 == sets)
+    return;
+
+  std::cout << "configure unified cache sets: requested=" << l1_sets
+            << " using=" << sets << " (max=" << max_l1_sets() << ")" << std::endl;
+  RT_CHECK(vx_dcr_write(device, VX_DCR_UNIFIED_CACHE_SETS, sets));
+}
+
 int main(int argc, char *argv[]) {
   // parse command arguments
   parse_args(argc, argv);
@@ -181,6 +219,8 @@ int main(int argc, char *argv[]) {
   // open device connection
   std::cout << "open device connection" << std::endl;
   RT_CHECK(vx_dev_open(&device));
+
+  program_unified_cache_sets();
 
   uint32_t size_sq = size * size;
   uint32_t input_buf_size = size_sq * sizeof(INPUT_TYPE);

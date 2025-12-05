@@ -30,6 +30,9 @@
 `define VX_DCR_BASE_STATE(addr)         ((addr) - `VX_DCR_BASE_STATE_BEGIN)
 `define VX_DCR_BASE_STATE_COUNT         (`VX_DCR_BASE_STATE_END-`VX_DCR_BASE_STATE_BEGIN)
 
+// Unified cache control (total L1 sets enabled for cache)
+`define VX_DCR_UNIFIED_CACHE_SETS       12'h100
+
 // Machine Performance-monitoring counters classes ////////////////////////////
 
 `define VX_DCR_MPM_CLASS_NONE           0

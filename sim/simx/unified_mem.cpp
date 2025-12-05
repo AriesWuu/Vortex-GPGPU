@@ -82,6 +82,23 @@ void UnifiedMemCtrl::set_cache_percent(uint32_t cache_percent) {
   this->update_shared_bytes();
 }
 
+void UnifiedMemCtrl::set_cache_sets(uint32_t cache_sets) {
+  total_bytes_ = this->calc_total_bytes();
+
+  uint64_t bytes_per_set = (uint64_t)L1_LINE_SIZE * (uint64_t)DCACHE_NUM_WAYS;
+  if (0 == bytes_per_set || 0 == cache_sets) {
+    cache_bytes_ = 0;
+    this->update_shared_bytes();
+    return;
+  }
+
+  uint64_t max_sets = total_bytes_ / bytes_per_set;
+  uint64_t clamped_sets = std::min<uint64_t>(cache_sets, max_sets);
+  cache_bytes_ = (uint32_t)(clamped_sets * bytes_per_set);
+
+  this->update_shared_bytes();
+}
+
 uint32_t UnifiedMemCtrl::cache_bytes() const {
   return cache_bytes_;
 }

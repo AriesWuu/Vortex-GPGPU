@@ -12,6 +12,7 @@
 // limitations under the License.
 
 #include "dcrs.h"
+#include "unified_mem.h"
 #include <iostream>
 
 using namespace vortex;
@@ -21,6 +22,11 @@ void DCRS::write(uint32_t addr, uint32_t value) {
    && addr < VX_DCR_BASE_STATE_END) {
       base_dcrs.write(addr, value);
       return;
+  }
+
+  if (addr == VX_DCR_UNIFIED_CACHE_SETS) {
+    unified_mem_set_cache_sets(value);
+    return;
   }
 
   std::cerr << "Error: invalid global DCR addr=0x" << std::hex << addr << std::dec << std::endl;

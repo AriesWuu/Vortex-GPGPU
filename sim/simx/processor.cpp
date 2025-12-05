@@ -150,6 +150,11 @@ void ProcessorImpl::reset() {
 
 void ProcessorImpl::dcr_write(uint32_t addr, uint32_t value) {
   dcrs_.write(addr, value);
+
+  if (addr == VX_DCR_UNIFIED_CACHE_SETS) {
+    auto cache_bytes = UnifiedMemCtrl::instance().cache_bytes();
+    this->set_cache_partition(cache_bytes);
+  }
 }
 
 void ProcessorImpl::set_cache_partition(uint32_t cache_bytes) {
