@@ -33,6 +33,7 @@ module VX_mem_unit import VX_gpu_pkg::*; #(
         .TAG_WIDTH (LSU_TAG_WIDTH)
     ) lsu_dcache_if[`NUM_LSU_BLOCKS]();
 
+/*
 `ifdef LMEM_ENABLE
 
     `STATIC_ASSERT(`IS_DIVISBLE((1 << `LMEM_LOG_SIZE), `MEM_BLOCK_SIZE), ("invalid parameter"))
@@ -121,8 +122,8 @@ module VX_mem_unit import VX_gpu_pkg::*; #(
     `endif
         .mem_bus_if (lmem_adapt_if)
     );
-
-`else
+*/
+// `else
 
 `ifdef PERF_ENABLE
     assign lmem_perf = '0;
@@ -132,7 +133,7 @@ module VX_mem_unit import VX_gpu_pkg::*; #(
         `ASSIGN_VX_MEM_BUS_IF (lsu_dcache_if[i], lsu_mem_if[i]);
     end
 
-`endif
+// `endif
 
     VX_lsu_mem_if #(
         .NUM_LANES (DCACHE_CHANNELS),

@@ -23,9 +23,13 @@ module VX_cache_tags import VX_gpu_pkg::*; #(
     // Number of associative ways
     parameter NUM_WAYS      = 1,
     // Size of a word in bytes
+    /* verilator lint_off UNUSEDPARAM */
     parameter WORD_SIZE     = 1,
+    /* verilator lint_on UNUSEDPARAM */
     // Enable cache writeback
-    parameter WRITEBACK     = 0
+    parameter WRITEBACK     = 0,
+    // Tag selection bits
+    parameter TAG_SEL_BITS  = `CS_TAG_SEL_BITS
 ) (
     input wire                          clk,
     input wire                          reset,
@@ -39,18 +43,18 @@ module VX_cache_tags import VX_gpu_pkg::*; #(
     input wire                          write,
     input wire [`CS_LINE_SEL_BITS-1:0]  line_idx,
     input wire [`CS_LINE_SEL_BITS-1:0]  line_idx_n,
-    input wire [`CS_TAG_SEL_BITS-1:0]   line_tag,
+    input wire [TAG_SEL_BITS-1:0]       line_tag,
     input wire [`CS_WAY_SEL_WIDTH-1:0]  evict_way,
 
     // outputs
     output wire [NUM_WAYS-1:0]          tag_matches,
     output wire                         evict_dirty,
-    output wire [`CS_TAG_SEL_BITS-1:0]  evict_tag
+    output wire [TAG_SEL_BITS-1:0]      evict_tag
 );
     //                   valid,  dirty,          tag
-    localparam TAG_WIDTH = 1 + WRITEBACK + `CS_TAG_SEL_BITS;
+    localparam TAG_WIDTH = 1 + WRITEBACK + TAG_SEL_BITS;
 
-    wire [NUM_WAYS-1:0][`CS_TAG_SEL_BITS-1:0] read_tag;
+    wire [NUM_WAYS-1:0][TAG_SEL_BITS-1:0] read_tag;
     wire [NUM_WAYS-1:0] read_valid;
     wire [NUM_WAYS-1:0] read_dirty;
     `UNUSED_VAR (read)
@@ -86,9 +90,9 @@ module VX_cache_tags import VX_gpu_pkg::*; #(
 
         if (WRITEBACK) begin : g_wdata
             assign line_wdata = {line_valid, write, line_tag};
-            assign read_tag[i] = line_rdata[0 +: `CS_TAG_SEL_BITS];
-            assign read_dirty[i] = line_rdata[`CS_TAG_SEL_BITS] || rdw_write;
-            assign read_valid[i] = line_rdata[`CS_TAG_SEL_BITS+1];
+            assign read_tag[i] = line_rdata[0 +: TAG_SEL_BITS];
+            assign read_dirty[i] = line_rdata[TAG_SEL_BITS] || rdw_write;
+            assign read_valid[i] = line_rdata[TAG_SEL_BITS+1];
         end else begin : g_wdata
             `UNUSED_VAR (rdw_write)
             assign line_wdata = {line_valid, line_tag};

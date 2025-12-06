@@ -108,6 +108,7 @@ module VX_cluster import VX_gpu_pkg::*; #(
     ) l2cache (
         .clk            (clk),
         .reset          (l2_reset),
+        .unified_cache_sets (0),
     `ifdef PERF_ENABLE
         .cache_perf     (l2_perf),
     `endif

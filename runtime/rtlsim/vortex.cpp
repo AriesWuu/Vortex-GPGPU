@@ -37,7 +37,9 @@ public:
                   RAM_PAGE_SIZE,
                   CACHE_BLOCK_SIZE)
   {
+    std::cout << "DEBUG: vx_device constructor start" << std::endl;
     processor_.attach_ram(&ram_);
+    std::cout << "DEBUG: vx_device constructor end" << std::endl;
   }
 
   ~vx_device() {
@@ -227,6 +229,7 @@ public:
     if (future_.valid()) {
       future_.wait(); // ensure prior run completed
     }
+    std::cout << "DCR WRITE: addr=0x" << std::hex << addr << " val=" << std::dec << value << std::endl;
     processor_.dcr_write(addr, value);
     dcrs_.write(addr, value);
     return 0;

@@ -80,6 +80,7 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
     output cache_perf_t     cache_perf,
 `endif
 
+    input wire [11:0] unified_cache_sets,
     VX_mem_bus_if.slave     core_bus_if [NUM_REQS],
     VX_mem_bus_if.master    mem_bus_if [MEM_PORTS]
 );
@@ -171,6 +172,7 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
             .WRITE_ENABLE (WRITE_ENABLE),
             .WRITEBACK    (WRITEBACK),
             .DIRTY_BYTES  (DIRTY_BYTES),
+            .UNIFIED_CACHE(NC_ENABLE),
             .REPL_POLICY  (REPL_POLICY),
             .CRSQ_SIZE    (CRSQ_SIZE),
             .MSHR_SIZE    (MSHR_SIZE),
@@ -182,6 +184,7 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
         ) cache (
             .clk            (clk),
             .reset          (reset),
+            .unified_cache_sets (unified_cache_sets),
         `ifdef PERF_ENABLE
             .cache_perf     (cache_perf),
         `endif
@@ -190,6 +193,8 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
         );
 
     end else begin : g_passthru
+
+        `UNUSED_VAR (unified_cache_sets)
 
         for (genvar i = 0; i < NUM_REQS; ++i) begin : g_core_bus_cache_if
             `UNUSED_VX_MEM_BUS_IF (core_bus_cache_if[i])

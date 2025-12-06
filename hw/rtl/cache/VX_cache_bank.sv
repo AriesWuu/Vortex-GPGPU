@@ -47,6 +47,9 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     // Enable dirty bytes on writeback
     parameter DIRTY_BYTES       = 0,
 
+    // Enable unified cache
+    parameter UNIFIED_CACHE     = 0,
+
     // Replacement policy
     parameter REPL_POLICY       = `CS_REPL_FIFO,
 
@@ -66,6 +69,8 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
 ) (
     input wire clk,
     input wire reset,
+
+    input wire [11:0] unified_cache_sets,
 
 `ifdef PERF_ENABLE
     output wire perf_read_miss,
@@ -114,6 +119,10 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     output wire                         flush_end
 );
 
+    initial begin
+        $display("VX_cache_bank initialized. BANK_ID=%0d", BANK_ID);
+    end
+
     localparam PIPELINE_STAGES = 2;
 
 `IGNORE_UNUSED_BEGIN
@@ -147,10 +156,12 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     wire [`CS_WAY_SEL_WIDTH-1:0]    flush_way_st0, evict_way_st0;
     wire [`CS_WAY_SEL_WIDTH-1:0]    way_idx_st0, way_idx_st1;
 
+    localparam TAG_SEL_BITS = UNIFIED_CACHE ? `CS_LINE_ADDR_WIDTH : `CS_TAG_SEL_BITS;
+
     wire [`CS_LINE_ADDR_WIDTH-1:0]  addr_sel, addr_st0, addr_st1;
     wire [`CS_LINE_SEL_BITS-1:0]    line_idx_sel, line_idx_st0, line_idx_st1;
-    wire [`CS_TAG_SEL_BITS-1:0]     line_tag_st0, line_tag_st1;
-    wire [`CS_TAG_SEL_BITS-1:0]     evict_tag_st0, evict_tag_st1;
+    wire [TAG_SEL_BITS-1:0]         line_tag_st0, line_tag_st1;
+    wire [TAG_SEL_BITS-1:0]         evict_tag_st0, evict_tag_st1;
     wire                            rw_sel, rw_st0, rw_st1;
     wire [WORD_SEL_WIDTH-1:0]       word_idx_sel, word_idx_st0, word_idx_st1;
     wire [WORD_SIZE-1:0]            byteen_sel, byteen_st0, byteen_st1;
@@ -294,15 +305,27 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     wire is_flush_sel  = flush_enable;
     wire is_replay_sel = replay_enable;
 
+    localparam [`CS_LINE_ADDR_WIDTH-1:0] LMEM_LINE_ADDR = `CS_LINE_ADDR_WIDTH'(`LMEM_BASE_ADDR >> (`CLOG2(LINE_SIZE) + `CLOG2(NUM_BANKS)));
+    wire is_shared_mem = (addr_sel >= LMEM_LINE_ADDR);
+
+    wire [`CS_LINE_SEL_BITS-1:0] unified_cache_sets_w = `CS_LINE_SEL_BITS'(unified_cache_sets);
+    `UNUSED_VAR (unified_cache_sets)
+    `UNUSED_VAR (unified_cache_sets_w)
+    `UNUSED_VAR (is_shared_mem)
+
+    assign line_idx_sel = is_shared_mem 
+        ? `CS_LINE_SEL_BITS'(32'(unified_cache_sets_w) + ((32'(addr_sel) - 32'(LMEM_LINE_ADDR)) & ((1 << `CS_LINE_SEL_BITS) - 32'(unified_cache_sets_w) - 1)))
+        : `CS_LINE_SEL_BITS'(32'(addr_sel) & (32'(unified_cache_sets_w) - 1));
+
     VX_pipe_register #(
-        .DATAW  (1 + 1 + 1 + 1 + 1 + 1 + `UP(MEM_FLAGS_WIDTH) + `CS_WAY_SEL_WIDTH + `CS_LINE_ADDR_WIDTH + `CS_LINE_WIDTH + 1 + WORD_SIZE + WORD_SEL_WIDTH + REQ_SEL_WIDTH + TAG_WIDTH + MSHR_ADDR_WIDTH),
+        .DATAW  (1 + 1 + 1 + 1 + 1 + 1 + `UP(MEM_FLAGS_WIDTH) + `CS_WAY_SEL_WIDTH + `CS_LINE_ADDR_WIDTH + `CS_LINE_WIDTH + 1 + WORD_SIZE + WORD_SEL_WIDTH + REQ_SEL_WIDTH + TAG_WIDTH + MSHR_ADDR_WIDTH + `CS_LINE_SEL_BITS),
         .RESETW (1)
     ) pipe_reg0 (
         .clk      (clk),
         .reset    (reset),
         .enable   (~pipe_stall),
-        .data_in  ({valid_sel, is_init_sel, is_fill_sel, is_flush_sel, is_creq_sel, is_replay_sel, flags_sel, flush_way,     addr_sel, data_sel, rw_sel, byteen_sel, word_idx_sel, req_idx_sel, tag_sel, replay_id}),
-        .data_out ({valid_st0, is_init_st0, is_fill_st0, is_flush_st0, is_creq_st0, is_replay_st0, flags_st0, flush_way_st0, addr_st0, data_st0, rw_st0, byteen_st0, word_idx_st0, req_idx_st0, tag_st0, replay_id_st0})
+        .data_in  ({valid_sel, is_init_sel, is_fill_sel, is_flush_sel, is_creq_sel, is_replay_sel, flags_sel, flush_way,     addr_sel, data_sel, rw_sel, byteen_sel, word_idx_sel, req_idx_sel, tag_sel, replay_id,     line_idx_sel}),
+        .data_out ({valid_st0, is_init_st0, is_fill_st0, is_flush_st0, is_creq_st0, is_replay_st0, flags_st0, flush_way_st0, addr_st0, data_st0, rw_st0, byteen_st0, word_idx_st0, req_idx_st0, tag_st0, replay_id_st0, line_idx_st0})
     );
 
     if (UUID_WIDTH != 0) begin : g_req_uuid_st0
@@ -325,10 +348,12 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
 
     wire do_read_st1  = valid_st1 && is_read_st1;
     wire do_write_st1 = valid_st1 && is_write_st1;
-
-    assign line_idx_sel = addr_sel[`CS_LINE_SEL_BITS-1:0];
-    assign line_idx_st0 = addr_st0[`CS_LINE_SEL_BITS-1:0];
-    assign line_tag_st0 = `CS_LINE_ADDR_TAG(addr_st0);
+    
+    if (UNIFIED_CACHE) begin : g_line_tag_st0
+        assign line_tag_st0 = addr_st0;
+    end else begin : g_line_tag_st0
+        assign line_tag_st0 = `CS_LINE_ADDR_TAG(addr_st0);
+    end
 
     assign write_word_st0 = data_st0[`CS_WORD_WIDTH-1:0];
 
@@ -360,13 +385,16 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
 
     assign evict_way_st0 = is_fill_st0 ? victim_way_st0 : flush_way_st0;
 
+    wire [NUM_WAYS-1:0] tag_matches_raw;
+
     VX_cache_tags #(
         .CACHE_SIZE (CACHE_SIZE),
         .LINE_SIZE  (LINE_SIZE),
         .NUM_BANKS  (NUM_BANKS),
         .NUM_WAYS   (NUM_WAYS),
         .WORD_SIZE  (WORD_SIZE),
-        .WRITEBACK  (WRITEBACK)
+        .WRITEBACK  (WRITEBACK),
+        .TAG_SEL_BITS (TAG_SEL_BITS)
     ) cache_tags (
         .clk        (clk),
         .reset      (reset),
@@ -375,17 +403,21 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
         .init       (do_init_st0),
         .flush      (do_flush_st0 && ~pipe_stall),
         .fill       (do_fill_st0 && ~pipe_stall),
-        .read       (do_read_st0 && ~pipe_stall),
-        .write      (do_write_st0 && ~pipe_stall),
+        .read       (do_read_st0 && ~(addr_st0 >= LMEM_LINE_ADDR) && ~pipe_stall),
+        .write      (do_write_st0 && ~(addr_st0 >= LMEM_LINE_ADDR) && ~pipe_stall),
         .line_idx   (line_idx_st0),
         .line_idx_n (line_idx_sel),
         .line_tag   (line_tag_st0),
         .evict_way  (evict_way_st0),
         // outputs
-        .tag_matches(tag_matches_st0),
+        .tag_matches(tag_matches_raw),
         .evict_dirty(is_dirty_st0),
         .evict_tag  (evict_tag_st0)
     );
+
+    wire is_shared_st0 = (addr_st0 >= LMEM_LINE_ADDR);
+    wire [`CLOG2(NUM_WAYS)-1:0] shared_way_idx = addr_st0[`CS_LINE_SEL_BITS +: `CLOG2(NUM_WAYS)];
+    assign tag_matches_st0 = is_shared_st0 ? NUM_WAYS'(1 << shared_way_idx) : tag_matches_raw;
 
     wire [`CS_WAY_SEL_WIDTH-1:0] hit_idx_st0;
     VX_onehot_encoder #(
@@ -403,7 +435,7 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     assign mshr_id_st0 = is_replay_st0 ? replay_id_st0 : mshr_alloc_id_st0;
 
     VX_pipe_register #(
-        .DATAW  (1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + `UP(MEM_FLAGS_WIDTH) + `CS_WAY_SEL_WIDTH + `CS_TAG_SEL_BITS + `CS_TAG_SEL_BITS + `CS_LINE_SEL_BITS + `CS_LINE_WIDTH + WORD_SIZE + WORD_SEL_WIDTH + REQ_SEL_WIDTH + TAG_WIDTH + MSHR_ADDR_WIDTH + MSHR_ADDR_WIDTH + 1),
+        .DATAW  (1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + `UP(MEM_FLAGS_WIDTH) + `CS_WAY_SEL_WIDTH + TAG_SEL_BITS + TAG_SEL_BITS + `CS_LINE_SEL_BITS + `CS_LINE_WIDTH + WORD_SIZE + WORD_SEL_WIDTH + REQ_SEL_WIDTH + TAG_WIDTH + MSHR_ADDR_WIDTH + MSHR_ADDR_WIDTH + 1),
         .RESETW (1)
     ) pipe_reg1 (
         .clk      (clk),
@@ -419,7 +451,11 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
         assign req_uuid_st1 = '0;
     end
 
-    assign addr_st1 = {line_tag_st1, line_idx_st1};
+    if (UNIFIED_CACHE) begin : g_addr_st1
+        assign addr_st1 = line_tag_st1;
+    end else begin : g_addr_st1
+        assign addr_st1 = {line_tag_st1, line_idx_st1};
+    end
 
     // ensure mshr replay always get a hit
     `RUNTIME_ASSERT (~(valid_st1 && is_replay_st1 && ~is_hit_st1), ("%t: missed mshr replay", $time))
@@ -460,6 +496,7 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
         .read_data  (read_data_st1),
         .evict_byteen(evict_byteen_st1)
     );
+    wire unused_write_word_st0 = |write_word_st0;
 
     // only allocate MSHR entries for non-replay core requests
     wire mshr_allocate_st0 = valid_st0 && is_creq_st0 && ~is_replay_st0;
@@ -585,7 +622,13 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     wire is_fill_or_flush_st1 = is_fill_st1 || (is_flush_st1 && WRITEBACK);
     wire do_fill_or_flush_st1 = valid_st1 && is_fill_or_flush_st1;
     wire do_writeback_st1 = do_fill_or_flush_st1 && is_dirty_st1;
-    wire [`CS_LINE_ADDR_WIDTH-1:0] evict_addr_st1 = {evict_tag_st1, line_idx_st1};
+    
+    wire [`CS_LINE_ADDR_WIDTH-1:0] evict_addr_st1;
+    if (UNIFIED_CACHE) begin : g_evict_addr_st1
+        assign evict_addr_st1 = evict_tag_st1;
+    end else begin : g_evict_addr_st1
+        assign evict_addr_st1 = {evict_tag_st1, line_idx_st1};
+    end
 
     if (WRITE_ENABLE) begin : g_mreq_queue
         if (WRITEBACK) begin : g_wb

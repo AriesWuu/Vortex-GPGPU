@@ -97,6 +97,7 @@ module Vortex import VX_gpu_pkg::*; (
     ) l3cache (
         .clk            (clk),
         .reset          (l3_reset),
+        .unified_cache_sets (0),
 
     `ifdef PERF_ENABLE
         .cache_perf     (l3_perf),

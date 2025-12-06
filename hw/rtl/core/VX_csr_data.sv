@@ -202,6 +202,8 @@ import VX_fpu_pkg::*;
             `VX_CSR_PMPCFG0,
             `VX_CSR_PMPADDR0 : read_data_ro_w = `XLEN'(0);
 
+            12'h1f9 : read_data_ro_w = '0;
+
             default: begin
                 read_addr_valid_w = 0;
                 if ((read_addr >= `VX_CSR_MPM_USER   && read_addr < (`VX_CSR_MPM_USER + 32))

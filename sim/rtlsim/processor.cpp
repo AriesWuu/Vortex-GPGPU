@@ -94,6 +94,7 @@ void sim_trace_enable(bool enable) {
 class Processor::Impl {
 public:
   Impl() : dram_sim_(PLATFORM_MEMORY_NUM_BANKS, PLATFORM_MEMORY_DATA_SIZE, MEM_CLOCK_RATIO) {
+    std::cout << "DEBUG: Processor::Impl constructor start" << std::endl;
     // force random values for uninitialized signals
     Verilated::randReset(VERILATOR_RESET_VALUE);
     Verilated::randSeed(50);
@@ -102,7 +103,9 @@ public:
     Verilated::assertOn(false);
 
     // create RTL module instance
+    std::cout << "DEBUG: Creating Vrtlsim_shim..." << std::endl;
     device_ = new Vrtlsim_shim();
+    std::cout << "DEBUG: Vrtlsim_shim created." << std::endl;
 
   #ifdef VCD_OUTPUT
     Verilated::traceEverOn(true);
@@ -114,10 +117,13 @@ public:
     ram_ = nullptr;
 
     // reset the device
+    std::cout << "DEBUG: Resetting device..." << std::endl;
     this->reset();
+    std::cout << "DEBUG: Device reset." << std::endl;
 
     // Turn on assertion after reset
     Verilated::assertOn(true);
+    std::cout << "DEBUG: Processor::Impl constructor end" << std::endl;
   }
 
   ~Impl() {
@@ -186,8 +192,11 @@ public:
 private:
 
   void reset() {
+    std::cout << "DEBUG: reset() start" << std::endl;
     this->mem_bus_reset();
+    std::cout << "DEBUG: mem_bus_reset done" << std::endl;
     this->dcr_bus_reset();
+    std::cout << "DEBUG: dcr_bus_reset done" << std::endl;
 
     print_bufs_.clear();
 
@@ -199,15 +208,19 @@ private:
       std::queue<mem_req_t*> empty;
       std::swap(dram_queue_[b], empty);
     }
+    std::cout << "DEBUG: queues cleared" << std::endl;
 
     device_->reset = 1;
+    std::cout << "DEBUG: device reset asserted" << std::endl;
 
     for (int i = 0; i < RESET_DELAY; ++i) {
+      std::cout << "DEBUG: reset loop " << i << std::endl;
       device_->clk = 0;
       this->eval();
       device_->clk = 1;
       this->eval();
     }
+    std::cout << "DEBUG: reset() end" << std::endl;
   }
 
   void tick() {

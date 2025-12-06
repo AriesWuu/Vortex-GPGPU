@@ -51,6 +51,9 @@ module VX_cache import VX_gpu_pkg::*; #(
     // Enable dirty bytes on writeback
     parameter DIRTY_BYTES           = 0,
 
+    // Enable unified cache
+    parameter UNIFIED_CACHE         = 0,
+
     // Replacement policy
     parameter REPL_POLICY           = `CS_REPL_FIFO,
 
@@ -70,6 +73,8 @@ module VX_cache import VX_gpu_pkg::*; #(
 
     input wire clk,
     input wire reset,
+
+    input wire [11:0] unified_cache_sets,
 
     VX_mem_bus_if.slave     core_bus_if [NUM_REQS],
     VX_mem_bus_if.master    mem_bus_if [MEM_PORTS]
@@ -284,7 +289,13 @@ module VX_cache import VX_gpu_pkg::*; #(
 
     for (genvar i = 0; i < NUM_REQS; ++i) begin : g_core_req_wsel
         if (WORDS_PER_LINE > 1) begin : g_wsel
-            assign core_req_wsel[i] = core_req_addr[i][0 +: WORD_SEL_BITS];
+            if (NUM_BANKS > 1) begin : g_multibanks
+                wire is_smem = core_req_flags[i][MEM_REQ_FLAG_LOCAL];
+                assign core_req_wsel[i] = is_smem ? core_req_addr[i][BANK_SEL_BITS +: WORD_SEL_BITS]
+                                                  : core_req_addr[i][0 +: WORD_SEL_BITS];
+            end else begin : g_singlebank
+                assign core_req_wsel[i] = core_req_addr[i][0 +: WORD_SEL_BITS];
+            end
         end else begin : g_no_wsel
             assign core_req_wsel[i] = '0;
         end
@@ -296,7 +307,9 @@ module VX_cache import VX_gpu_pkg::*; #(
 
     for (genvar i = 0; i < NUM_REQS; ++i) begin : g_core_req_bid
         if (NUM_BANKS > 1) begin : g_multibanks
-            assign core_req_bid[i] = core_req_addr[i][WORD_SEL_BITS +: BANK_SEL_BITS];
+            wire is_smem = core_req_flags[i][MEM_REQ_FLAG_LOCAL];
+            assign core_req_bid[i] = is_smem ? core_req_addr[i][0 +: BANK_SEL_BITS]
+                                             : core_req_addr[i][WORD_SEL_BITS +: BANK_SEL_BITS];
         end else begin : g_singlebank
             assign core_req_bid[i] = '0;
         end
@@ -359,6 +372,8 @@ module VX_cache import VX_gpu_pkg::*; #(
 
     // Banks access ///////////////////////////////////////////////////////////
 
+    wire [11:0] unified_cache_sets_per_bank = unified_cache_sets >> `CLOG2(NUM_BANKS);
+
     for (genvar bank_id = 0; bank_id < NUM_BANKS; ++bank_id) begin : g_banks
         VX_cache_bank #(
             .BANK_ID      (bank_id),
@@ -372,6 +387,7 @@ module VX_cache import VX_gpu_pkg::*; #(
             .WRITE_ENABLE (WRITE_ENABLE),
             .WRITEBACK    (WRITEBACK),
             .DIRTY_BYTES  (DIRTY_BYTES),
+            .UNIFIED_CACHE(UNIFIED_CACHE),
             .REPL_POLICY  (REPL_POLICY),
             .CRSQ_SIZE    (CRSQ_SIZE),
             .MSHR_SIZE    (MSHR_SIZE),
@@ -382,6 +398,7 @@ module VX_cache import VX_gpu_pkg::*; #(
         ) bank (
             .clk                (clk),
             .reset              (reset),
+            .unified_cache_sets (unified_cache_sets_per_bank),
 
         `ifdef PERF_ENABLE
             .perf_read_miss    (perf_read_miss_per_bank[bank_id]),

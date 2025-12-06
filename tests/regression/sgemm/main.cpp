@@ -156,6 +156,7 @@ static void parse_args(int argc, char **argv) {
       break;
     case 's':
       l1_sets = atoi(optarg);
+      std::cout << "Parsed s: " << l1_sets << std::endl;
       break;
     case 'h':
       show_usage();
@@ -185,14 +186,17 @@ static uint32_t max_l1_sets() {
     return 0;
 
   uint64_t total_bytes = DCACHE_SIZE;
-#if LMEM_ENABLED
-  total_bytes += (1ull << LMEM_LOG_SIZE);
-#endif
+  // In unified cache architecture, LMEM is part of DCACHE, so we don't add it.
+  /*#if LMEM_ENABLED
+    total_bytes += (1ull << LMEM_LOG_SIZE);
+  #endif*/
   return static_cast<uint32_t>(total_bytes / bytes_per_set);
 }
 
 static uint32_t select_l1_sets(uint32_t requested_sets) {
   const uint32_t max_sets = max_l1_sets();
+  printf("select_l1_sets: req=%u max=%u\n", requested_sets, max_sets);
+  fflush(stdout);
   if (0 == max_sets)
     return 0;
   if (0 == requested_sets)
@@ -201,25 +205,40 @@ static uint32_t select_l1_sets(uint32_t requested_sets) {
 }
 
 static void program_unified_cache_sets() {
+  std::cerr << "DEBUG: reached program_unified_cache_sets" << std::endl;
+  printf("DEBUG: DCACHE_SIZE=%d, L1_LINE_SIZE=%d, DCACHE_NUM_WAYS=%d\n", DCACHE_SIZE, L1_LINE_SIZE, DCACHE_NUM_WAYS);
   const uint32_t sets = select_l1_sets(l1_sets);
+  printf("DEBUG: select_l1_sets returned %d\n", sets);
   if (0 == sets)
     return;
 
-  std::cout << "configure unified cache sets: requested=" << l1_sets
-            << " using=" << sets << " (max=" << max_l1_sets() << ")" << std::endl;
+  printf("DCACHE_SIZE: %d\n", DCACHE_SIZE);
+  printf("max_l1_sets: %d\n", max_l1_sets());
+  printf("configure unified cache sets: requested=%u using=%u (max=%u)\n", l1_sets, sets, max_l1_sets());
+  fflush(stdout);
   RT_CHECK(vx_dcr_write(device, VX_DCR_UNIFIED_CACHE_SETS, sets));
 }
 
 int main(int argc, char *argv[]) {
+  std::cerr << "DEBUG: reached main" << std::endl;
   // parse command arguments
   parse_args(argc, argv);
+
+  std::cout << "ARGV: ";
+  for(int i=0; i<argc; ++i) std::cout << argv[i] << " ";
+  std::cout << std::endl;
+  std::cout << "l1_sets after parse: " << l1_sets << std::endl;
 
   std::srand(50);
 
   // open device connection
   std::cout << "open device connection" << std::endl;
   RT_CHECK(vx_dev_open(&device));
+  std::cerr << "DEBUG: vx_dev_open returned" << std::endl;
 
+  printf("Calling program_unified_cache_sets\n");
+  fflush(stdout);
+  // abort(); // Test if reached
   program_unified_cache_sets();
 
   uint32_t size_sq = size * size;

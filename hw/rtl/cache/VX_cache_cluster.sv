@@ -73,6 +73,8 @@ module VX_cache_cluster import VX_gpu_pkg::*; #(
     input wire clk,
     input wire reset,
 
+    input wire [11:0] unified_cache_sets,
+
     // PERF
 `ifdef PERF_ENABLE
     output cache_perf_t     cache_perf,
@@ -173,6 +175,7 @@ module VX_cache_cluster import VX_gpu_pkg::*; #(
         `endif
             .clk         (clk),
             .reset       (reset),
+            .unified_cache_sets (unified_cache_sets),
             .core_bus_if (arb_core_bus_if[i * NUM_REQS +: NUM_REQS]),
             .mem_bus_if  (cache_mem_bus_if[i * MEM_PORTS +: MEM_PORTS])
         );

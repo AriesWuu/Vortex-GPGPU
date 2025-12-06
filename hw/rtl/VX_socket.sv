@@ -114,6 +114,7 @@ module VX_socket import VX_gpu_pkg::*; #(
     `endif
         .clk            (clk),
         .reset          (icache_reset),
+        .unified_cache_sets (0),
         .core_bus_if    (per_core_icache_bus_if),
         .mem_bus_if     (icache_mem_bus_if)
     );
@@ -131,6 +132,13 @@ module VX_socket import VX_gpu_pkg::*; #(
     ) dcache_mem_bus_if[`L1_MEM_PORTS]();
 
     `RESET_RELAY (dcache_reset, reset);
+
+    reg [11:0] unified_cache_sets /* verilator public_flat */ = '0;
+    always @(posedge clk) begin
+        if (dcr_bus_if.write_valid && dcr_bus_if.write_addr == `VX_DCR_UNIFIED_CACHE_SETS) begin
+            unified_cache_sets <= dcr_bus_if.write_data[11:0];
+        end
+    end
 
     VX_cache_cluster #(
         .INSTANCE_ID    (`SFORMATF(("%s-dcache", INSTANCE_ID))),
@@ -162,6 +170,7 @@ module VX_socket import VX_gpu_pkg::*; #(
     `endif
         .clk            (clk),
         .reset          (dcache_reset),
+        .unified_cache_sets (unified_cache_sets),
         .core_bus_if    (per_core_dcache_bus_if),
         .mem_bus_if     (dcache_mem_bus_if)
     );
