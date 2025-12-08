@@ -127,7 +127,9 @@ module VX_cluster import VX_gpu_pkg::*; #(
 
         VX_dcr_bus_if socket_dcr_bus_if();
         wire is_base_dcr_addr = (dcr_bus_if.write_addr >= `VX_DCR_BASE_STATE_BEGIN && dcr_bus_if.write_addr < `VX_DCR_BASE_STATE_END);
-        `BUFFER_DCR_BUS_IF (socket_dcr_bus_if, dcr_bus_if, is_base_dcr_addr, (NUM_SOCKETS > 1))
+        wire is_unified_cache_dcr = (dcr_bus_if.write_addr == `VX_DCR_UNIFIED_CACHE_SETS);
+        wire is_socket_dcr_addr = is_base_dcr_addr || is_unified_cache_dcr;
+        `BUFFER_DCR_BUS_IF (socket_dcr_bus_if, dcr_bus_if, is_socket_dcr_addr, (NUM_SOCKETS > 1))
 
         VX_socket #(
             .SOCKET_ID ((CLUSTER_ID * NUM_SOCKETS) + socket_id),

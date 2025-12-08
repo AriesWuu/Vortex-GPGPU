@@ -49,6 +49,9 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
 
     // Enable unified cache
     parameter UNIFIED_CACHE     = 0,
+    
+    // Number of bits for core identification in tag (for shared memory isolation)
+    parameter CORE_ID_BITS      = 0,
 
     // Replacement policy
     parameter REPL_POLICY       = `CS_REPL_FIFO,
@@ -313,8 +316,19 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     `UNUSED_VAR (unified_cache_sets_w)
     `UNUSED_VAR (is_shared_mem)
 
+    // Extract core ID from tag for shared memory isolation
+    // Core ID is inserted at TAG_SEL_IDX (typically 0) by VX_mem_arb when NUM_INPUTS > NUM_CACHES
+    wire [`UP(CORE_ID_BITS)-1:0] core_id_sel = (CORE_ID_BITS > 0) ? tag_sel[`UP(CORE_ID_BITS)-1:0] : '0;
+    
+    // Calculate shared memory size per core (total shared sets / number of cores)
+    /* verilator lint_off WIDTHEXPAND */
+    wire [`CS_LINE_SEL_BITS-1:0] shared_sets_total = `CS_LINE_SEL_BITS'((1 << `CS_LINE_SEL_BITS) - 32'(unified_cache_sets_w));
+    /* verilator lint_on WIDTHEXPAND */
+    wire [`CS_LINE_SEL_BITS-1:0] shared_sets_per_core = (CORE_ID_BITS > 0) ? (shared_sets_total >> CORE_ID_BITS) : shared_sets_total;
+    wire [31:0] core_offset = (CORE_ID_BITS > 0) ? (32'(core_id_sel) * 32'(shared_sets_per_core)) : 32'd0;
+    
     assign line_idx_sel = is_shared_mem 
-        ? `CS_LINE_SEL_BITS'(32'(unified_cache_sets_w) + ((32'(addr_sel) - 32'(LMEM_LINE_ADDR)) & ((1 << `CS_LINE_SEL_BITS) - 32'(unified_cache_sets_w) - 1)))
+        ? `CS_LINE_SEL_BITS'(32'(unified_cache_sets_w) + core_offset + ((32'(addr_sel) - 32'(LMEM_LINE_ADDR)) & (32'(shared_sets_per_core) - 1)))
         : `CS_LINE_SEL_BITS'(32'(addr_sel) & (32'(unified_cache_sets_w) - 1));
 
     VX_pipe_register #(
@@ -623,6 +637,9 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     wire do_fill_or_flush_st1 = valid_st1 && is_fill_or_flush_st1;
     wire do_writeback_st1 = do_fill_or_flush_st1 && is_dirty_st1;
     
+    // Check if st1 address is in shared memory region (should not trigger external memory requests)
+    wire is_shared_st1 = (addr_st1 >= LMEM_LINE_ADDR);
+    
     wire [`CS_LINE_ADDR_WIDTH-1:0] evict_addr_st1;
     if (UNIFIED_CACHE) begin : g_evict_addr_st1
         assign evict_addr_st1 = evict_tag_st1;
@@ -639,7 +656,8 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
             end
             // issue a fill request on a read/write miss
             // issue a writeback on a dirty line eviction
-            assign mreq_queue_push = ((do_lookup_st1 && ~is_hit_st1 && ~mshr_pending_st1)
+            // IMPORTANT: shared memory requests should not trigger external memory access
+            assign mreq_queue_push = ((do_lookup_st1 && ~is_hit_st1 && ~mshr_pending_st1 && ~is_shared_st1)
                                    || do_writeback_st1)
                                   && ~pipe_stall;
             assign mreq_queue_addr = is_fill_or_flush_st1 ? evict_addr_st1 : addr_st1;
@@ -660,8 +678,9 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
             );
             // issue a fill request on a read miss
             // issue a memory write on a write request
+            // IMPORTANT: shared memory requests should not trigger external memory access
             assign mreq_queue_push = ((do_read_st1 && ~is_hit_st1 && ~mshr_pending_st1)
-                                  || do_write_st1)
+                                  || (do_write_st1 && ~is_shared_st1))
                                   && ~pipe_stall;
             assign mreq_queue_addr = addr_st1;
             assign mreq_queue_rw = rw_st1;
@@ -674,7 +693,8 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
         end
     end else begin : g_mreq_queue_ro
         // issue a fill request on a read miss
-        assign mreq_queue_push = (do_read_st1 && ~is_hit_st1 && ~mshr_pending_st1)
+        // IMPORTANT: shared memory requests should not trigger external memory access
+        assign mreq_queue_push = (do_read_st1 && ~is_hit_st1 && ~mshr_pending_st1 && ~is_shared_st1)
                               && ~pipe_stall;
         assign mreq_queue_addr = addr_st1;
         assign mreq_queue_rw = 0;

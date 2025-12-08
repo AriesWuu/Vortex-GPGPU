@@ -3,6 +3,8 @@
 #include <string.h>
 #include <vector>
 #include <vortex.h>
+#include <VX_config.h>
+#include <VX_types.h>
 #include "common.h"
 
 #define FLOAT_ULP 6
@@ -87,6 +89,7 @@ static void matmul_cpu(TYPE* out, const TYPE* A, const TYPE* B, uint32_t width, 
 const char* kernel_file = "kernel.vxbin";
 uint32_t size = 16;
 uint32_t tile_size = 4;
+uint32_t l1_sets = 0;  // 0 means use default
 
 vx_device_h device = nullptr;
 vx_buffer_h A_buffer = nullptr;
@@ -98,12 +101,12 @@ kernel_arg_t kernel_arg = {};
 
 static void show_usage() {
    std::cout << "Vortex Test." << std::endl;
-   std::cout << "Usage: [-k: kernel] [-n matrix_size] [-t:tile_size] [-h: help]" << std::endl;
+   std::cout << "Usage: [-k: kernel] [-n matrix_size] [-t:tile_size] [-s l1_sets] [-h: help]" << std::endl;
 }
 
 static void parse_args(int argc, char **argv) {
   int c;
-  while ((c = getopt(argc, argv, "n:t:k:h")) != -1) {
+  while ((c = getopt(argc, argv, "n:t:k:s:h")) != -1) {
     switch (c) {
     case 'n':
       size = atoi(optarg);
@@ -113,6 +116,9 @@ static void parse_args(int argc, char **argv) {
       break;
     case 'k':
       kernel_file = optarg;
+      break;
+    case 's':
+      l1_sets = atoi(optarg);
       break;
     case 'h':
       show_usage();
@@ -136,6 +142,31 @@ void cleanup() {
   }
 }
 
+static uint32_t max_l1_sets() {
+  const uint64_t bytes_per_set = static_cast<uint64_t>(L1_LINE_SIZE) * DCACHE_NUM_WAYS;
+  if (0 == bytes_per_set)
+    return 0;
+  return static_cast<uint32_t>(DCACHE_SIZE / bytes_per_set);
+}
+
+static uint32_t select_l1_sets(uint32_t requested_sets) {
+  const uint32_t max_sets = max_l1_sets();
+  if (0 == max_sets)
+    return 0;
+  if (0 == requested_sets)
+    return max_sets;  // use full cache for L1
+  return std::min(requested_sets, max_sets);
+}
+
+static void program_unified_cache_sets() {
+  const uint32_t sets = select_l1_sets(l1_sets);
+  if (0 == sets)
+    return;
+  printf("configure unified cache sets: requested=%u using=%u (max=%u)\n", l1_sets, sets, max_l1_sets());
+  fflush(stdout);
+  RT_CHECK(vx_dcr_write(device, VX_DCR_UNIFIED_CACHE_SETS, sets));
+}
+
 int main(int argc, char *argv[]) {
   // parse command arguments
   parse_args(argc, argv);
@@ -150,6 +181,9 @@ int main(int argc, char *argv[]) {
   // open device connection
   std::cout << "open device connection" << std::endl;
   RT_CHECK(vx_dev_open(&device));
+
+  // configure unified cache partition
+  program_unified_cache_sets();
 
   uint32_t size_sq = size * size;
   uint32_t buf_size = size_sq * sizeof(TYPE);

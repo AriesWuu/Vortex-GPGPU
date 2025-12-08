@@ -53,6 +53,9 @@ module VX_cache import VX_gpu_pkg::*; #(
 
     // Enable unified cache
     parameter UNIFIED_CACHE         = 0,
+    
+    // Number of bits for core identification (for shared memory isolation)
+    parameter CORE_ID_BITS          = 0,
 
     // Replacement policy
     parameter REPL_POLICY           = `CS_REPL_FIFO,
@@ -388,6 +391,7 @@ module VX_cache import VX_gpu_pkg::*; #(
             .WRITEBACK    (WRITEBACK),
             .DIRTY_BYTES  (DIRTY_BYTES),
             .UNIFIED_CACHE(UNIFIED_CACHE),
+            .CORE_ID_BITS (CORE_ID_BITS),
             .REPL_POLICY  (REPL_POLICY),
             .CRSQ_SIZE    (CRSQ_SIZE),
             .MSHR_SIZE    (MSHR_SIZE),

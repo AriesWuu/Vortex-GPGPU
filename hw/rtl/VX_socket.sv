@@ -133,12 +133,18 @@ module VX_socket import VX_gpu_pkg::*; #(
 
     `RESET_RELAY (dcache_reset, reset);
 
-    reg [11:0] unified_cache_sets /* verilator public_flat */ = '0;
+    // Default to half the sets for cache (e.g., 16 out of 32 total sets)
+    localparam DEFAULT_UNIFIED_CACHE_SETS = ((`DCACHE_SIZE / `DCACHE_NUM_WAYS / `DCACHE_NUM_BANKS / `L1_LINE_SIZE) / 2);
+    reg [11:0] unified_cache_sets /* verilator public_flat */ = 12'(DEFAULT_UNIFIED_CACHE_SETS);
     always @(posedge clk) begin
         if (dcr_bus_if.write_valid && dcr_bus_if.write_addr == `VX_DCR_UNIFIED_CACHE_SETS) begin
             unified_cache_sets <= dcr_bus_if.write_data[11:0];
         end
     end
+
+    // Calculate core ID bits for shared memory isolation
+    // When multiple cores share the same dcache, we need to encode core ID in tag
+    localparam DCACHE_CORE_ID_BITS = `CLOG2(`SOCKET_SIZE / `NUM_DCACHES);
 
     VX_cache_cluster #(
         .INSTANCE_ID    (`SFORMATF(("%s-dcache", INSTANCE_ID))),
@@ -162,6 +168,7 @@ module VX_socket import VX_gpu_pkg::*; #(
         .DIRTY_BYTES    (`DCACHE_DIRTYBYTES),
         .REPL_POLICY    (`DCACHE_REPL_POLICY),
         .NC_ENABLE      (1),
+        .CORE_ID_BITS   (DCACHE_CORE_ID_BITS),
         .CORE_OUT_BUF   (3),
         .MEM_OUT_BUF    (2)
     ) dcache (

@@ -61,6 +61,9 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
 
     // enable bypass for non-cacheable addresses
     parameter NC_ENABLE             = 0,
+    
+    // Number of bits for core identification (for shared memory isolation)
+    parameter CORE_ID_BITS          = 0,
 
     // Force bypass for all requests
     parameter PASSTHRU              = 0,
@@ -173,6 +176,7 @@ module VX_cache_wrap import VX_gpu_pkg::*; #(
             .WRITEBACK    (WRITEBACK),
             .DIRTY_BYTES  (DIRTY_BYTES),
             .UNIFIED_CACHE(NC_ENABLE),
+            .CORE_ID_BITS (CORE_ID_BITS),
             .REPL_POLICY  (REPL_POLICY),
             .CRSQ_SIZE    (CRSQ_SIZE),
             .MSHR_SIZE    (MSHR_SIZE),

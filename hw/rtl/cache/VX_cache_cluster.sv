@@ -63,6 +63,9 @@ module VX_cache_cluster import VX_gpu_pkg::*; #(
 
     // enable bypass for non-cacheable addresses
     parameter NC_ENABLE             = 0,
+    
+    // Number of bits for core identification (for shared memory isolation)
+    parameter CORE_ID_BITS          = 0,
 
     // Core response output buffer
     parameter CORE_OUT_BUF          = 3,
@@ -168,6 +171,7 @@ module VX_cache_cluster import VX_gpu_pkg::*; #(
             .CORE_OUT_BUF ((NUM_INPUTS != NUM_CACHES) ? 2 : CORE_OUT_BUF),
             .MEM_OUT_BUF  ((NUM_CACHES > 1) ? 2 : MEM_OUT_BUF),
             .NC_ENABLE    (NC_ENABLE),
+            .CORE_ID_BITS (CORE_ID_BITS),
             .PASSTHRU     (PASSTHRU)
         ) cache_wrap (
         `ifdef PERF_ENABLE
