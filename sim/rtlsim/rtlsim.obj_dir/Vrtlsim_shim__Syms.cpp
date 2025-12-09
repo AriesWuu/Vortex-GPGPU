@@ -104,7 +104,7 @@ Vrtlsim_shim__Syms::Vrtlsim_shim__Syms(VerilatedContext* contextp, const char* n
     , TOP__rtlsim_shim__DOT__vortex__DOT__mem_bus_if__BRA__0__KET__{this, Verilated::catName(namep, "rtlsim_shim.vortex.mem_bus_if[0]")}
 {
         // Check resources
-        Verilated::stackCheck(53127);
+        Verilated::stackCheck(53899);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

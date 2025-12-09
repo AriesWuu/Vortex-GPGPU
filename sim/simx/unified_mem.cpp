@@ -29,11 +29,10 @@ UnifiedMemCtrl::UnifiedMemCtrl() {
 }
 
 uint32_t UnifiedMemCtrl::calc_total_bytes() const {
-  uint32_t shared_bytes = 0;
-#if LMEM_ENABLED
-  shared_bytes = (1u << LMEM_LOG_SIZE);
-#endif
-  return DCACHE_SIZE + shared_bytes;
+  // In unified cache mode, dcache is partitioned between L1 cache and shared memory
+  // The total capacity is DCACHE_SIZE, not DCACHE_SIZE + LMEM_SIZE
+  // LMEM_ENABLED just means shared memory goes through dcache, not that we have extra storage
+  return DCACHE_SIZE;
 }
 
 void UnifiedMemCtrl::update_shared_bytes() {
@@ -82,19 +81,21 @@ void UnifiedMemCtrl::set_cache_percent(uint32_t cache_percent) {
   this->update_shared_bytes();
 }
 
-void UnifiedMemCtrl::set_cache_sets(uint32_t cache_sets) {
+void UnifiedMemCtrl::set_smem_sets(uint32_t sm_sets) {
   total_bytes_ = this->calc_total_bytes();
 
   uint64_t bytes_per_set = (uint64_t)L1_LINE_SIZE * (uint64_t)DCACHE_NUM_WAYS;
-  if (0 == bytes_per_set || 0 == cache_sets) {
+  if (0 == bytes_per_set) {
     cache_bytes_ = 0;
     this->update_shared_bytes();
     return;
   }
 
-  uint64_t max_sets = total_bytes_ / bytes_per_set;
-  uint64_t clamped_sets = std::min<uint64_t>(cache_sets, max_sets);
-  cache_bytes_ = (uint32_t)(clamped_sets * bytes_per_set);
+  // Calculate total sets and L1 cache sets from shared memory sets
+  uint64_t total_sets = total_bytes_ / bytes_per_set;
+  uint64_t clamped_sm_sets = std::min<uint64_t>(sm_sets, total_sets);
+  uint64_t cache_sets = total_sets - clamped_sm_sets;
+  cache_bytes_ = (uint32_t)(cache_sets * bytes_per_set);
 
   this->update_shared_bytes();
 }

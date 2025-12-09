@@ -68,12 +68,20 @@ extern const VlWide<20>/*639:0*/ Vrtlsim_shim__ConstPool__CONST_h3421a0af_0 = {{
     0xffffffff, 0xffffffff, 0xffffffff, 0x00000007
 }};
 
-extern const VlWide<18>/*575:0*/ Vrtlsim_shim__ConstPool__CONST_h6ebaa94f_0 = {{
+extern const VlWide<20>/*639:0*/ Vrtlsim_shim__ConstPool__CONST_h3421a0d7_0 = {{
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0x001fffff
+    0xffffffff, 0xffffffff, 0xffffffff, 0x0000003f
+}};
+
+extern const VlWide<18>/*575:0*/ Vrtlsim_shim__ConstPool__CONST_h669aa94f_0 = {{
+    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
+    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
+    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
+    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
+    0xffffffff, 0x07ffffff
 }};
 
 extern const VlWide<19>/*607:0*/ Vrtlsim_shim__ConstPool__CONST_h7b108ceb_0 = {{
@@ -84,12 +92,12 @@ extern const VlWide<19>/*607:0*/ Vrtlsim_shim__ConstPool__CONST_h7b108ceb_0 = {{
     0xffffffff, 0xffffffff, 0x00007fff
 }};
 
-extern const VlWide<19>/*607:0*/ Vrtlsim_shim__ConstPool__CONST_h7c110ceb_0 = {{
+extern const VlWide<19>/*607:0*/ Vrtlsim_shim__ConstPool__CONST_h7b110b2b_0 = {{
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0xffffffff, 0x00ffffff
+    0xffffffff, 0xffffffff, 0x0000003f
 }};
 
 extern const VlWide<14>/*447:0*/ Vrtlsim_shim__ConstPool__CONST_h862b0a92_0 = {{
@@ -126,14 +134,6 @@ extern const VlWide<19>/*607:0*/ Vrtlsim_shim__ConstPool__CONST_hbb110ceb_0 = {{
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
     0xffffffff, 0xffffffff, 0x3fffffff
-}};
-
-extern const VlWide<18>/*575:0*/ Vrtlsim_shim__ConstPool__CONST_hee9aa94f_0 = {{
-    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0xffffffff, 0xffffffff, 0xffffffff,
-    0xffffffff, 0x7fffffff
 }};
 
 extern const VlUnpacked<CData/*0:0*/, 64> Vrtlsim_shim__ConstPool__TABLE_h1b7ae01a_0 = {{

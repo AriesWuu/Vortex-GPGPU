@@ -1,10 +1,5 @@
 #include <vx_spawn.h>
-#ifdef ENABLE_UNIFIED_CACHE
-#include <vx_intrinsics.h>
-#ifndef UNIFIED_CACHE_PERCENT
-#define UNIFIED_CACHE_PERCENT 50
-#endif
-#endif
+// Note: Unified cache partition is configured by host via DCR (VX_DCR_UNIFIED_CACHE_SETS)
 #include "common.h"
 
 void kernel_body(kernel_arg_t* __UNIFORM__ arg) {
@@ -24,8 +19,5 @@ void kernel_body(kernel_arg_t* __UNIFORM__ arg) {
 
 int main() {
 	kernel_arg_t* arg = (kernel_arg_t*)csr_read(VX_CSR_MSCRATCH);
-#ifdef ENABLE_UNIFIED_CACHE
-	vx_cache_partition(UNIFIED_CACHE_PERCENT);
-#endif
 	return vx_spawn_threads(1, &arg->num_points, nullptr, (vx_kernel_func_cb)kernel_body, arg);
 }

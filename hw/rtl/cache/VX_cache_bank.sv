@@ -327,8 +327,15 @@ module VX_cache_bank import VX_gpu_pkg::*; #(
     wire [`CS_LINE_SEL_BITS-1:0] shared_sets_per_core = (CORE_ID_BITS > 0) ? (shared_sets_total >> CORE_ID_BITS) : shared_sets_total;
     wire [31:0] core_offset = (CORE_ID_BITS > 0) ? (32'(core_id_sel) * 32'(shared_sets_per_core)) : 32'd0;
     
+    // When shared_sets_per_core <= 1, mask would be 0, causing all addresses to map to same set
+    // In that case, skip masking - all addresses go to set 0 of that core's region
+    wire [31:0] addr_offset_raw = 32'(addr_sel) - 32'(LMEM_LINE_ADDR);
+    wire [31:0] addr_offset_masked = (shared_sets_per_core > 1) 
+        ? (addr_offset_raw & (32'(shared_sets_per_core) - 1))
+        : 32'd0;
+    
     assign line_idx_sel = is_shared_mem 
-        ? `CS_LINE_SEL_BITS'(32'(unified_cache_sets_w) + core_offset + ((32'(addr_sel) - 32'(LMEM_LINE_ADDR)) & (32'(shared_sets_per_core) - 1)))
+        ? `CS_LINE_SEL_BITS'(32'(unified_cache_sets_w) + core_offset + addr_offset_masked)
         : `CS_LINE_SEL_BITS'(32'(addr_sel) & (32'(unified_cache_sets_w) - 1));
 
     VX_pipe_register #(

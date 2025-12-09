@@ -1424,10 +1424,10 @@ instr_trace_t* Emulator::execute(const Instr &instr, uint32_t wid) {
       } break;
       case WctlType::PART: {
         trace->fetch_stall = true;
-        uint32_t raw_value = rs1_data.at(thread_last).u;
-        uint32_t percent = std::min(raw_value, 100u);
-        uint64_t total_bytes = unified_mem_total_bytes();
-        uint32_t cache_bytes = (total_bytes == 0) ? 0 : static_cast<uint32_t>((total_bytes * percent) / 100ull);
+        uint32_t sm_sets = rs1_data.at(thread_last).u;
+        // Use sm_sets directly (same as RTL behavior via DCR)
+        unified_mem_set_smem_sets(sm_sets);
+        auto cache_bytes = unified_mem_cache_bytes();
         if (auto* socket = core_->socket()) {
           if (auto* cluster = socket->cluster()) {
             if (auto* processor = cluster->processor()) {
@@ -1436,12 +1436,12 @@ instr_trace_t* Emulator::execute(const Instr &instr, uint32_t wid) {
           }
         }
         // debug print
-        printf("[unified-mem-PART] total=%u cache=%u shared=%u (percent=%u, raw=%u)\n",
-          unified_mem_total_bytes(),
+        uint32_t total_sets = unified_mem_total_bytes() / (L1_LINE_SIZE * DCACHE_NUM_WAYS);
+        uint32_t l1_sets = total_sets - sm_sets;
+        printf("[unified-mem-PART] total=%u sets, L1=%u sets, SM=%u sets (cache_bytes=%u, shared_bytes=%u)\n",
+          total_sets, l1_sets, sm_sets,
           unified_mem_cache_bytes(),
-          unified_mem_shared_bytes(),
-          unified_mem_cache_percent(),
-          raw_value);
+          unified_mem_shared_bytes());
       } break;
       default:
         std::abort();

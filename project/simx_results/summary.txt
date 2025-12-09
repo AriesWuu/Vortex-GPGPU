@@ -1,0 +1,75 @@
+Unified Cache Sweep Test Summary
+Date: Tue Dec  9 01:25:09 PST 2025
+Matrix size: 256x256
+========================================
+
+Modes tested:
+  - separate: L1=16KB + SM=16KB (independent, baseline)
+  - unified:  32KB unified cache with dynamic partitioning
+
+SM sets interpretation (unified mode, 128 total sets):
+  sm_sets=8   -> L1=120 sets (30KB), SM=8 sets (2KB)
+  sm_sets=16  -> L1=112 sets (28KB), SM=16 sets (4KB)
+  sm_sets=32  -> L1=96 sets (24KB), SM=32 sets (8KB)
+  sm_sets=64  -> L1=64 sets (16KB), SM=64 sets (16KB) [50/50 baseline]
+  sm_sets=96  -> L1=32 sets (8KB), SM=96 sets (24KB)
+  sm_sets=112 -> L1=16 sets (4KB), SM=112 sets (28KB)
+
+========================================
+
+Configuration: warps=4, threads=4
+----------------------------------------
+  sgemm2:
+    [separate ] status=PASSED cycles=81130907   IPC=3.491425
+    [unified   0] status=FAILED cycles=100062276  IPC=2.830861
+    [unified   4] status=PASSED cycles=80962090   IPC=3.498705
+    [unified   8] status=PASSED cycles=79929498   IPC=3.543904
+    [unified  16] status=PASSED cycles=80457912   IPC=3.520629
+    [unified  32] status=PASSED cycles=100878249  IPC=2.807963
+    [unified  64] status=PASSED cycles=146088073  IPC=1.938984
+    [unified  96] status=PASSED cycles=147735897  IPC=1.917357
+    [unified 112] status=PASSED cycles=147898011  IPC=1.915255
+
+
+Configuration: warps=4, threads=8
+----------------------------------------
+  sgemm2:
+    [separate ] status=PASSED cycles=43900339   IPC=6.452729
+    [unified   0] status=FAILED cycles=43630579   IPC=6.492625
+    [unified   4] status=PASSED cycles=44270122   IPC=6.398830
+    [unified   8] status=PASSED cycles=45289144   IPC=6.254854
+    [unified  16] status=PASSED cycles=49551991   IPC=5.716763
+    [unified  32] status=PASSED cycles=60178048   IPC=4.707314
+    [unified  64] status=PASSED cycles=88798070   IPC=3.190125
+    [unified  96] status=PASSED cycles=88978492   IPC=3.183657
+    [unified 112] status=PASSED cycles=89061795   IPC=3.180679
+
+
+Configuration: warps=8, threads=4
+----------------------------------------
+  sgemm2:
+    [separate ] status=PASSED cycles=73161544   IPC=3.871942
+    [unified   0] status=FAILED cycles=86509516   IPC=3.274521
+    [unified   4] status=PASSED cycles=74801120   IPC=3.787072
+    [unified   8] status=PASSED cycles=75587564   IPC=3.747670
+    [unified  16] status=PASSED cycles=78116480   IPC=3.626344
+    [unified  32] status=PASSED cycles=85259240   IPC=3.322540
+    [unified  64] status=PASSED cycles=124674124  IPC=2.272141
+    [unified  96] status=PASSED cycles=126101443  IPC=2.246423
+    [unified 112] status=PASSED cycles=126773938  IPC=2.234507
+
+
+Configuration: warps=8, threads=8
+----------------------------------------
+  sgemm2:
+    [separate ] status=PASSED cycles=39385486   IPC=7.193165
+    [unified   0] status=FAILED cycles=41602070   IPC=6.809909
+    [unified   4] status=PASSED cycles=39678577   IPC=7.140032
+    [unified   8] status=PASSED cycles=40049018   IPC=7.073988
+    [unified  16] status=PASSED cycles=42436737   IPC=6.675968
+    [unified  32] status=PASSED cycles=46785510   IPC=6.055428
+    [unified  64] status=PASSED cycles=65266662   IPC=4.340751
+    [unified  96] status=PASSED cycles=67407191   IPC=4.202909
+    [unified 112] status=PASSED cycles=68807918   IPC=4.117350
+
+

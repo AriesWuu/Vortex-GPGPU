@@ -27,7 +27,7 @@ public:
 
   void set_cache_percent(uint32_t cache_percent);
 
-  void set_cache_sets(uint32_t cache_sets);
+  void set_smem_sets(uint32_t sm_sets);
 
   uint32_t cache_bytes() const;
 
@@ -69,8 +69,8 @@ inline void unified_mem_set_cache_percent(uint32_t percent) {
   UnifiedMemCtrl::instance().set_cache_percent(percent);
 }
 
-inline void unified_mem_set_cache_sets(uint32_t sets) {
-  UnifiedMemCtrl::instance().set_cache_sets(sets);
+inline void unified_mem_set_smem_sets(uint32_t sm_sets) {
+  UnifiedMemCtrl::instance().set_smem_sets(sm_sets);
 }
 
 inline uint32_t unified_mem_cache_percent() {

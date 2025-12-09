@@ -664,11 +664,11 @@
 
 // LMEM Configurable Knobs ////////////////////////////////////////////////////
 
-`ifndef LMEM_DISABLE
-`define LMEM_ENABLE
+`ifndef UNIFIEDMEM_DISABLE
+`define UNIFIEDMEM_ENABLE
 `endif
 
-`ifndef LMEM_ENABLE
+`ifndef UNIFIEDMEM_ENABLE
     `define LMEM_NUM_BANKS 1
 `endif
 
@@ -835,7 +835,7 @@
     `define DCACHE_ENABLED 0
 `endif
 
-`ifdef LMEM_ENABLE
+`ifdef UNIFIEDMEM_ENABLE
     `define LMEM_ENABLED 1
 `else
     `define LMEM_ENABLED 0

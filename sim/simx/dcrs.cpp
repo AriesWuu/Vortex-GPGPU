@@ -25,7 +25,7 @@ void DCRS::write(uint32_t addr, uint32_t value) {
   }
 
   if (addr == VX_DCR_UNIFIED_CACHE_SETS) {
-    unified_mem_set_cache_sets(value);
+    unified_mem_set_smem_sets(value);
     return;
   }
 

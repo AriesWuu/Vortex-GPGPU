@@ -133,13 +133,27 @@ module VX_socket import VX_gpu_pkg::*; #(
 
     `RESET_RELAY (dcache_reset, reset);
 
-    // Default to half the sets for cache (e.g., 16 out of 32 total sets)
-    localparam DEFAULT_UNIFIED_CACHE_SETS = ((`DCACHE_SIZE / `DCACHE_NUM_WAYS / `DCACHE_NUM_BANKS / `L1_LINE_SIZE) / 2);
-    reg [11:0] unified_cache_sets /* verilator public_flat */ = 12'(DEFAULT_UNIFIED_CACHE_SETS);
+    // Total cache sets available per bank
+    localparam TOTAL_CACHE_SETS = (`DCACHE_SIZE / `DCACHE_NUM_WAYS / `DCACHE_NUM_BANKS / `L1_LINE_SIZE);
+    localparam MAX_SM_SETS = TOTAL_CACHE_SETS - 1;
+    
+    // DCR receives shared memory sets (sm_sets)
+    // Default 0 means all space for L1 cache, no shared memory
+    reg [11:0] smem_sets_dcr = 12'd0;
     always @(posedge clk) begin
         if (dcr_bus_if.write_valid && dcr_bus_if.write_addr == `VX_DCR_UNIFIED_CACHE_SETS) begin
-            unified_cache_sets <= dcr_bus_if.write_data[11:0];
+            smem_sets_dcr <= dcr_bus_if.write_data[11:0];
         end
+    end
+    
+    // Calculate L1 cache sets = total - sm_sets
+    // Clamp sm_sets to [0, MAX_SM_SETS] to ensure at least 1 L1 set
+    wire [11:0] clamped_sm_sets = (smem_sets_dcr > 12'(MAX_SM_SETS)) ? 12'(MAX_SM_SETS) : smem_sets_dcr;
+    
+    // unified_cache_sets stores L1 cache sets (used by VX_cache_bank)
+    reg [11:0] unified_cache_sets /* verilator public_flat */ = 12'(TOTAL_CACHE_SETS);
+    always @(posedge clk) begin
+        unified_cache_sets <= 12'(TOTAL_CACHE_SETS) - clamped_sm_sets;
     end
 
     // Calculate core ID bits for shared memory isolation

@@ -2,6 +2,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <vector>
+#include <climits>
 #include <vortex.h>
 #include <VX_config.h>
 #include <VX_types.h>
@@ -89,7 +90,7 @@ static void matmul_cpu(TYPE* out, const TYPE* A, const TYPE* B, uint32_t width, 
 const char* kernel_file = "kernel.vxbin";
 uint32_t size = 16;
 uint32_t tile_size = 4;
-uint32_t l1_sets = 0;  // 0 means use default
+int32_t sm_sets = INT32_MIN;  // INT32_MIN = not specified (no unified cache), >= 0 = use unified cache with specified SM sets
 
 vx_device_h device = nullptr;
 vx_buffer_h A_buffer = nullptr;
@@ -101,7 +102,7 @@ kernel_arg_t kernel_arg = {};
 
 static void show_usage() {
    std::cout << "Vortex Test." << std::endl;
-   std::cout << "Usage: [-k: kernel] [-n matrix_size] [-t:tile_size] [-s l1_sets] [-h: help]" << std::endl;
+   std::cout << "Usage: [-k: kernel] [-n matrix_size] [-t:tile_size] [-s sm_sets] [-h: help]" << std::endl;
 }
 
 static void parse_args(int argc, char **argv) {
@@ -118,7 +119,7 @@ static void parse_args(int argc, char **argv) {
       kernel_file = optarg;
       break;
     case 's':
-      l1_sets = atoi(optarg);
+      sm_sets = atoi(optarg);
       break;
     case 'h':
       show_usage();
@@ -142,29 +143,56 @@ void cleanup() {
   }
 }
 
-static uint32_t max_l1_sets() {
+static uint32_t total_cache_sets() {
+  // Return total sets per bank
+  // Note: This should match RTL's TOTAL_CACHE_SETS = DCACHE_SIZE / NUM_WAYS / NUM_BANKS / LINE_SIZE
+  // However, DCACHE_NUM_BANKS depends on DCACHE_NUM_REQS which is not available at host compile time.
+  // For now, use simpler formula and rely on RTL clamping the value.
   const uint64_t bytes_per_set = static_cast<uint64_t>(L1_LINE_SIZE) * DCACHE_NUM_WAYS;
   if (0 == bytes_per_set)
     return 0;
   return static_cast<uint32_t>(DCACHE_SIZE / bytes_per_set);
 }
 
-static uint32_t select_l1_sets(uint32_t requested_sets) {
-  const uint32_t max_sets = max_l1_sets();
-  if (0 == max_sets)
-    return 0;
-  if (0 == requested_sets)
-    return max_sets;  // use full cache for L1
-  return std::min(requested_sets, max_sets);
-}
-
 static void program_unified_cache_sets() {
-  const uint32_t sets = select_l1_sets(l1_sets);
-  if (0 == sets)
+  // If sm_sets not specified (INT32_MIN), don't write DCR - use hardware default
+  // NOTE: If RTL is compiled with unified cache (LMEM disabled), hardware uses 0xFFF as default
+  // which means unified cache is disabled and original address mapping is used.
+  // However, shared memory requests still go through dcache in this RTL configuration.
+  if (sm_sets == INT32_MIN) {
+    printf("unified cache: not configured (using RTL default)\n");
+    fflush(stdout);
     return;
-  printf("configure unified cache sets: requested=%u using=%u (max=%u)\n", l1_sets, sets, max_l1_sets());
+  }
+
+  const uint32_t max_sets = total_cache_sets();
+  if (0 == max_sets)
+    return;
+  
+  // DCR receives shared memory sets directly (RTL computes L1 sets = total - sm_sets)
+  uint32_t actual_sm_sets = std::min((uint32_t)std::max(0, sm_sets), max_sets);
+  
+  // Calculate cores sharing this dcache and per-core shared memory
+  // In 4-core config: SOCKET_SIZE=4, NUM_DCACHES=1, so 4 cores share 1 dcache
+  // CORE_ID_BITS = log2(SOCKET_SIZE/NUM_DCACHES)
+  uint32_t cores_per_dcache = SOCKET_SIZE / NUM_DCACHES;
+  uint32_t sm_sets_per_core = (cores_per_dcache > 0) ? (actual_sm_sets / cores_per_dcache) : actual_sm_sets;
+  
+  // Note: RTL now supports shared_sets_per_core = 1 (or even 0).
+  // When shared_sets_per_core <= 1, the RTL skips mask-based addressing.
+  // Minimum sm_sets = cores_per_dcache (each core gets 1 set)
+  // Each set = L1_LINE_SIZE * DCACHE_NUM_WAYS = 64 * 4 = 256 bytes
+  
+  uint32_t l1_sets = max_sets - actual_sm_sets;
+  uint32_t sm_bytes_per_core = sm_sets_per_core * L1_LINE_SIZE * DCACHE_NUM_WAYS;
+  
+  printf("unified cache config: total=%u sets, L1=%u sets, SM=%u sets\n", max_sets, l1_sets, actual_sm_sets);
+  printf("  cores_per_dcache=%u, sm_sets_per_core=%u, sm_bytes_per_core=%u\n", 
+         cores_per_dcache, sm_sets_per_core, sm_bytes_per_core);
+  
   fflush(stdout);
-  RT_CHECK(vx_dcr_write(device, VX_DCR_UNIFIED_CACHE_SETS, sets));
+  // Write shared memory sets directly to DCR (RTL handles the conversion)
+  RT_CHECK(vx_dcr_write(device, VX_DCR_UNIFIED_CACHE_SETS, actual_sm_sets));
 }
 
 int main(int argc, char *argv[]) {
