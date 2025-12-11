@@ -1,0 +1,32 @@
+RTLSim Unified Cache Sweep Test Summary
+Date: Tue Dec  9 23:41:57 PST 2025
+Matrix size: 64x64
+========================================
+
+Modes tested:
+  - separate:  L1=16KB + SM=16KB (independent, baseline)
+  - unified:   32KB unified cache with dynamic partitioning
+  - partition: 32KB unified with 8 banks (4 L1 + 4 SM)
+
+SM sets interpretation (unified mode, 128 total sets):
+  sm_sets=8   -> L1=120 sets (30KB), SM=8 sets (2KB)
+  sm_sets=16  -> L1=112 sets (28KB), SM=16 sets (4KB)
+  sm_sets=32  -> L1=96 sets (24KB), SM=32 sets (8KB)
+  sm_sets=64  -> L1=64 sets (16KB), SM=64 sets (16KB) [50/50 baseline]
+
+========================================
+
+Configuration: warps=4, threads=4
+----------------------------------------
+  sgemm2:
+    [separate   ] status=PASSED  cycles=1629058    IPC=2.911273 time=51s
+    [unified   0] status=FAILED  cycles=           IPC=         time=21s
+    [unified   8] status=PASSED  cycles=1616952    IPC=2.933070 time=48s
+    [unified  16] status=PASSED  cycles=1633246    IPC=2.903807 time=49s
+    [unified  32] status=PASSED  cycles=1649094    IPC=2.875903 time=50s
+    [unified  64] status=PASSED  cycles=1629058    IPC=2.911273 time=51s
+    [unified  96] status=PASSED  cycles=1692343    IPC=2.802407 time=52s
+    [unified 112] status=PASSED  cycles=1762901    IPC=2.690243 time=54s
+    [partition  ] status=FAILED  cycles=           IPC=         time=15s
+
+

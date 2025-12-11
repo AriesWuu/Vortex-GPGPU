@@ -1,6 +1,6 @@
 Unified Cache Sweep Test Summary
-Date: Tue Dec  9 01:25:09 PST 2025
-Matrix size: 256x256
+Date: Tue Dec  9 18:17:03 PST 2025
+Matrix size: 64x64
 ========================================
 
 Modes tested:
@@ -20,56 +20,56 @@ SM sets interpretation (unified mode, 128 total sets):
 Configuration: warps=4, threads=4
 ----------------------------------------
   sgemm2:
-    [separate ] status=PASSED cycles=81130907   IPC=3.491425
-    [unified   0] status=FAILED cycles=100062276  IPC=2.830861
-    [unified   4] status=PASSED cycles=80962090   IPC=3.498705
-    [unified   8] status=PASSED cycles=79929498   IPC=3.543904
-    [unified  16] status=PASSED cycles=80457912   IPC=3.520629
-    [unified  32] status=PASSED cycles=100878249  IPC=2.807963
-    [unified  64] status=PASSED cycles=146088073  IPC=1.938984
-    [unified  96] status=PASSED cycles=147735897  IPC=1.917357
-    [unified 112] status=PASSED cycles=147898011  IPC=1.915255
+    [separate ] status=PASSED cycles=1469008    IPC=3.228456
+    [unified   0] status=PASSED cycles=1334018    IPC=3.555146
+    [unified   4] status=PASSED cycles=1351799    IPC=3.508383
+    [unified   8] status=PASSED cycles=1351183    IPC=3.509982
+    [unified  16] status=PASSED cycles=1380293    IPC=3.435957
+    [unified  32] status=PASSED cycles=1929970    IPC=2.457358
+    [unified  64] status=PASSED cycles=2787035    IPC=1.701675
+    [unified  96] status=PASSED cycles=2819141    IPC=1.682295
+    [unified 112] status=PASSED cycles=2825403    IPC=1.678567
 
 
 Configuration: warps=4, threads=8
 ----------------------------------------
   sgemm2:
-    [separate ] status=PASSED cycles=43900339   IPC=6.452729
-    [unified   0] status=FAILED cycles=43630579   IPC=6.492625
-    [unified   4] status=PASSED cycles=44270122   IPC=6.398830
-    [unified   8] status=PASSED cycles=45289144   IPC=6.254854
-    [unified  16] status=PASSED cycles=49551991   IPC=5.716763
-    [unified  32] status=PASSED cycles=60178048   IPC=4.707314
-    [unified  64] status=PASSED cycles=88798070   IPC=3.190125
-    [unified  96] status=PASSED cycles=88978492   IPC=3.183657
-    [unified 112] status=PASSED cycles=89061795   IPC=3.180679
+    [separate ] status=PASSED cycles=1034674    IPC=4.597761
+    [unified   0] status=PASSED cycles=882486     IPC=5.390662
+    [unified   4] status=PASSED cycles=975472     IPC=4.876802
+    [unified   8] status=PASSED cycles=1034390    IPC=4.599023
+    [unified  16] status=PASSED cycles=1129923    IPC=4.210183
+    [unified  32] status=PASSED cycles=1355090    IPC=3.510604
+    [unified  64] status=PASSED cycles=1897012    IPC=2.507725
+    [unified  96] status=PASSED cycles=1900230    IPC=2.503478
+    [unified 112] status=PASSED cycles=1909129    IPC=2.491809
 
 
 Configuration: warps=8, threads=4
 ----------------------------------------
   sgemm2:
-    [separate ] status=PASSED cycles=73161544   IPC=3.871942
-    [unified   0] status=FAILED cycles=86509516   IPC=3.274521
-    [unified   4] status=PASSED cycles=74801120   IPC=3.787072
-    [unified   8] status=PASSED cycles=75587564   IPC=3.747670
-    [unified  16] status=PASSED cycles=78116480   IPC=3.626344
-    [unified  32] status=PASSED cycles=85259240   IPC=3.322540
-    [unified  64] status=PASSED cycles=124674124  IPC=2.272141
-    [unified  96] status=PASSED cycles=126101443  IPC=2.246423
-    [unified 112] status=PASSED cycles=126773938  IPC=2.234507
+    [separate ] status=PASSED cycles=1441929    IPC=3.299336
+    [unified   0] status=PASSED cycles=1290599    IPC=3.686202
+    [unified   4] status=PASSED cycles=1398347    IPC=3.402166
+    [unified   8] status=PASSED cycles=1430395    IPC=3.325940
+    [unified  16] status=PASSED cycles=1552637    IPC=3.064083
+    [unified  32] status=PASSED cycles=1770596    IPC=2.686896
+    [unified  64] status=PASSED cycles=2464403    IPC=1.930450
+    [unified  96] status=PASSED cycles=2495679    IPC=1.906258
+    [unified 112] status=PASSED cycles=2506293    IPC=1.898185
 
 
 Configuration: warps=8, threads=8
 ----------------------------------------
   sgemm2:
-    [separate ] status=PASSED cycles=39385486   IPC=7.193165
-    [unified   0] status=FAILED cycles=41602070   IPC=6.809909
-    [unified   4] status=PASSED cycles=39678577   IPC=7.140032
-    [unified   8] status=PASSED cycles=40049018   IPC=7.073988
-    [unified  16] status=PASSED cycles=42436737   IPC=6.675968
-    [unified  32] status=PASSED cycles=46785510   IPC=6.055428
-    [unified  64] status=PASSED cycles=65266662   IPC=4.340751
-    [unified  96] status=PASSED cycles=67407191   IPC=4.202909
-    [unified 112] status=PASSED cycles=68807918   IPC=4.117350
+    [separate ] status=PASSED cycles=1175048    IPC=4.073441
+    [unified   0] status=PASSED cycles=1056838    IPC=4.529065
+    [unified   4] status=PASSED cycles=963699     IPC=4.966787
+    [unified   8] status=PASSED cycles=1038507    IPC=4.609009
+    [unified  16] status=PASSED cycles=1082629    IPC=4.421172
+    [unified  32] status=PASSED cycles=1165929    IPC=4.105300
+    [unified  64] status=PASSED cycles=1537983    IPC=3.112185
+    [unified  96] status=PASSED cycles=1577929    IPC=3.033399
+    [unified 112] status=PASSED cycles=1613056    IPC=2.967341
 
 

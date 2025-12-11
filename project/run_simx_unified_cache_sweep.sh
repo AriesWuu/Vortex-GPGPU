@@ -12,11 +12,11 @@ set +e
 VORTEX_ROOT="/home/kejunwu/vortex"
 VORTEX_BUILD="${VORTEX_ROOT}/build"
 OUTPUT_BASE="/home/kejunwu/vortex/project/simx_results"
-MATRIX_SIZE=256
+MATRIX_SIZE=64
 
 # Warp/Thread configurations: (warps, threads)
 CONFIGS=(
-    "4 4"
+    # "4 4"
     "4 8"
     "8 4"
     "8 8"

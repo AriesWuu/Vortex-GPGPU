@@ -510,6 +510,12 @@ Word Emulator::get_csr(uint32_t addr, uint32_t wid, uint32_t tid) {
         auto socket_perf = core_->socket()->perf_stats();
         auto lmem_perf = core_->local_mem()->perf_stats();
 
+        // In unified mode (LMEM_ENABLED=1), shared memory goes through dcache
+        // Use dcache's smem stats instead of local_mem stats
+        uint64_t smem_reads = LMEM_ENABLED ? socket_perf.dcache.smem_reads : lmem_perf.reads;
+        uint64_t smem_writes = LMEM_ENABLED ? socket_perf.dcache.smem_writes : lmem_perf.writes;
+        uint64_t smem_bank_stalls = LMEM_ENABLED ? 0 : lmem_perf.bank_stalls;
+
         uint64_t coalescer_misses = 0;
         for (uint i = 0; i < NUM_LSU_BLOCKS; ++i) {
           coalescer_misses += core_->mem_coalescer(i)->perf_stats().misses;
@@ -548,9 +554,10 @@ Word Emulator::get_csr(uint32_t addr, uint32_t wid, uint32_t tid) {
 
         CSR_READ_64(VX_CSR_MPM_COALESCER_MISS, coalescer_misses);
 
-        CSR_READ_64(VX_CSR_MPM_LMEM_READS, lmem_perf.reads);
-        CSR_READ_64(VX_CSR_MPM_LMEM_WRITES, lmem_perf.writes);
-        CSR_READ_64(VX_CSR_MPM_LMEM_BANK_ST, lmem_perf.bank_stalls);
+        // Use unified smem stats in unified mode, local_mem stats in separate mode
+        CSR_READ_64(VX_CSR_MPM_LMEM_READS, smem_reads);
+        CSR_READ_64(VX_CSR_MPM_LMEM_WRITES, smem_writes);
+        CSR_READ_64(VX_CSR_MPM_LMEM_BANK_ST, smem_bank_stalls);
         }
       } break;
       default:

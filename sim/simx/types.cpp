@@ -32,6 +32,9 @@ LocalMemSwitch::LocalMemSwitch(
 void LocalMemSwitch::reset() {}
 
 void LocalMemSwitch::tick() {
+  // In unified mode (LMEM_ENABLED=1), all requests go to dcache (including shared memory)
+  // In separate mode (LMEM_ENABLED=0), shared memory requests go to local_mem SRAM
+  
   // process outgoing responses
   if (!RspLmem.empty()) {
     auto& out_rsp = RspLmem.front();
@@ -62,8 +65,15 @@ void LocalMemSwitch::tick() {
       if (in_req.mask.test(i)) {
         auto type = get_addr_type(in_req.addrs.at(i));
         if (type == AddrType::Shared) {
-          out_lmem_req.mask.set(i);
-          out_lmem_req.addrs.at(i) = in_req.addrs.at(i);
+          if (LMEM_ENABLED) {
+            // Unified mode: shared memory goes through dcache
+            out_dc_req.mask.set(i);
+            out_dc_req.addrs.at(i) = in_req.addrs.at(i);
+          } else {
+            // Separate mode: shared memory goes to independent local_mem SRAM
+            out_lmem_req.mask.set(i);
+            out_lmem_req.addrs.at(i) = in_req.addrs.at(i);
+          }
         } else {
           out_dc_req.mask.set(i);
           out_dc_req.addrs.at(i) = in_req.addrs.at(i);

@@ -33,96 +33,95 @@ module VX_mem_unit import VX_gpu_pkg::*; #(
         .TAG_WIDTH (LSU_TAG_WIDTH)
     ) lsu_dcache_if[`NUM_LSU_BLOCKS]();
 
-/*
-`ifdef LMEM_ENABLE
+// `ifdef LMEM_ENABLE
 
-    `STATIC_ASSERT(`IS_DIVISBLE((1 << `LMEM_LOG_SIZE), `MEM_BLOCK_SIZE), ("invalid parameter"))
-    `STATIC_ASSERT(0 == (`LMEM_BASE_ADDR % (1 << `LMEM_LOG_SIZE)), ("invalid parameter"))
+//     `STATIC_ASSERT(`IS_DIVISBLE((1 << `LMEM_LOG_SIZE), `MEM_BLOCK_SIZE), ("invalid parameter"))
+//     `STATIC_ASSERT(0 == (`LMEM_BASE_ADDR % (1 << `LMEM_LOG_SIZE)), ("invalid parameter"))
 
-    localparam LMEM_ADDR_WIDTH = `LMEM_LOG_SIZE - `CLOG2(LSU_WORD_SIZE);
+//     localparam LMEM_ADDR_WIDTH = `LMEM_LOG_SIZE - `CLOG2(LSU_WORD_SIZE);
 
-    VX_lsu_mem_if #(
-        .NUM_LANES (`NUM_LSU_LANES),
-        .DATA_SIZE (LSU_WORD_SIZE),
-        .TAG_WIDTH (LSU_TAG_WIDTH)
-    ) lsu_lmem_if[`NUM_LSU_BLOCKS]();
+//     VX_lsu_mem_if #(
+//         .NUM_LANES (`NUM_LSU_LANES),
+//         .DATA_SIZE (LSU_WORD_SIZE),
+//         .TAG_WIDTH (LSU_TAG_WIDTH)
+//     ) lsu_lmem_if[`NUM_LSU_BLOCKS]();
 
-    for (genvar i = 0; i < `NUM_LSU_BLOCKS; ++i) begin : g_lmem_switches
-        VX_lmem_switch #(
-            .GLOBAL_OUT_BUF(1),
-            .LOCAL_OUT_BUF(1),
-            .RSP_OUT_BUF  (1),
-            .ARBITER      ("P")
-        ) lmem_switch (
-            .clk          (clk),
-            .reset        (reset),
-            .lsu_in_if    (lsu_mem_if[i]),
-            .global_out_if(lsu_dcache_if[i]),
-            .local_out_if (lsu_lmem_if[i])
-        );
-    end
+//     for (genvar i = 0; i < `NUM_LSU_BLOCKS; ++i) begin : g_lmem_switches
+//         VX_lmem_switch #(
+//             .GLOBAL_OUT_BUF(1),
+//             .LOCAL_OUT_BUF(1),
+//             .RSP_OUT_BUF  (1),
+//             .ARBITER      ("P")
+//         ) lmem_switch (
+//             .clk          (clk),
+//             .reset        (reset),
+//             .lsu_in_if    (lsu_mem_if[i]),
+//             .global_out_if(lsu_dcache_if[i]),
+//             .local_out_if (lsu_lmem_if[i])
+//         );
+//     end
 
-    VX_lsu_mem_if #(
-        .NUM_LANES (`NUM_LSU_LANES),
-        .DATA_SIZE (LSU_WORD_SIZE),
-        .TAG_WIDTH (LMEM_TAG_WIDTH)
-    ) lmem_arb_if[1]();
+//     VX_lsu_mem_if #(
+//         .NUM_LANES (`NUM_LSU_LANES),
+//         .DATA_SIZE (LSU_WORD_SIZE),
+//         .TAG_WIDTH (LMEM_TAG_WIDTH)
+//     ) lmem_arb_if[1]();
 
-    VX_lsu_mem_arb #(
-        .NUM_INPUTS (`NUM_LSU_BLOCKS),
-        .NUM_OUTPUTS(1),
-        .NUM_LANES  (`NUM_LSU_LANES),
-        .DATA_SIZE  (LSU_WORD_SIZE),
-        .TAG_WIDTH  (LSU_TAG_WIDTH),
-        .TAG_SEL_IDX(0),
-        .ARBITER    ("R"),
-        .REQ_OUT_BUF(0),
-        .RSP_OUT_BUF(2)
-    ) lmem_arb (
-        .clk        (clk),
-        .reset      (reset),
-        .bus_in_if  (lsu_lmem_if),
-        .bus_out_if (lmem_arb_if)
-    );
+//     VX_lsu_mem_arb #(
+//         .NUM_INPUTS (`NUM_LSU_BLOCKS),
+//         .NUM_OUTPUTS(1),
+//         .NUM_LANES  (`NUM_LSU_LANES),
+//         .DATA_SIZE  (LSU_WORD_SIZE),
+//         .TAG_WIDTH  (LSU_TAG_WIDTH),
+//         .TAG_SEL_IDX(0),
+//         .ARBITER    ("R"),
+//         .REQ_OUT_BUF(0),
+//         .RSP_OUT_BUF(2)
+//     ) lmem_arb (
+//         .clk        (clk),
+//         .reset      (reset),
+//         .bus_in_if  (lsu_lmem_if),
+//         .bus_out_if (lmem_arb_if)
+//     );
 
-    VX_mem_bus_if #(
-        .DATA_SIZE (LSU_WORD_SIZE),
-        .TAG_WIDTH (LMEM_TAG_WIDTH)
-    ) lmem_adapt_if[`NUM_LSU_LANES]();
+//     VX_mem_bus_if #(
+//         .DATA_SIZE (LSU_WORD_SIZE),
+//         .TAG_WIDTH (LMEM_TAG_WIDTH)
+//     ) lmem_adapt_if[`NUM_LSU_LANES]();
 
-    VX_lsu_adapter #(
-        .NUM_LANES    (`NUM_LSU_LANES),
-        .DATA_SIZE    (LSU_WORD_SIZE),
-        .TAG_WIDTH    (LMEM_TAG_WIDTH),
-        .TAG_SEL_BITS (LMEM_TAG_WIDTH - UUID_WIDTH),
-        .ARBITER      ("P"),
-        .REQ_OUT_BUF  (3),
-        .RSP_OUT_BUF  (0)
-    ) lmem_adapter (
-        .clk        (clk),
-        .reset      (reset),
-        .lsu_mem_if (lmem_arb_if[0]),
-        .mem_bus_if (lmem_adapt_if)
-    );
+//     VX_lsu_adapter #(
+//         .NUM_LANES    (`NUM_LSU_LANES),
+//         .DATA_SIZE    (LSU_WORD_SIZE),
+//         .TAG_WIDTH    (LMEM_TAG_WIDTH),
+//         .TAG_SEL_BITS (LMEM_TAG_WIDTH - UUID_WIDTH),
+//         .ARBITER      ("P"),
+//         .REQ_OUT_BUF  (3),
+//         .RSP_OUT_BUF  (0)
+//     ) lmem_adapter (
+//         .clk        (clk),
+//         .reset      (reset),
+//         .lsu_mem_if (lmem_arb_if[0]),
+//         .mem_bus_if (lmem_adapt_if)
+//     );
 
-    VX_local_mem #(
-        .INSTANCE_ID(`SFORMATF(("%s-lmem", INSTANCE_ID))),
-        .SIZE       (1 << `LMEM_LOG_SIZE),
-        .NUM_REQS   (`NUM_LSU_LANES),
-        .NUM_BANKS  (`LMEM_NUM_BANKS),
-        .WORD_SIZE  (LSU_WORD_SIZE),
-        .ADDR_WIDTH (LMEM_ADDR_WIDTH),
-        .TAG_WIDTH  (LMEM_TAG_WIDTH),
-        .OUT_BUF    (3)
-    ) local_mem (
-        .clk        (clk),
-        .reset      (reset),
-    `ifdef PERF_ENABLE
-        .lmem_perf  (lmem_perf),
-    `endif
-        .mem_bus_if (lmem_adapt_if)
-    );
-*/
+//     VX_local_mem #(
+//         .INSTANCE_ID(`SFORMATF(("%s-lmem", INSTANCE_ID))),
+//         .SIZE       (1 << `LMEM_LOG_SIZE),
+//         .NUM_REQS   (`NUM_LSU_LANES),
+//         .NUM_BANKS  (`LMEM_NUM_BANKS),
+//         .WORD_SIZE  (LSU_WORD_SIZE),
+//         .ADDR_WIDTH (LMEM_ADDR_WIDTH),
+//         .TAG_WIDTH  (LMEM_TAG_WIDTH),
+//         .OUT_BUF    (3)
+//     ) local_mem (
+//         .clk        (clk),
+//         .reset      (reset),
+//     `ifdef PERF_ENABLE
+//         .lmem_perf  (lmem_perf),
+//     `endif
+//         .mem_bus_if (lmem_adapt_if)
+//     );
+
 // `else
 
 `ifdef PERF_ENABLE

@@ -108,6 +108,14 @@ module VX_cache import VX_gpu_pkg::*; #(
     localparam MEM_ARB_SEL_BITS = `CLOG2(`CDIV(NUM_BANKS, MEM_PORTS));
     localparam MEM_ARB_SEL_WIDTH = `UP(MEM_ARB_SEL_BITS);
 
+    // Bank partition parameters for unified cache
+    // L1 uses banks [0, L1_NUM_BANKS-1], Shared memory uses banks [L1_NUM_BANKS, NUM_BANKS-1]
+    localparam L1_NUM_BANKS = `DCACHE_L1_NUM_BANKS;
+    localparam SMEM_NUM_BANKS = NUM_BANKS - L1_NUM_BANKS;
+    localparam L1_BANK_SEL_BITS = `CLOG2(L1_NUM_BANKS);
+    localparam SMEM_BANK_SEL_BITS = `CLOG2(SMEM_NUM_BANKS);
+    localparam BANK_PARTITION_ENABLE = `DCACHE_BANK_PARTITION;
+
     localparam REQ_XBAR_BUF    = (NUM_REQS > 2) ? 2 : 0;
     localparam CORE_RSP_BUF_ENABLE = (NUM_BANKS != 1) || (NUM_REQS != 1);
     localparam MEM_REQ_BUF_ENABLE = (NUM_BANKS != 1);
@@ -294,8 +302,15 @@ module VX_cache import VX_gpu_pkg::*; #(
         if (WORDS_PER_LINE > 1) begin : g_wsel
             if (NUM_BANKS > 1) begin : g_multibanks
                 wire is_smem = core_req_flags[i][MEM_REQ_FLAG_LOCAL];
-                assign core_req_wsel[i] = is_smem ? core_req_addr[i][BANK_SEL_BITS +: WORD_SEL_BITS]
-                                                  : core_req_addr[i][0 +: WORD_SEL_BITS];
+                if (BANK_PARTITION_ENABLE) begin : g_partition
+                    // With bank partition: L1 uses lower banks, shared memory uses upper banks
+                    // Word select uses different bit positions based on sub-bank count
+                    assign core_req_wsel[i] = is_smem ? core_req_addr[i][SMEM_BANK_SEL_BITS +: WORD_SEL_BITS]
+                                                      : core_req_addr[i][0 +: WORD_SEL_BITS];
+                end else begin : g_no_partition
+                    assign core_req_wsel[i] = is_smem ? core_req_addr[i][BANK_SEL_BITS +: WORD_SEL_BITS]
+                                                      : core_req_addr[i][0 +: WORD_SEL_BITS];
+                end
             end else begin : g_singlebank
                 assign core_req_wsel[i] = core_req_addr[i][0 +: WORD_SEL_BITS];
             end
@@ -311,8 +326,17 @@ module VX_cache import VX_gpu_pkg::*; #(
     for (genvar i = 0; i < NUM_REQS; ++i) begin : g_core_req_bid
         if (NUM_BANKS > 1) begin : g_multibanks
             wire is_smem = core_req_flags[i][MEM_REQ_FLAG_LOCAL];
-            assign core_req_bid[i] = is_smem ? core_req_addr[i][0 +: BANK_SEL_BITS]
-                                             : core_req_addr[i][WORD_SEL_BITS +: BANK_SEL_BITS];
+            if (BANK_PARTITION_ENABLE) begin : g_partition
+                // Bank partition mode: L1 uses banks [0, L1_NUM_BANKS-1]
+                // Shared memory uses banks [L1_NUM_BANKS, NUM_BANKS-1]
+                wire [BANK_SEL_WIDTH-1:0] l1_bank = {{(BANK_SEL_BITS-L1_BANK_SEL_BITS){1'b0}}, core_req_addr[i][WORD_SEL_BITS +: L1_BANK_SEL_BITS]};
+                wire [BANK_SEL_WIDTH-1:0] smem_bank = L1_NUM_BANKS[BANK_SEL_WIDTH-1:0] + {{(BANK_SEL_BITS-SMEM_BANK_SEL_BITS){1'b0}}, core_req_addr[i][0 +: SMEM_BANK_SEL_BITS]};
+                assign core_req_bid[i] = is_smem ? smem_bank : l1_bank;
+            end else begin : g_no_partition
+                // Original mode: both L1 and shared memory use all banks
+                assign core_req_bid[i] = is_smem ? core_req_addr[i][0 +: BANK_SEL_BITS]
+                                                 : core_req_addr[i][WORD_SEL_BITS +: BANK_SEL_BITS];
+            end
         end else begin : g_singlebank
             assign core_req_bid[i] = '0;
         end
