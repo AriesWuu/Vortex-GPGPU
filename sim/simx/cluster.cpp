@@ -57,6 +57,8 @@ Cluster::Cluster(const SimContext& ctx,
     false,                  // write response
     L2_MSHR_SIZE,           // mshr size
     2,                      // pipeline latency
+    false,                  // bank partition (disabled for L2)
+    0,                      // L1 bank count (not used)
   });
 
   // connect l2cache core interfaces

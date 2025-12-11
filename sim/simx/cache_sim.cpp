@@ -171,6 +171,7 @@ struct bank_req_t {
 	uint64_t uuid;
 	ReqType  type;
 	bool     write;
+	bool     is_shared;  // true if this is a shared memory request (scratchpad)
 
 	bank_req_t() {
 		this->reset();
@@ -178,6 +179,7 @@ struct bank_req_t {
 
 	void reset() {
 		type = ReqType::None;
+		is_shared = false;
 	}
 
 	friend std::ostream &operator<<(std::ostream &os, const bank_req_t& req) {
@@ -386,13 +388,21 @@ private:
 			// third: schedule core request
 			if (!this->core_req_port.empty()) {
 				auto& core_req = core_req_port.front();
-				// check MSHR capacity
-				if ((!core_req.write || config_.write_back)
+				bool is_shared = (core_req.type == AddrType::Shared);
+
+				// check MSHR capacity (not needed for shared memory)
+				if (!is_shared 
+				 && (!core_req.write || config_.write_back)
 				 && (pending_mshr_size_ >= mshr_.capacity())) {
 					++perf_stats_.mshr_stalls;
 					break;
 				}
-				++pending_mshr_size_;
+				
+				// Only allocate MSHR for non-shared memory requests
+				if (!is_shared) {
+					++pending_mshr_size_;
+				}
+				
 				DT(3, this->name() << "-core-req: " << core_req);
 				bank_req.type = bank_req_t::Core;
 				bank_req.cid = core_req.cid;
@@ -401,11 +411,17 @@ private:
 				bank_req.addr_tag = params_.addr_tag(core_req.addr);
 				bank_req.req_tag = core_req.tag;
 				bank_req.write = core_req.write;
+				bank_req.is_shared = is_shared;
 				pipe_req_->push(bank_req);
-				if (core_req.write)
+				if (core_req.write) {
 					++perf_stats_.writes;
-				else
+					if (is_shared)
+						++perf_stats_.smem_writes;
+				} else {
 					++perf_stats_.reads;
+					if (is_shared)
+						++perf_stats_.smem_reads;
+				}
 				core_req_port.pop();
 				break;
 			}
@@ -467,57 +483,76 @@ private:
 				else
 					++perf_stats_.read_misses;
 
-				if (free_line_id == -1 && config_.write_back) {
-					// write back dirty line
-					auto& repl_line = set.lines.at(repl_line_id);
-					if (repl_line.dirty) {
-						MemReq mem_req;
-						mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, repl_line.tag);
-						mem_req.write = true;
-						mem_req.cid   = bank_req.cid;
-						this->mem_req_port.push(mem_req);
-						DT(3, this->name() << "-writeback: " << mem_req);
-						++perf_stats_.evictions;
-					}
-				}
-
-				if (bank_req.write && !config_.write_back) {
-					// forward write request to memory
-					{
-						MemReq mem_req;
-						mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, bank_req.addr_tag);
-						mem_req.write = true;
-						mem_req.cid   = bank_req.cid;
-						mem_req.uuid  = bank_req.uuid;
-						this->mem_req_port.push(mem_req);
-						DT(3, this->name() << "-writethrough: " << mem_req);
-					}
-					// send core response
-					if (config_.write_reponse) {
+				// Shared memory (scratchpad) handling:
+				// No backing memory needed - directly allocate cache line and respond
+				if (bank_req.is_shared) {
+					// Allocate a cache line for shared memory
+					int line_id = (free_line_id != -1) ? free_line_id : repl_line_id;
+					auto& line = set.lines.at(line_id);
+					line.valid = true;
+					line.tag = bank_req.addr_tag;
+					line.dirty = bank_req.write && config_.write_back;
+					// Send immediate response
+					if (!bank_req.write || config_.write_reponse) {
 						MemRsp core_rsp{bank_req.req_tag, bank_req.cid, bank_req.uuid};
 						this->core_rsp_port.push(core_rsp);
-						DT(3, this->name() << "-core-rsp: " << core_rsp);
+						DT(3, this->name() << "-shared-rsp: " << core_rsp);
 					}
-					--pending_mshr_size_;
+					// Note: no MSHR was allocated for shared memory, so don't decrement
 				} else {
-					// MSHR lookup
-					auto mshr_pending = mshr_.lookup(bank_req);
+					// Normal L1 cache miss handling
+					if (free_line_id == -1 && config_.write_back) {
+						// write back dirty line
+						auto& repl_line = set.lines.at(repl_line_id);
+						if (repl_line.dirty) {
+							MemReq mem_req;
+							mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, repl_line.tag);
+							mem_req.write = true;
+							mem_req.cid   = bank_req.cid;
+							this->mem_req_port.push(mem_req);
+							DT(3, this->name() << "-writeback: " << mem_req);
+							++perf_stats_.evictions;
+						}
+					}
 
-					// allocate MSHR
-					auto mshr_id = mshr_.enqueue(bank_req, (free_line_id != -1) ? free_line_id : repl_line_id);
-					DT(3, this->name() << "-mshr-enqueue: " << bank_req);
+					if (bank_req.write && !config_.write_back) {
+						// forward write request to memory
+						{
+							MemReq mem_req;
+							mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, bank_req.addr_tag);
+							mem_req.write = true;
+							mem_req.cid   = bank_req.cid;
+							mem_req.uuid  = bank_req.uuid;
+							this->mem_req_port.push(mem_req);
+							DT(3, this->name() << "-writethrough: " << mem_req);
+						}
+						// send core response
+						if (config_.write_reponse) {
+							MemRsp core_rsp{bank_req.req_tag, bank_req.cid, bank_req.uuid};
+							this->core_rsp_port.push(core_rsp);
+							DT(3, this->name() << "-core-rsp: " << core_rsp);
+						}
+						--pending_mshr_size_;
+					} else {
+						// MSHR lookup
+						auto mshr_pending = mshr_.lookup(bank_req);
 
-					// send fill request
-					if (!mshr_pending) {
-						MemReq mem_req;
-						mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, bank_req.addr_tag);
-						mem_req.write = false;
-						mem_req.tag   = mshr_id;
-						mem_req.cid   = bank_req.cid;
-						mem_req.uuid  = bank_req.uuid;
-						this->mem_req_port.push(mem_req);
-						DT(3, this->name() << "-fill-req: " << mem_req);
-						++pending_fill_reqs_;
+						// allocate MSHR
+						auto mshr_id = mshr_.enqueue(bank_req, (free_line_id != -1) ? free_line_id : repl_line_id);
+						DT(3, this->name() << "-mshr-enqueue: " << bank_req);
+
+						// send fill request
+						if (!mshr_pending) {
+							MemReq mem_req;
+							mem_req.addr  = params_.mem_addr(bank_id_, bank_req.set_id, bank_req.addr_tag);
+							mem_req.write = false;
+							mem_req.tag   = mshr_id;
+							mem_req.cid   = bank_req.cid;
+							mem_req.uuid  = bank_req.uuid;
+							this->mem_req_port.push(mem_req);
+							DT(3, this->name() << "-fill-req: " << mem_req);
+							++pending_fill_reqs_;
+						}
 					}
 				}
 			}
@@ -599,10 +634,35 @@ public:
 
 		// Create bank's core crossbar
 		snprintf(sname, 100, "%s-core_xbar", simobject->name().c_str());
-		bank_core_xbar_ = MemCrossBar::Create(sname, ArbiterType::RoundRobin, config_.num_inputs, num_banks,
-			[&](const MemCrossBar::ReqType& req) {
+		
+		// Bank selection function with optional partition support
+		auto bank_select_func = [this, num_banks](const MemCrossBar::ReqType& req) -> uint32_t {
+			if (config_.bank_partition && num_banks > 1) {
+				// Bank partition mode: L1 uses banks [0, l1_num_banks-1]
+				// Shared memory uses banks [l1_num_banks, num_banks-1]
+				uint32_t l1_num_banks = config_.l1_num_banks;
+				uint32_t smem_num_banks = num_banks - l1_num_banks;
+				bool is_shared = (get_addr_type(req.addr) == AddrType::Shared);
+				
+				if (is_shared) {
+					// Shared memory: use upper banks
+					uint32_t smem_bank_mask = smem_num_banks - 1;
+					uint32_t smem_bank_id = (req.addr >> config_.W) & smem_bank_mask;
+					return l1_num_banks + smem_bank_id;
+				} else {
+					// L1 cache: use lower banks
+					uint32_t l1_bank_mask = l1_num_banks - 1;
+					uint32_t word_sel_bits = config_.L - config_.W;
+					uint32_t l1_bank_id = (req.addr >> (config_.W + word_sel_bits)) & l1_bank_mask;
+					return l1_bank_id;
+				}
+			} else {
+				// Original mode: use standard bank selection
 				return params_.addr_bank_id(req.addr);
-			});
+			}
+		};
+		
+		bank_core_xbar_ = MemCrossBar::Create(sname, ArbiterType::RoundRobin, config_.num_inputs, num_banks, bank_select_func);
 
 		// Create cache banks
 		for (uint32_t i = 0, n = num_banks; i < n; ++i) {

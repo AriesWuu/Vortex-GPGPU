@@ -47,6 +47,8 @@ Socket::Socket(const SimContext& ctx,
     false,                  // write response
     ICACHE_MSHR_SIZE,       // mshr size
     2,                      // pipeline latency
+    false,                  // bank partition (disabled for icache)
+    0,                      // L1 bank count (not used)
   });
 
   uint32_t unified_total = unified_mem_total_bytes();
@@ -73,6 +75,8 @@ Socket::Socket(const SimContext& ctx,
     false,                  // write response
     DCACHE_MSHR_SIZE,       // mshr size
     2,                      // pipeline latency
+    (bool)DCACHE_BANK_PARTITION,  // bank partition enable
+    (uint8_t)DCACHE_L1_NUM_BANKS, // L1 bank count
   });
   dcaches_->set_capacity_bytes(unified_mem_cache_bytes());
 

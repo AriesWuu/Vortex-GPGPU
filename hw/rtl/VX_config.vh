@@ -613,6 +613,22 @@
 `define DCACHE_NUM_BANKS `MIN(DCACHE_NUM_REQS, 16)
 `endif
 
+// Number of banks for L1 cache partition (unified mode only)
+// In unified mode with bank partition enabled, L1 uses banks [0, L1_NUM_BANKS-1]
+// and shared memory uses banks [L1_NUM_BANKS, DCACHE_NUM_BANKS-1]
+`ifndef DCACHE_L1_NUM_BANKS
+`define DCACHE_L1_NUM_BANKS (`DCACHE_NUM_BANKS / 2)
+`endif
+
+// Enable bank partitioning between L1 and shared memory
+`ifndef DCACHE_BANK_PARTITION
+`ifdef UNIFIEDMEM_ENABLE
+`define DCACHE_BANK_PARTITION 1
+`else
+`define DCACHE_BANK_PARTITION 0
+`endif
+`endif
+
 // Core Response Queue Size
 `ifndef DCACHE_CRSQ_SIZE
 `define DCACHE_CRSQ_SIZE 2
@@ -835,7 +851,7 @@
     `define DCACHE_ENABLED 0
 `endif
 
-`ifdef UNIFIEDMEM_ENABLE
+`ifdef LMEM_ENABLE
     `define LMEM_ENABLED 1
 `else
     `define LMEM_ENABLED 0

@@ -34,6 +34,8 @@ public:
 		bool    write_reponse;  // enable write response
 		uint16_t mshr_size;     // MSHR buffer size
 		uint8_t latency;        // pipeline latency
+		bool    bank_partition; // enable bank partitioning (L1 vs shared memory)
+		uint8_t l1_num_banks;   // number of banks for L1 (when bank_partition enabled)
 	};
 
 	struct PerfStats {
@@ -45,6 +47,8 @@ public:
 		uint64_t bank_stalls;
 		uint64_t mshr_stalls;
 		uint64_t mem_latency;
+		uint64_t smem_reads;    // shared memory reads (unified mode)
+		uint64_t smem_writes;   // shared memory writes (unified mode)
 
 		PerfStats()
 			: reads(0)
@@ -55,6 +59,8 @@ public:
 			, bank_stalls(0)
 			, mshr_stalls(0)
 			, mem_latency(0)
+			, smem_reads(0)
+			, smem_writes(0)
 		{}
 
 		PerfStats& operator+=(const PerfStats& rhs) {
@@ -66,6 +72,8 @@ public:
 			this->bank_stalls += rhs.bank_stalls;
 			this->mshr_stalls += rhs.mshr_stalls;
 			this->mem_latency += rhs.mem_latency;
+			this->smem_reads += rhs.smem_reads;
+			this->smem_writes += rhs.smem_writes;
 			return *this;
 		}
 	};

@@ -718,19 +718,13 @@ inline AddrType get_addr_type(uint64_t addr) {
   if (addr >= IO_BASE_ADDR && addr < IO_END_ADDR) {
      return AddrType::IO;
   }
-  if (LMEM_ENABLED) {
-    // Unified cache mode: use dynamic shared_bytes from unified_mem controller
-    auto shared_bytes = unified_mem_shared_bytes();
-    if (shared_bytes && addr >= LMEM_BASE_ADDR && (addr-LMEM_BASE_ADDR) < shared_bytes) {
-        return AddrType::Shared;
-    }
-  } else {
-    // Separate mode (LMEM_ENABLED=0): use fixed LMEM_SIZE for shared memory
-    // In this mode, shared memory is a separate hardware unit with fixed size
-    uint32_t lmem_size = 1u << LMEM_LOG_SIZE;
-    if (addr >= LMEM_BASE_ADDR && (addr-LMEM_BASE_ADDR) < lmem_size) {
-        return AddrType::Shared;
-    }
+  // Check if address falls in the local memory address range
+  // This is determined by LMEM_BASE_ADDR and LMEM_LOG_SIZE (hardware fixed range)
+  // The shared_bytes from unified_mem controller only affects how dcache is partitioned,
+  // not whether an address is considered "shared" type.
+  uint32_t lmem_size = 1u << LMEM_LOG_SIZE;
+  if (addr >= LMEM_BASE_ADDR && (addr - LMEM_BASE_ADDR) < lmem_size) {
+    return AddrType::Shared;
   }
   return AddrType::Global;
 }

@@ -55,6 +55,8 @@ ProcessorImpl::ProcessorImpl(const Arch& arch)
     false,                    // write response
     L3_MSHR_SIZE,             // mshr size
     2,                        // pipeline latency
+    false,                    // bank partition (disabled for L3)
+    0,                        // L1 bank count (not used)
     }
   );
 
