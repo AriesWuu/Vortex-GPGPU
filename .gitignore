@@ -39,3 +39,12 @@ sim/simx/obj/
 runtime/librtlsim.so.obj_dir/
 tests/regression/*/trace/
 tests/regression/*/results_rtl_quick/
+
+# RTL simulation build artifacts
+sim/rtlsim/rtlsim
+sim/rtlsim/rtlsim.obj_dir/
+sim/rtlsim/*.obj_dir/
+*.gch
+
+# Additional executables
+tests/regression/*/printf
